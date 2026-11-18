@@ -151,7 +151,8 @@ def filing_passages(cik: int, report_date: str, cache: Path) -> list[str] | None
     ppath = cache / "passages" / f"{cik}_{report_date}.json"
     if ppath.exists():
         return json.loads(ppath.read_text(encoding="utf-8"))
-    raw = _get(ARCHIVE.format(cik=cik, acc=acc, doc=meta["doc"]), cache / "docs" / f"{cik}_{acc}_{meta['doc']}")
+    # short cache name: long document names can exceed Windows' 260-character path limit
+    raw = _get(ARCHIVE.format(cik=cik, acc=acc, doc=meta["doc"]), cache / "docs" / f"{cik}_{acc}.htm")
     if raw is None:
         return None
     ps = passages_from_html(raw.decode("utf-8", errors="ignore"))
