@@ -6,3 +6,4 @@ data/raw/
 *.pyc
 *.log
 results_llm/
+application/
