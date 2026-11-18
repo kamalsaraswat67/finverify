@@ -15,6 +15,7 @@ import numpy as np
 from finverify.agent import ExtractiveAgent, LLMAgent
 from finverify.data import load_edgar_facts, synthetic_facts
 from finverify.evidence import build_items
+from finverify.realtext import build_real_items
 from finverify.experiment import (Table, condition_report, risk_coverage_plot, run_agent,
                                   run_regimes, summarize, write_report)
 
@@ -23,6 +24,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", choices=["edgar", "synthetic"], default="edgar")
     ap.add_argument("--agent", choices=["extractive", "llm"], default="extractive")
+    ap.add_argument("--evidence", choices=["template", "10k"], default="template",
+                    help="templated passages, or real 10-K text retrieved with BM25")
     ap.add_argument("--k", type=int, default=10, help="samples per question")
     ap.add_argument("--alpha", type=float, default=0.10, help="target selective risk")
     ap.add_argument("--delta", type=float, default=0.10, help="allowed failure probability")
@@ -41,7 +44,11 @@ def main():
     print(f"      {len(facts)} facts, {len({f.cik for f in facts})} companies, "
           f"years {min(f.year for f in facts)}-{max(f.year for f in facts)}")
 
-    items = build_items(facts, seed=a.seed)
+    if a.evidence == "10k":
+        print("      building questions from real 10-K text (downloads filings on first run)")
+        items = build_real_items(facts, seed=a.seed)
+    else:
+        items = build_items(facts, seed=a.seed)
     print(f"[2/4] {len(items)} questions; running {a.agent} agent with k={a.k}")
     out = Path(a.out)
     if a.agent == "extractive":
@@ -54,7 +61,10 @@ def main():
 
     print(f"[3/4] calibrating and evaluating over {a.reps} splits")
     n = len(items)
-    sizes = dict(n_train=min(300, n // 8), n_cal=min(500, n // 6), n_test=min(800, n // 4))
+    if n >= 4000:
+        sizes = dict(n_train=300, n_cal=500, n_test=800)
+    else:  # small (LLM) runs: give calibration a larger share so LTT has power
+        sizes = dict(n_train=n // 6, n_cal=n // 4, n_test=n // 4)
     df = run_regimes(T, a.alpha, a.delta, a.reps, seed=a.seed, **sizes)
 
     print(f"[4/4] writing {out}/")

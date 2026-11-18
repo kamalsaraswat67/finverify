@@ -50,7 +50,10 @@ class LLMAgent:
     name = "llm"
     PROMPT = (
         "Answer the question using ONLY the evidence passages. Sources may disagree or be "
-        "irrelevant. Reply with a single dollar amount such as '$12.34 billion', or reply "
+        "irrelevant. Table rows may start with their unit and column years in brackets, e.g. "
+        "'[in millions; columns: 2022 | 2021]'. Make sure you use the right company total, "
+        "the right year and the right unit. Reply with a single dollar amount such as "
+        "'$12.34 billion', or reply "
         "INSUFFICIENT if the evidence does not contain the answer.\n\n"
         "Evidence:\n{evidence}\n\nQuestion: {question}\nAnswer:"
     )

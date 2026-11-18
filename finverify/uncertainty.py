@@ -45,11 +45,58 @@ def _cluster(values: list[float]) -> list[tuple[float, int]]:
     return sorted(((c[0], len(c)) for c in clusters), key=lambda t: -t[1])
 
 
+_SCALED = re.compile(r"\(?\$?\s?(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+\.\d+|\d+)\)?\s*(billion|million|thousand)?", re.I)
+
+
+def _candidates(p: str) -> list[float]:
+    """Every dollar figure a reader could take from a real 10-K passage, in USD."""
+    scale = 1e6 if "[in millions" in p else 1e3 if "[in thousands" in p else 1e9 if "[in billions" in p else None
+    body = p.split("] ", 1)[1] if p.startswith("[") else p
+    out = []
+    for m in _SCALED.finditer(body):
+        num, unit = m.group(1), (m.group(2) or "").lower()
+        v = float(num.replace(",", ""))
+        if unit:
+            out.append(v * {"billion": 1e9, "million": 1e6, "thousand": 1e3}[unit])
+        elif scale and "," in num:
+            out.append(v * scale)
+    return out
+
+
+def _signals_real(item: Item, answer: float | None) -> tuple[dict, str]:
+    from .realtext import KEYWORDS
+
+    kws = KEYWORDS[item.fact.concept]
+    grounded = trusted = conflict = 0.0
+    n_match = 0
+    for p in item.passages:
+        is_feed = p.startswith("Data feed")
+        concept_hit = any(k in p.lower() for k in kws)
+        n_match += concept_hit
+        cands = _candidates(p)
+        if answer is not None and any(is_correct(c, answer) for c in cands):
+            grounded = 1.0
+            trusted = max(trusted, float(not is_feed))
+        if answer is not None and concept_hit and cands:
+            c0 = cands[0]  # first figure in a line item = most recent column
+            if not is_correct(c0, answer) and abs(c0 / answer - 1) < 0.35:
+                conflict = 1.0
+    group = "unsupported" if not grounded else ("supported" if trusted else "untrusted")
+    return {"supported": grounded, "conflict": conflict, "trusted_support": trusted,
+            "n_matching": min(n_match, 3) / 3}, group
+
+
 def signals(item: Item, samples: list[float | None]) -> Signals:
     k = len(samples)
     vals = [s for s in samples if s is not None]
     clusters = _cluster(vals)
     answer = clusters[0][0] if clusters else None
+
+    if item.meta.get("source") == "10k":
+        ev, group = _signals_real(item, answer)
+        feats = {"consistency": clusters[0][1] / k if clusters else 0.0, "answered_frac": len(vals) / k,
+                 "n_clusters": len(clusters) / k, **ev, "bias": 1.0}
+        return Signals(answer, is_correct(answer, item.fact.value), feats, group)
 
     m = _Q.match(item.question)
     concept, period = (m.group("concept"), m.group("period")) if m else ("", "")

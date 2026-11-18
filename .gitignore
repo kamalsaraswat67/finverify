@@ -7,3 +7,4 @@ data/raw/
 *.log
 results_llm/
 application/
+results_10k_llm/

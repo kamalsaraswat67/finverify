@@ -57,6 +57,23 @@ def test_mondrian_returns_threshold_per_group():
     assert set(thr) == {"a", "b"}
 
 
+def test_real_text_helpers():
+    from finverify.data import Fact
+    from finverify.filings import passages_from_html
+    from finverify.realtext import is_gold
+    from finverify.uncertainty import _candidates
+
+    html = ("<p>(in millions)</p><table><tr><td></td><td>2022</td><td>2021</td></tr>"
+            "<tr><td>Total net sales</td><td>$</td><td>394,328</td><td>$</td><td>365,817</td></tr></table>"
+            "<p>Revenue was $394.3 billion in fiscal 2022, up 8% from the prior year period.</p>")
+    ps = passages_from_html(html)
+    assert ps[0] == "[in millions; columns: 2022 | 2021] Total net sales | 394,328 | 365,817"
+    f = Fact("Apple Inc.", 1, "total revenue", "duration", "2022-09-24", 394_328e6, 394_328e6, "2022-10-28")
+    assert is_gold(ps[0], f, f.value) and is_gold(ps[1], f, f.value)
+    assert _candidates(ps[0])[0] == pytest.approx(394_328e6)
+    assert any(abs(c - 394.3e9) < 1e6 for c in _candidates(ps[1]))
+
+
 def test_pipeline_end_to_end():
     facts = synthetic_facts(n_companies=4, years=range(2012, 2024))
     items = build_items(facts, seed=0)
