@@ -1,0 +1,16 @@
+{
+  "source": "edgar",
+  "agent": "extractive",
+  "k": 10,
+  "alpha": 0.1,
+  "delta": 0.1,
+  "reps": 200,
+  "max_facts": 0,
+  "seed": 0,
+  "out": "results",
+  "n_train": 300,
+  "n_cal": 500,
+  "n_test": 800,
+  "n_facts": 1694,
+  "n_items": 6776
+}
