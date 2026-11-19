@@ -1,0 +1,17 @@
+{
+  "source": "edgar",
+  "agent": "llm",
+  "evidence": "10k",
+  "k": 3,
+  "alpha": 0.1,
+  "delta": 0.1,
+  "reps": 200,
+  "max_facts": 120,
+  "seed": 0,
+  "out": "results_10k_llm",
+  "n_train": 73,
+  "n_cal": 110,
+  "n_test": 110,
+  "n_facts": 120,
+  "n_items": 440
+}

@@ -63,11 +63,34 @@ def _candidates(p: str) -> list[float]:
     return out
 
 
+_COLS = re.compile(r"columns: ([\d |]+)\]")
+
+
+def _aligned(p: str, answer: float, year: int, kws: list[str]) -> bool:
+    """Is `answer` stated for the asked concept AND the asked year in passage p?
+
+    Table rows: the value must sit in the column whose header is the asked year.
+    Prose: the sentence must mention the concept, the year and the value.
+    """
+    low = p.lower()
+    if not any(k in low for k in kws):
+        return False
+    cands = _candidates(p)
+    m = _COLS.search(p)
+    if m:
+        years = [int(y) for y in m.group(1).split("|") if y.strip()]
+        # only unambiguous rows: one dollar figure per year column (wide segment tables are skipped)
+        if year in years and len(cands) == len(years):
+            return is_correct(cands[years.index(year)], answer)
+        return False
+    return str(year) in p and any(is_correct(c, answer) for c in cands)
+
+
 def _signals_real(item: Item, answer: float | None) -> tuple[dict, str]:
     from .realtext import KEYWORDS
 
     kws = KEYWORDS[item.fact.concept]
-    grounded = trusted = conflict = 0.0
+    grounded = trusted = conflict = aligned = 0.0
     n_match = 0
     for p in item.passages:
         is_feed = p.startswith("Data feed")
@@ -77,13 +100,20 @@ def _signals_real(item: Item, answer: float | None) -> tuple[dict, str]:
         if answer is not None and any(is_correct(c, answer) for c in cands):
             grounded = 1.0
             trusted = max(trusted, float(not is_feed))
+            if not is_feed and _aligned(p, answer, item.fact.year, kws):
+                aligned = 1.0
         if answer is not None and concept_hit and cands:
             c0 = cands[0]  # first figure in a line item = most recent column
             if not is_correct(c0, answer) and abs(c0 / answer - 1) < 0.35:
                 conflict = 1.0
-    group = "unsupported" if not grounded else ("supported" if trusted else "untrusted")
+    if not grounded:
+        group = "unsupported"
+    elif not trusted:
+        group = "untrusted"
+    else:
+        group = "aligned" if aligned else "misaligned"
     return {"supported": grounded, "conflict": conflict, "trusted_support": trusted,
-            "n_matching": min(n_match, 3) / 3}, group
+            "n_matching": aligned}, group
 
 
 def signals(item: Item, samples: list[float | None]) -> Signals:

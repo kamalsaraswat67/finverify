@@ -1,0 +1,13 @@
+regime,method,coverage,selective_risk,violation_rate,answered_unanswerable
+exchangeable,always answer,0.8315816326530613,0.4095318638933358,1.0,0.5475582090683606
+exchangeable,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,verifier + naive,0.12403061224489796,0.1140840071658368,0.4,0.06601290950247349
+exchangeable,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,always answer,0.80125,0.5340547729431332,1.0,0.5317142857142857
+shift,self-consistency + naive,0.0032500000000000003,0.002076923076923077,0.005,0.0015714285714285715
+shift,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,verifier + naive,0.44920000000000004,0.2962512690454273,0.995,0.26557142857142857
+shift,verifier + LTT,0.00775,0.005100432354530715,0.02,0.004857142857142857
+shift,verifier + group-wise LTT,0.0,0.0,0.0,0.0

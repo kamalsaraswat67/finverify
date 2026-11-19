@@ -23,6 +23,7 @@ SEC EDGAR XBRL facts ──► questions + evidence under 4 conditions ──►
 |---|---|
 | `finverify/data.py` | Pulls audited annual numbers (revenue, net income, operating income, R&D, total assets, cash) for 20 large US companies from SEC EDGAR `companyfacts`. Keeps restatement history. Includes an offline synthetic generator. |
 | `finverify/evidence.py` | Builds a question per fact plus evidence passages under 4 conditions, with hard distractors (same company, same concept in another year or another concept in the same year). |
+| `finverify/filings.py`, `finverify/realtext.py` | Real-text benchmark: downloads the 10-K for each fact, splits it into paragraphs and unit/year-labelled table rows, finds gold passages, retrieves evidence with BM25, and builds the same 4 conditions. |
 | `finverify/agent.py` | `ExtractiveAgent`: an offline retrieve-then-read baseline. `LLMAgent`: any OpenAI-compatible endpoint (OpenAI, Azure OpenAI, Ollama, vLLM). Both return K sampled answers. |
 | `finverify/uncertainty.py` | Signals: self-consistency across samples, plus an evidence verifier (is the answer supported by a passage about the same concept and period? do relevant passages contradict each other? is the support from a trusted source?). A small logistic model maps signals to P(correct). |
 | `finverify/conformal.py` | Threshold selection: a naive empirical threshold, **Learn-then-Test** (binomial p-values with fixed-sequence testing), and **group-wise (Mondrian) LTT** per observable evidence state. |
@@ -78,7 +79,39 @@ Findings:
 2. **Naive thresholds break the target** in 30% of splits even with no shift. LTT holds it (7% ≤ δ).
 3. **Under evidence-quality shift, global LTT fails every time** (risk ~0.39 against a 0.10 target). **Group-wise LTT keeps its guarantee** and answers about 25% of questions, close to the share of the shifted test set whose evidence actually supports an answer.
 
-Caveat: the "supported" group has almost no errors because passages are templated, so the near-zero risk is optimistic. See Limitations.
+Caveat: the "supported" group has almost no errors because passages are templated, so the near-zero risk is optimistic. The real-text results below remove that shortcut.
+
+## Results on real 10-K text with an LLM (qwen2.5-3B, 400 questions, K = 3)
+
+Evidence is retrieved with BM25 from the actual 10-K: paragraphs and table rows labelled with units and year columns. Distractors are real numbers from the same filing and the prior year's (other years, other line items, **segment totals with the same row label**). 40 of 440 questions were dropped because the XBRL value isn't stated for that concept and year in the text (label noise).
+
+| condition | LLM accuracy | unanimous but **wrong** |
+|---|---|---|
+| clean | 0.72 | 13% |
+| noisy | 0.66 | 25% |
+| contradictory | 0.49 | **31%** |
+| incomplete | 0.09 | **38%** |
+
+The verifier on real text checks **alignment**: the answer must appear in the *asked year's column* of a row about the *asked concept*, or in a sentence that mentions that year. Aligned answers are wrong 21% of the time, misaligned ones 74%.
+
+| target α | regime | method | coverage | sel. risk | P(risk > α) |
+|---|---|---|---|---|---|
+| 0.10 | both | any calibrated method | ≈0 | – | – (nothing certifiable) |
+| 0.30 | exchangeable | verifier + LTT | 0.37 | 0.13 | 0.08 ✓ |
+| 0.30 | shift | verifier + LTT | 0.61 | 0.39 | **0.89** ✗ |
+| 0.30 | shift | verifier + group-wise LTT | 0.36 | 0.20 | 0.07 ✓ |
+| 0.20 | shift | verifier + LTT | 0.35 | 0.23 | **0.69** ✗ |
+| 0.20 | shift | verifier + group-wise LTT | 0.13 | 0.09 | **0.25** ✗ |
+
+Findings on real text:
+1. **Self-consistency is not a safety signal.** A third of the answers on contradictory or missing evidence are unanimous *and wrong*.
+2. **"The number is in the filing" ≠ correct.** Wrong answers are usually real numbers from the wrong column or the wrong segment.
+3. **The main result replicates:** under evidence shift, global LTT breaks its guarantee (89% violations at α = 0.3), while group-wise LTT keeps it (7%).
+4. **But not everywhere.** At α = 0.2 group-wise LTT also fails (25%). Errors such as segment rows labelled "Operating income" sit *inside* the aligned group and become more common in the shifted data. That is the within-group shift the guarantee does not cover, observed on real filings, and it's the open problem.
+5. A 3B model can't be certified at 10% error on real filings at any useful coverage. That's the honest answer, and the procedure correctly abstains.
+
+Small sample (calibration ≈ 100 questions), so treat these as a pilot. Reproduce from cached answers with no LLM needed:
+`python run_experiment.py --agent llm --evidence 10k --max-facts 120 --k 3 --alpha 0.3 --answers results_10k_llm/answers_qwen2.5_3b.jsonl --out results_10k_llm/alpha_0.30`
 
 ![risk-coverage](results/risk_coverage.png)
 
@@ -86,14 +119,14 @@ Full tables: [`results/summary.md`](results/summary.md).
 
 ## Limitations (be upfront about these in interviews)
 
-- Evidence passages are **templated** from XBRL facts, so the verifier's string matching is easier than on real filing text. The next step is real 10-K passages via EDGAR full-text search, with an LLM-based verifier.
-- The offline agent is lexical, not an LLM. The LLM agent is implemented but its results are not reported yet.
-- Group-wise guarantees cover shifts in the *mix* of evidence states, not shift *inside* a state.
+- The templated benchmark makes verification easy. The real-10-K benchmark fixes that, but its "contradictory" condition still injects a perturbed copy of a real passage labelled as a data feed, so it's semi-synthetic.
+- The LLM is small (3B on CPU) and the real-text run has 400 questions, so the guarantees are tested with small calibration sets.
+- Group-wise guarantees cover shifts in the *mix* of evidence states, not shift *inside* a state. Real text shows that matters.
 
 ## Next steps
 
-1. Run `LLMAgent` (a small open model through Ollama is free) and compare its self-consistency with the extractive baseline.
-2. Replace templated passages with real filing excerpts; add an LLM verifier as a feature.
+1. Larger and stronger models (7B+ or an API model) on more real-text questions, for tighter guarantees.
+2. A segment-aware verifier (consolidated vs. segment rows) and an LLM-based verifier as an extra signal.
 3. Handle within-group shift with weighted conformal (covariate-shift weights) or online/adaptive conformal over fiscal years.
 4. Causal check: does the verifier signal stay predictive after conditioning on company and year?
 

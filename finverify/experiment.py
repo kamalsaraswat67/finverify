@@ -160,7 +160,9 @@ def condition_report(T: Table) -> pd.DataFrame:
         rows.append({"condition": c, "n": int(mask.sum()),
                      "agent_accuracy": float((~T.wrong[mask]).mean()),
                      "mean_self_consistency": float(T.X[mask, FEATURES.index("consistency")].mean()),
-                     "conflict_detected": float((T.group[mask] == "conflict").mean())})
+                     "unanimous_but_wrong": float((T.answered[mask] & T.wrong[mask]
+                                                  & (T.X[mask, FEATURES.index("consistency")] > 0.99)).mean()),
+                     "conflict_or_untrusted": float(np.isin(T.group[mask], ["conflict", "untrusted"]).mean())})
     return pd.DataFrame(rows)
 
 

@@ -1,0 +1,440 @@
+{"uid": "10k-1652044-cash and cash equivalents-2016-12-31-clean", "samples": [12918000000.0, 12918000000.0, 12918000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2016-12-31-noisy", "samples": [86300000000.0, 86300000000.0, 86300000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2016-12-31-contradictory", "samples": [16549000000.0, 16549000000.0, 16549000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2016-12-31-incomplete", "samples": [86300000000.0, 86300000000.0, 86300000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2020-12-31-clean", "samples": [136699999999.99998, 136699999999.99998, 136699999999.99998]}
+{"uid": "10k-1652044-cash and cash equivalents-2020-12-31-noisy", "samples": [26465000000.0, 136699999999.99998, 26465000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2020-12-31-contradictory", "samples": [136699999999.99998, 136699999999.99998, null]}
+{"uid": "10k-1652044-cash and cash equivalents-2020-12-31-incomplete", "samples": [136699999999.99998, 136699999999.99998, 136699999999.99998]}
+{"uid": "10k-1652044-cash and cash equivalents-2025-12-31-clean", "samples": [126843000000.0, 126843000000.0, 126840000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2025-12-31-noisy", "samples": [126800000000.0, 126800000000.0, 126800000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2025-12-31-contradictory", "samples": [34990000000.0, 34990000000.0, 34990000000.0]}
+{"uid": "10k-1652044-cash and cash equivalents-2025-12-31-incomplete", "samples": [126800000000.0, 126800000000.0, 126800000000.0]}
+{"uid": "10k-1652044-net income-2025-12-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1652044-net income-2025-12-31-noisy", "samples": [32052000000.0, 32052000000.0, 32052000000.0]}
+{"uid": "10k-1652044-net income-2025-12-31-contradictory", "samples": [96600000000.0, null, null]}
+{"uid": "10k-1652044-net income-2025-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1652044-operating income-2021-12-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1652044-operating income-2021-12-31-noisy", "samples": [78714000000.0, 78714000000.0, 78714000000.0]}
+{"uid": "10k-1652044-operating income-2021-12-31-contradictory", "samples": [78710000000.0, 78710000000.0, 78714000000.0]}
+{"uid": "10k-1652044-operating income-2021-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1652044-research and development expense-2018-12-31-clean", "samples": [6034000000.0, 6034000000.0, 6034000000.0]}
+{"uid": "10k-1652044-research and development expense-2018-12-31-noisy", "samples": [6030000000.0, 6030000000.0, 6030000000.0]}
+{"uid": "10k-1652044-research and development expense-2018-12-31-contradictory", "samples": [27818000000.0, 27818000000.0, 27818000000.0]}
+{"uid": "10k-1652044-research and development expense-2018-12-31-incomplete", "samples": [6034000000.0, 6034000000.0, 6034000000.0]}
+{"uid": "10k-1652044-total assets-2025-12-31-clean", "samples": [595281000000.0, 595281000000.0, 595281000000.0]}
+{"uid": "10k-1652044-total assets-2025-12-31-noisy", "samples": [595281000000.0, 595281000000.0, 595281000000.0]}
+{"uid": "10k-1652044-total assets-2025-12-31-contradictory", "samples": [595281000000.0, 595281000000.0, 595281000000.0]}
+{"uid": "10k-1652044-total assets-2025-12-31-incomplete", "samples": [206038000000.0, 206040000000.0, null]}
+{"uid": "10k-1018724-cash and cash equivalents-2013-12-31-clean", "samples": [8658000000.0, 8658000000.0, 8658000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2013-12-31-noisy", "samples": [8658000000.0, 8658000000.0, 8658000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2013-12-31-contradictory", "samples": [12447000000.0, 12447000000.0, 12447000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2013-12-31-incomplete", "samples": [12400000000.0, 12400000000.0, 12400000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2020-12-31-clean", "samples": [42122000000.0, 42122000000.0, 42122000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2020-12-31-noisy", "samples": [null, 42122000000.0, null]}
+{"uid": "10k-1018724-cash and cash equivalents-2020-12-31-contradictory", "samples": [42122000000.0, null, 42122000000.0]}
+{"uid": "10k-1018724-cash and cash equivalents-2020-12-31-incomplete", "samples": [84396000000.0, 84396000000.0, 84396000000.0]}
+{"uid": "10k-1018724-net income-2014-12-31-clean", "samples": [241000000.0, -241000000.0, 241000000.0]}
+{"uid": "10k-1018724-net income-2014-12-31-noisy", "samples": [241000000.0, 241000000.0, 241000000.0]}
+{"uid": "10k-1018724-net income-2014-12-31-contradictory", "samples": [-302000000.0, 302000000.0, 302000000.0]}
+{"uid": "10k-1018724-net income-2014-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1018724-operating income-2018-12-31-clean", "samples": [-2142000000.0, -2142000000.0, -2142000000.0]}
+{"uid": "10k-1018724-operating income-2018-12-31-noisy", "samples": [7296000000.0, 7296000000.0, 7296000000.0]}
+{"uid": "10k-1018724-operating income-2018-12-31-contradictory", "samples": [347000000.0, 347000000.0, 347000000.0]}
+{"uid": "10k-1018724-operating income-2018-12-31-incomplete", "samples": [347000000.0, 347000000.0, 347000000.0]}
+{"uid": "10k-1018724-operating income-2020-12-31-clean", "samples": [717000000.0, 717000000.0, 717000000.0]}
+{"uid": "10k-1018724-operating income-2020-12-31-noisy", "samples": [8651000000.0, 8651000000.0, 8651000000.0]}
+{"uid": "10k-1018724-operating income-2020-12-31-contradictory", "samples": [717000000.0, 717000000.0, 717000000.0]}
+{"uid": "10k-1018724-operating income-2020-12-31-incomplete", "samples": [8651000000.0, 8651000000.0, 8651000000.0]}
+{"uid": "10k-1018724-total assets-2013-12-31-clean", "samples": [40159000000.0, 40159000000.0, 40159000000.0]}
+{"uid": "10k-1018724-total assets-2013-12-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1018724-total assets-2013-12-31-contradictory", "samples": [40159000000.0, 40159000000.0, 40159000000.0]}
+{"uid": "10k-1018724-total assets-2013-12-31-incomplete", "samples": [14051000000.0, 14051000000.0, 14051000000.0]}
+{"uid": "10k-1018724-total assets-2017-12-31-clean", "samples": [131310000000.0, 131310000000.0, 131310000000.0]}
+{"uid": "10k-1018724-total assets-2017-12-31-noisy", "samples": [26400000000.0, 26400000000.0, 26400000000.0]}
+{"uid": "10k-1018724-total assets-2017-12-31-contradictory", "samples": [131310000000.0, 131310000000.0, 131310000000.0]}
+{"uid": "10k-1018724-total assets-2017-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1018724-total assets-2024-12-31-clean", "samples": [624894000000.0, 624894000000.0, 624894000000.0]}
+{"uid": "10k-1018724-total assets-2024-12-31-noisy", "samples": [624894000000.0, 624894000000.0, 624894000000.0]}
+{"uid": "10k-1018724-total assets-2024-12-31-contradictory", "samples": [624894000000.0, 624894000000.0, 624894000000.0]}
+{"uid": "10k-1018724-total assets-2024-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1018724-total revenue-2011-12-31-clean", "samples": [48077000000.0, 48077000000.0, 48077000000.0]}
+{"uid": "10k-1018724-total revenue-2011-12-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1018724-total revenue-2011-12-31-contradictory", "samples": [48077000000.0, 48077000000.0, 48077000000.0]}
+{"uid": "10k-1018724-total revenue-2011-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-320193-operating income-2019-09-28-clean", "samples": [63930000000.0, 63930000000.0, 63930000000.0]}
+{"uid": "10k-320193-operating income-2019-09-28-noisy", "samples": [16232000000.0, 60550000000.0, 16232000000.0]}
+{"uid": "10k-320193-operating income-2019-09-28-contradictory", "samples": [63930000000.0, 63930000000.0, 63930000000.0]}
+{"uid": "10k-320193-operating income-2019-09-28-incomplete", "samples": [35099000000.0, 16232000000.0, 16232000000.0]}
+{"uid": "10k-320193-research and development expense-2022-09-24-clean", "samples": [26251000000.0, 26251000000.0, 26251000000.0]}
+{"uid": "10k-320193-research and development expense-2022-09-24-noisy", "samples": [26251000000.0, 26251000000.0, 26251000000.0]}
+{"uid": "10k-320193-research and development expense-2022-09-24-contradictory", "samples": [-26251000000.0, 32867000000.0, -26251000000.0]}
+{"uid": "10k-320193-research and development expense-2022-09-24-incomplete", "samples": [null, -1153000000.0, -1153000000.0]}
+{"uid": "10k-320193-total revenue-2020-09-26-clean", "samples": [274515000000.0, 274515000000.0, 274515000000.0]}
+{"uid": "10k-320193-total revenue-2020-09-26-noisy", "samples": [null, null, null]}
+{"uid": "10k-320193-total revenue-2020-09-26-contradictory", "samples": [null, null, 274515000000.0]}
+{"uid": "10k-320193-total revenue-2020-09-26-incomplete", "samples": [null, null, null]}
+{"uid": "10k-70858-net income-2017-12-31-clean", "samples": [18232000000.0, 18232000000.0, 18232000000.0]}
+{"uid": "10k-70858-net income-2017-12-31-noisy", "samples": [18232000000.0, 18232000000.0, 18232000000.0]}
+{"uid": "10k-70858-net income-2017-12-31-contradictory", "samples": [18232000000.0, 18230000000.0, 18232000000.0]}
+{"uid": "10k-70858-net income-2017-12-31-incomplete", "samples": [3600000000.0, 3600000000.0, 3600000000.0]}
+{"uid": "10k-70858-net income-2022-12-31-clean", "samples": [27528000000.0, 27528000000.0, 27528000000.0]}
+{"uid": "10k-70858-net income-2022-12-31-noisy", "samples": [27528000000.0, 27528000000.0, 27528000000.0]}
+{"uid": "10k-70858-net income-2022-12-31-contradictory", "samples": [27528000000.0, 27528000000.0, 27528000000.0]}
+{"uid": "10k-70858-net income-2022-12-31-incomplete", "samples": [31978000000.0, 31978000000.0, 31978000000.0]}
+{"uid": "10k-858877-research and development expense-2020-07-25-clean", "samples": [6350000000.0, 6350000000.0, 6350000000.0]}
+{"uid": "10k-858877-research and development expense-2020-07-25-noisy", "samples": [6347000000.0, null, null]}
+{"uid": "10k-858877-research and development expense-2020-07-25-contradictory", "samples": [null, null, null]}
+{"uid": "10k-858877-research and development expense-2020-07-25-incomplete", "samples": [22200.0, 22200.0, 22200.0]}
+{"uid": "10k-858877-total assets-2015-07-25-clean", "samples": [113480000000.0, 113480000000.0, 113481000000.0]}
+{"uid": "10k-858877-total assets-2015-07-25-noisy", "samples": [113480000000.0, 113481000000.0, 113481000000.0]}
+{"uid": "10k-858877-total assets-2015-07-25-contradictory", "samples": [113480000000.0, 113481000000.0, 113480000000.0]}
+{"uid": "10k-858877-total assets-2015-07-25-incomplete", "samples": [null, null, null]}
+{"uid": "10k-858877-total assets-2025-07-26-clean", "samples": [122290000000.0, 122291000000.0, 122291000000.0]}
+{"uid": "10k-858877-total assets-2025-07-26-noisy", "samples": [122291000000.0, 122291000000.0, 122291000000.0]}
+{"uid": "10k-858877-total assets-2025-07-26-contradictory", "samples": [122291000000.0, 122291000000.0, 122291000000.0]}
+{"uid": "10k-858877-total assets-2025-07-26-incomplete", "samples": [null, null, null]}
+{"uid": "10k-858877-total revenue-2024-07-27-clean", "samples": [53803000000.0, 53803000000.0, 53803000000.0]}
+{"uid": "10k-858877-total revenue-2024-07-27-noisy", "samples": [53803000000.0, 53803000000.0, 53803000000.0]}
+{"uid": "10k-858877-total revenue-2024-07-27-contradictory", "samples": [56820000000.0, 56816000000.0, 56820000000.0]}
+{"uid": "10k-858877-total revenue-2024-07-27-incomplete", "samples": [null, null, null]}
+{"uid": "10k-34088-cash and cash equivalents-2011-12-31-clean", "samples": [8500000000.0, 12664000000.0, 12664000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2011-12-31-noisy", "samples": [10693000000.0, 10244000000.0, 10244000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2011-12-31-contradictory", "samples": [309000000.0, 14545000000.0, 309000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2011-12-31-incomplete", "samples": [null, 10690000000.0, 7825000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2015-12-31-clean", "samples": [42775000000.0, 42775000000.0, 42775000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2015-12-31-noisy", "samples": [3705000000.0, 3705000000.0, 3705000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2015-12-31-contradictory", "samples": [3705000000.0, 3705000000.0, 3705000000.0]}
+{"uid": "10k-34088-cash and cash equivalents-2015-12-31-incomplete", "samples": [42775000000.0, 42775000000.0, 42775000000.0]}
+{"uid": "10k-34088-net income-2013-12-31-clean", "samples": [44880000000.0, 44880000000.0, 44880000000.0]}
+{"uid": "10k-34088-net income-2013-12-31-noisy", "samples": [44880000000.0, 44880000000.0, 44880000000.0]}
+{"uid": "10k-34088-net income-2013-12-31-contradictory", "samples": [44880000000.0, 44880000000.0, 44880000000.0]}
+{"uid": "10k-34088-net income-2013-12-31-incomplete", "samples": [44880000000.0, 44880000000.0, 44880000000.0]}
+{"uid": "10k-34088-net income-2016-12-31-clean", "samples": [32520000000.0, 7840000000.0, 32520000000.0]}
+{"uid": "10k-34088-net income-2016-12-31-noisy", "samples": [7840000000.0, 7840000000.0, 7840000000.0]}
+{"uid": "10k-34088-net income-2016-12-31-contradictory", "samples": [32520000000.000004, 32520000000.000004, 32520000000.000004]}
+{"uid": "10k-34088-net income-2016-12-31-incomplete", "samples": [32520000000.0, 32520000000.0, 32520000000.0]}
+{"uid": "10k-34088-total assets-2025-12-31-clean", "samples": [448980000000.0, 448980000000000.0, 448980000000000.0]}
+{"uid": "10k-34088-total assets-2025-12-31-noisy", "samples": [448980000000.0, 448980000000.0, 448980000000.0]}
+{"uid": "10k-34088-total assets-2025-12-31-contradictory", "samples": [null, 448980000000.0, 448980000000.0]}
+{"uid": "10k-34088-total assets-2025-12-31-incomplete", "samples": [411124000000.0, 411124000000.0, 411124000000.0]}
+{"uid": "10k-34088-total revenue-2012-12-31-clean", "samples": [453123000000.0, 453123000000.0, 453123000000.0]}
+{"uid": "10k-34088-total revenue-2012-12-31-noisy", "samples": [567029000000.0, 453123000000.0, 453123000000.0]}
+{"uid": "10k-34088-total revenue-2012-12-31-contradictory", "samples": [453123000000.0, 453123000000.0, 453123000000.0]}
+{"uid": "10k-34088-total revenue-2012-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-50863-cash and cash equivalents-2025-12-27-clean", "samples": [14712000000.0, 14712000000.0, 14712000000.0]}
+{"uid": "10k-50863-cash and cash equivalents-2025-12-27-noisy", "samples": [14265000000.0, 14265000000.0, 14712000000.0]}
+{"uid": "10k-50863-cash and cash equivalents-2025-12-27-contradictory", "samples": [17450000000.0, 17450000000.0, 17450000000.0]}
+{"uid": "10k-50863-cash and cash equivalents-2025-12-27-incomplete", "samples": [14712000000.0, 11140000000.0, 13470000000.0]}
+{"uid": "10k-50863-operating income-2013-12-28-clean", "samples": [null, null, null]}
+{"uid": "10k-50863-operating income-2013-12-28-noisy", "samples": [12290000000.0, 12290000000.0, 12290000000.0]}
+{"uid": "10k-50863-operating income-2013-12-28-contradictory", "samples": [null, null, null]}
+{"uid": "10k-50863-operating income-2013-12-28-incomplete", "samples": [null, null, null]}
+{"uid": "10k-50863-operating income-2016-12-31-clean", "samples": [12874000000.0, 12874000000.0, 12874000000.0]}
+{"uid": "10k-50863-operating income-2016-12-31-noisy", "samples": [12874000000.0, 12874000000.0, 12874000000.0]}
+{"uid": "10k-50863-operating income-2016-12-31-contradictory", "samples": [null, null, 12874000000.0]}
+{"uid": "10k-50863-operating income-2016-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-50863-research and development expense-2013-12-28-clean", "samples": [10611000000.0, 10610000000.0, 10610000000.0]}
+{"uid": "10k-50863-research and development expense-2013-12-28-noisy", "samples": [10611000000.0, 10611000000.0, 10611000000.0]}
+{"uid": "10k-50863-research and development expense-2013-12-28-contradictory", "samples": [10611000000.0, null, 10611000000.0]}
+{"uid": "10k-50863-research and development expense-2013-12-28-incomplete", "samples": [463000000.0, 463000000.0, 463000000.0]}
+{"uid": "10k-50863-total assets-2012-12-29-clean", "samples": [84351000000.0, 84351000000.0, 84351000000.0]}
+{"uid": "10k-50863-total assets-2012-12-29-noisy", "samples": [84351000000.0, 84351000000.0, 84351000000.0]}
+{"uid": "10k-50863-total assets-2012-12-29-contradictory", "samples": [84351000000.0, 84351000000.0, 84351000000.0]}
+{"uid": "10k-50863-total assets-2012-12-29-incomplete", "samples": [null, null, null]}
+{"uid": "10k-50863-total assets-2017-12-30-clean", "samples": [123249000000.0, 123249000000.0, 123249000000.0]}
+{"uid": "10k-50863-total assets-2017-12-30-noisy", "samples": [123249000000.0, 123249000000.0, 123249000000.0]}
+{"uid": "10k-50863-total assets-2017-12-30-contradictory", "samples": [123249000000.0, 123249000000.0, 123249000000.0]}
+{"uid": "10k-50863-total assets-2017-12-30-incomplete", "samples": [5159000000.0, 5159000000.0, 5159000000.0]}
+{"uid": "10k-19617-total assets-2016-12-31-clean", "samples": [2490970000.0, 2490970000.0, 2490972000000.0]}
+{"uid": "10k-19617-total assets-2016-12-31-noisy", "samples": [2490970000000.0, 2490972000000.0, 2490972000000.0]}
+{"uid": "10k-19617-total assets-2016-12-31-contradictory", "samples": [2490970000.0, 2490970000.0, 2490972000000.0]}
+{"uid": "10k-19617-total assets-2016-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-19617-total assets-2018-12-31-clean", "samples": [2622532000000.0, 2622532000000.0, 2622532000000.0]}
+{"uid": "10k-19617-total assets-2018-12-31-noisy", "samples": [2622532000000.0, 2622532000000.0, 2622532000000.0]}
+{"uid": "10k-19617-total assets-2018-12-31-contradictory", "samples": [3408965000000.0, 3408965000000.0, 3408965000000.0]}
+{"uid": "10k-19617-total assets-2018-12-31-incomplete", "samples": [2608900000.0, 2608900000000.0, 2608900000000.0]}
+{"uid": "10k-19617-total assets-2022-12-31-clean", "samples": [3665740000.0, 3665740000.0, 3665740000.0]}
+{"uid": "10k-19617-total assets-2022-12-31-noisy", "samples": [3853540000000.0, 3665743000000.0, 3853540000000.0]}
+{"uid": "10k-19617-total assets-2022-12-31-contradictory", "samples": [3347307000000.0, 3665743000000.0, 3347307000000.0]}
+{"uid": "10k-19617-total assets-2022-12-31-incomplete", "samples": [3853540000000.0, 3853540000000.0, 3853540000000.0]}
+{"uid": "10k-19617-total revenue-2013-12-31-clean", "samples": [96600000000.0, 96600000000.0, 96600000000.0]}
+{"uid": "10k-19617-total revenue-2013-12-31-noisy", "samples": [96600000000.0, 96600000000.0, 96600000000.0]}
+{"uid": "10k-19617-total revenue-2013-12-31-contradictory", "samples": [96600000000.0, 96600000000.0, 96600000000.0]}
+{"uid": "10k-19617-total revenue-2013-12-31-incomplete", "samples": [96600000000.0, 96600000000.0, 96600000000.0]}
+{"uid": "10k-19617-total revenue-2020-12-31-clean", "samples": [119543000000.0, 119543000000.0, 119543000000.0]}
+{"uid": "10k-19617-total revenue-2020-12-31-noisy", "samples": [51268000000.0, 51268000000.0, 51268000000.0]}
+{"uid": "10k-19617-total revenue-2020-12-31-contradictory", "samples": [119543000000.0, 119543000000.0, 119543000000.0]}
+{"uid": "10k-19617-total revenue-2020-12-31-incomplete", "samples": [14240000000.0, 14240000000.0, 14240000000.0]}
+{"uid": "10k-200406-cash and cash equivalents-2017-12-31-clean", "samples": [18300000000.0, 18300000000.0, 18300000000.0]}
+{"uid": "10k-200406-cash and cash equivalents-2017-12-31-noisy", "samples": [18972000000.0, 18972000000.0, 18972000000.0]}
+{"uid": "10k-200406-cash and cash equivalents-2017-12-31-contradictory", "samples": [17824000000.0, 17824000000.0, 17824000000.0]}
+{"uid": "10k-200406-cash and cash equivalents-2017-12-31-incomplete", "samples": [18972000000.0, 18300000000.0, 18972000000.0]}
+{"uid": "10k-200406-net income-2022-01-02-clean", "samples": [null, null, null]}
+{"uid": "10k-200406-net income-2022-01-02-noisy", "samples": [20878000000.0, 20880000000.0, 20880000000.0]}
+{"uid": "10k-200406-net income-2022-01-02-contradictory", "samples": [null, null, null]}
+{"uid": "10k-200406-net income-2022-01-02-incomplete", "samples": [null, null, null]}
+{"uid": "10k-200406-research and development expense-2023-12-31-clean", "samples": [15090000000.0, 15085000000.0, 15085000000.0]}
+{"uid": "10k-200406-research and development expense-2023-12-31-noisy", "samples": [15085000000.0, 15085000000.0, 15085000000.0]}
+{"uid": "10k-200406-research and development expense-2023-12-31-contradictory", "samples": [15085000000.0, 15085000000.0, 15085000000.0]}
+{"uid": "10k-200406-research and development expense-2023-12-31-incomplete", "samples": [15085000000.0, 15085000000.0, 15085000000.0]}
+{"uid": "10k-200406-total assets-2021-01-03-clean", "samples": [null, null, null]}
+{"uid": "10k-200406-total assets-2021-01-03-noisy", "samples": [174894000000.0, 174894000000.0, 174894000000.0]}
+{"uid": "10k-200406-total assets-2021-01-03-contradictory", "samples": [null, null, null]}
+{"uid": "10k-200406-total assets-2021-01-03-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1326801-operating income-2015-12-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1326801-operating income-2015-12-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1326801-operating income-2015-12-31-contradictory", "samples": [6225000000.0, 6225000000.0, 6225000000.0]}
+{"uid": "10k-1326801-operating income-2015-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1326801-research and development expense-2025-12-31-clean", "samples": [71372000000.0, 57370000000.0, 57370000000.0]}
+{"uid": "10k-1326801-research and development expense-2025-12-31-noisy", "samples": [17485000000.0, 17485000000.0, 17485000000.0]}
+{"uid": "10k-1326801-research and development expense-2025-12-31-contradictory", "samples": [57372000000.0, null, 57372000000.0]}
+{"uid": "10k-1326801-research and development expense-2025-12-31-incomplete", "samples": [17485000000.0, 17485000000.0, 17485000000.0]}
+{"uid": "10k-1326801-total revenue-2015-12-31-clean", "samples": [17930000000.0, 17930000000.0, 17930000000.0]}
+{"uid": "10k-1326801-total revenue-2015-12-31-noisy", "samples": [17930000000.0, 17930000000.0, 17930000000.0]}
+{"uid": "10k-1326801-total revenue-2015-12-31-contradictory", "samples": [17930000000.0, 17930000000.0, 17930000000.0]}
+{"uid": "10k-1326801-total revenue-2015-12-31-incomplete", "samples": [17930000000.0, 17930000000.0, 17930000000.0]}
+{"uid": "10k-1326801-total revenue-2016-12-31-clean", "samples": [27910000000.0, 27910000000.0, 27910000000.0]}
+{"uid": "10k-1326801-total revenue-2016-12-31-noisy", "samples": [27640000000.0, 27640000000.0, 27640000000.0]}
+{"uid": "10k-1326801-total revenue-2016-12-31-contradictory", "samples": [27640000000.0, 27640000000.0, 27640000000.0]}
+{"uid": "10k-1326801-total revenue-2016-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1326801-total revenue-2022-12-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1326801-total revenue-2022-12-31-noisy", "samples": [116609000000.0, 116609000000.0, 116609000000.0]}
+{"uid": "10k-1326801-total revenue-2022-12-31-contradictory", "samples": [128260000000.0, 128260000000.0, 128259999999.99998]}
+{"uid": "10k-1326801-total revenue-2022-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-net income-2020-06-30-clean", "samples": [44281000000.0, 44281000000.0, 44281000000.0]}
+{"uid": "10k-789019-net income-2020-06-30-noisy", "samples": [44281000000.0, 44281000000.0, 44281000000.0]}
+{"uid": "10k-789019-net income-2020-06-30-contradictory", "samples": [53320000000.0, 44281000000.0, 53320000000.0]}
+{"uid": "10k-789019-net income-2020-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-operating income-2018-06-30-clean", "samples": [null, null, null]}
+{"uid": "10k-789019-operating income-2018-06-30-noisy", "samples": [35060000000.0, 35060000000.0, 35058000000.0]}
+{"uid": "10k-789019-operating income-2018-06-30-contradictory", "samples": [null, 35060000000.0, null]}
+{"uid": "10k-789019-operating income-2018-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-research and development expense-2012-06-30-clean", "samples": [9811000000.0, 9811000000.0, 9811000000.0]}
+{"uid": "10k-789019-research and development expense-2012-06-30-noisy", "samples": [9811000000.0, 9811000000.0, 9811000000.0]}
+{"uid": "10k-789019-research and development expense-2012-06-30-contradictory", "samples": [9800000000.0, 9800000000.0, 9800000000.0]}
+{"uid": "10k-789019-research and development expense-2012-06-30-incomplete", "samples": [9800000000.0, 9800000000.0, null]}
+{"uid": "10k-789019-research and development expense-2014-06-30-clean", "samples": [11380000000.0, 11380000000.0, 11380000000.0]}
+{"uid": "10k-789019-research and development expense-2014-06-30-noisy", "samples": [11380000000.0, 11380000000.0, 11380000000.0]}
+{"uid": "10k-789019-research and development expense-2014-06-30-contradictory", "samples": [11400000000.0, 11400000000.0, 11400000000.0]}
+{"uid": "10k-789019-research and development expense-2014-06-30-incomplete", "samples": [11400000000.0, 11400000000.0, 11400000000.0]}
+{"uid": "10k-789019-research and development expense-2020-06-30-clean", "samples": [19270000000.0, 19269000000.0, 19270000000.0]}
+{"uid": "10k-789019-research and development expense-2020-06-30-noisy", "samples": [19270000000.0, 19270000000.0, null]}
+{"uid": "10k-789019-research and development expense-2020-06-30-contradictory", "samples": [19270000000.0, 19269000000.0, 19269000000.0]}
+{"uid": "10k-789019-research and development expense-2020-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-total assets-2010-06-30-clean", "samples": [86110000000.0, 86110000000.0, 86110000000.0]}
+{"uid": "10k-789019-total assets-2010-06-30-noisy", "samples": [86113000000.0, 86113000000.0, 86113000000.0]}
+{"uid": "10k-789019-total assets-2010-06-30-contradictory", "samples": [null, null, null]}
+{"uid": "10k-789019-total assets-2010-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-total assets-2019-06-30-clean", "samples": [286556000000.0, 286556000000.0, 286556000000.0]}
+{"uid": "10k-789019-total assets-2019-06-30-noisy", "samples": [286556000000.0, 286556000000.0, 286556000000.0]}
+{"uid": "10k-789019-total assets-2019-06-30-contradictory", "samples": [245042000000.0, 245042000000.0, 245042000000.0]}
+{"uid": "10k-789019-total assets-2019-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-789019-total assets-2023-06-30-clean", "samples": [411976000000.0, 411976000000.0, 411976000000.0]}
+{"uid": "10k-789019-total assets-2023-06-30-noisy", "samples": [411976000000.0, 411976000000.0, 411976000000.0]}
+{"uid": "10k-789019-total assets-2023-06-30-contradictory", "samples": [411976000000.0, 411976000000.0, 411976000000.0]}
+{"uid": "10k-789019-total assets-2023-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-320187-net income-2025-05-31-clean", "samples": [3219000000.0, 3219000000.0, 3219000000.0]}
+{"uid": "10k-320187-net income-2025-05-31-noisy", "samples": [3220000000.0, 3219000000.0, 3219000000.0]}
+{"uid": "10k-320187-net income-2025-05-31-contradictory", "samples": [2604000000.0, 2604000000.0, 2604000000.0]}
+{"uid": "10k-320187-net income-2025-05-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-320187-total assets-2011-05-31-clean", "samples": [14998000000.0, 14998000000.0, 14998000000.0]}
+{"uid": "10k-320187-total assets-2011-05-31-noisy", "samples": [14998000000.0, 14998000000.0, 14998000000.0]}
+{"uid": "10k-320187-total assets-2011-05-31-contradictory", "samples": [18625000000.0, 18625000000.0, 18630000000.0]}
+{"uid": "10k-320187-total assets-2011-05-31-incomplete", "samples": [1598000000.0, 1598000000.0, 1598000000.0]}
+{"uid": "10k-320187-total assets-2025-05-31-clean", "samples": [36579000000.0, 36579000000.0, 36579000000.0]}
+{"uid": "10k-320187-total assets-2025-05-31-noisy", "samples": [36579000000.0, 36579000000.0, 36579000000.0]}
+{"uid": "10k-320187-total assets-2025-05-31-contradictory", "samples": [46477000000.0, 46477000000.0, 46477000000.0]}
+{"uid": "10k-320187-total assets-2025-05-31-incomplete", "samples": [7540000000.0, 7540000000.0, 7540000000.0]}
+{"uid": "10k-320187-total revenue-2011-05-31-clean", "samples": [20862000000.0, 20860000000.0, 20860000000.0]}
+{"uid": "10k-320187-total revenue-2011-05-31-noisy", "samples": [20862000000.0, 20862000000.0, 20862000000.0]}
+{"uid": "10k-320187-total revenue-2011-05-31-contradictory", "samples": [20862000000.0, 20862000000.0, 20862000000.0]}
+{"uid": "10k-320187-total revenue-2011-05-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1045810-cash and cash equivalents-2014-01-26-clean", "samples": [1151600000.0, 1151600000.0, 1151600000.0]}
+{"uid": "10k-1045810-cash and cash equivalents-2014-01-26-noisy", "samples": [4671800000.0, 4671800000.0, 4671800000.0]}
+{"uid": "10k-1045810-cash and cash equivalents-2014-01-26-contradictory", "samples": [1151600000.0, 1151600000.0, 1151587000000.0]}
+{"uid": "10k-1045810-cash and cash equivalents-2014-01-26-incomplete", "samples": [1151600000.0, 1151600000.0, 1151600000.0]}
+{"uid": "10k-1045810-net income-2010-01-31-clean", "samples": [30040000.0, -67987000.0, 30040000.0]}
+{"uid": "10k-1045810-net income-2010-01-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1045810-net income-2010-01-31-contradictory", "samples": [30041000.0, -30041000.0, -30041000.0]}
+{"uid": "10k-1045810-net income-2010-01-31-incomplete", "samples": [30041000000.0, 30040000000.0, 30041000000.0]}
+{"uid": "10k-1045810-net income-2014-01-26-clean", "samples": [null, null, null]}
+{"uid": "10k-1045810-net income-2014-01-26-noisy", "samples": [562536000.0, 562536000.0, 562536000.0]}
+{"uid": "10k-1045810-net income-2014-01-26-contradictory", "samples": [null, null, null]}
+{"uid": "10k-1045810-net income-2014-01-26-incomplete", "samples": [581090000.0, 581090000.0, 581090000.0]}
+{"uid": "10k-1045810-net income-2016-01-31-clean", "samples": [614000000.0, 614000000.0, 614000000.0]}
+{"uid": "10k-1045810-net income-2016-01-31-noisy", "samples": [439990000.0, 439990000.0, 439990000.0]}
+{"uid": "10k-1045810-net income-2016-01-31-contradictory", "samples": [745000000.0, 745000000.0, 745000000.0]}
+{"uid": "10k-1045810-net income-2016-01-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1045810-operating income-2023-01-29-clean", "samples": [5080000000.0, 5080000000.0, 5083000000.0]}
+{"uid": "10k-1045810-operating income-2023-01-29-noisy", "samples": [5080000000.0, null, 5080000000.0]}
+{"uid": "10k-1045810-operating income-2023-01-29-contradictory", "samples": [5083000000.0, 5080000000.0, 5083000000.0]}
+{"uid": "10k-1045810-operating income-2023-01-29-incomplete", "samples": [10041000000.0, 10041000000.0, 10041000000.0]}
+{"uid": "10k-1045810-research and development expense-2017-01-29-clean", "samples": [1460000000.0, 1460000000.0, 1460000000.0]}
+{"uid": "10k-1045810-research and development expense-2017-01-29-noisy", "samples": [1460000000.0, 1460000000.0, 1460000000.0]}
+{"uid": "10k-1045810-research and development expense-2017-01-29-contradictory", "samples": [1460000000.0, 1460000000.0, 1460000000.0]}
+{"uid": "10k-1045810-research and development expense-2017-01-29-incomplete", "samples": [1460000000.0, 1460000000.0, 1460000000.0]}
+{"uid": "10k-1045810-research and development expense-2026-01-25-clean", "samples": [18497000000.0, 18497000000.0, 18497000000.0]}
+{"uid": "10k-1045810-research and development expense-2026-01-25-noisy", "samples": [18497000000.0, 18497000000.0, null]}
+{"uid": "10k-1045810-research and development expense-2026-01-25-contradictory", "samples": [5436000000.0, 5436000000.0, 5436000000.0]}
+{"uid": "10k-1045810-research and development expense-2026-01-25-incomplete", "samples": [5436000000.0, 4676000000.0, 4676000000.0]}
+{"uid": "10k-1045810-total assets-2022-01-30-clean", "samples": [44187000000.0, 44187000000.0, 44187000000.0]}
+{"uid": "10k-1045810-total assets-2022-01-30-noisy", "samples": [44190000000.0, 44187000000.0, 44187000000.0]}
+{"uid": "10k-1045810-total assets-2022-01-30-contradictory", "samples": [46630000000.0, 46630000000.0, 46630000000.0]}
+{"uid": "10k-1045810-total assets-2022-01-30-incomplete", "samples": [49484000000.0, 44610000000.0, 44679000000.0]}
+{"uid": "10k-1045810-total revenue-2014-01-26-clean", "samples": [null, null, null]}
+{"uid": "10k-1045810-total revenue-2014-01-26-noisy", "samples": [4130000000.0, 4130000000.0, 4130000000.0]}
+{"uid": "10k-1045810-total revenue-2014-01-26-contradictory", "samples": [4130000000.0, 4130000000.0, 4130000000.0]}
+{"uid": "10k-1045810-total revenue-2014-01-26-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1065280-cash and cash equivalents-2012-12-31-clean", "samples": [290291000.0, 290291000.0, 290291000.0]}
+{"uid": "10k-1065280-cash and cash equivalents-2012-12-31-noisy", "samples": [748078000000.0, 748078000000.0, 748078000000.0]}
+{"uid": "10k-1065280-cash and cash equivalents-2012-12-31-contradictory", "samples": [null, 310291000.0, 310291000.0]}
+{"uid": "10k-1065280-cash and cash equivalents-2012-12-31-incomplete", "samples": [748100000.0, 748100000.0, 748100000.0]}
+{"uid": "10k-1065280-net income-2023-12-31-clean", "samples": [5407990000.0, 5407990000.0, 5407990000.0]}
+{"uid": "10k-1065280-net income-2023-12-31-noisy", "samples": [5407990000.0, 5407990000.0, 5407990000.0]}
+{"uid": "10k-1065280-net income-2023-12-31-contradictory", "samples": [4790705000.0, 4790705000.0, 4790705000.0]}
+{"uid": "10k-1065280-net income-2023-12-31-incomplete", "samples": [5116228000.0, 5116228000.0, 5116228000.0]}
+{"uid": "10k-1065280-operating income-2012-12-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1065280-operating income-2012-12-31-noisy", "samples": [376068000.0, 376068000.0, 376068000.0]}
+{"uid": "10k-1065280-operating income-2012-12-31-contradictory", "samples": [null, null, null]}
+{"uid": "10k-1065280-operating income-2012-12-31-incomplete", "samples": [376070000.0, 376070000.0, 376070000.0]}
+{"uid": "10k-1065280-operating income-2020-12-31-clean", "samples": [458530000.0, 458530000.0, 4585290000.0]}
+{"uid": "10k-1065280-operating income-2020-12-31-noisy", "samples": [2604254000.0, 2604254000.0, 2604254000.0]}
+{"uid": "10k-1065280-operating income-2020-12-31-contradictory", "samples": [5216289000.0, 4585289000.0, 5216289000.0]}
+{"uid": "10k-1065280-operating income-2020-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1065280-operating income-2023-12-31-clean", "samples": [6954003000.0, 6954003000.0, 6954003000.0]}
+{"uid": "10k-1065280-operating income-2023-12-31-noisy", "samples": [6954003000.0, 6954003000.0, 6954003000.0]}
+{"uid": "10k-1065280-operating income-2023-12-31-contradictory", "samples": [6954000000.0, 7768000000.0, 6954000000.0]}
+{"uid": "10k-1065280-operating income-2023-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1065280-total assets-2014-12-31-clean", "samples": [7056651000.0, 7056651000.0, 7056651000.0]}
+{"uid": "10k-1065280-total assets-2014-12-31-noisy", "samples": [7056651000.0, 7056651000.0, 7056651000.0]}
+{"uid": "10k-1065280-total assets-2014-12-31-contradictory", "samples": [7056651000.0, 7056651000.0, 7056651000.0]}
+{"uid": "10k-1065280-total assets-2014-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1065280-total assets-2021-12-31-clean", "samples": [44584663000.0, 44584663000.0, 44584663000.0]}
+{"uid": "10k-1065280-total assets-2021-12-31-noisy", "samples": [44584663000.0, 44584663000.0, 44584663000.0]}
+{"uid": "10k-1065280-total assets-2021-12-31-contradictory", "samples": [47496640000.0, 47496640000.0, 47496640000.0]}
+{"uid": "10k-1065280-total assets-2021-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1065280-total revenue-2016-12-31-clean", "samples": [8830669000.0, 8830669000.0, 8830670000.0]}
+{"uid": "10k-1065280-total revenue-2016-12-31-noisy", "samples": [8830669000.0, 8830669000.0, 8830669000.0]}
+{"uid": "10k-1065280-total revenue-2016-12-31-contradictory", "samples": [8830669000.0, 8830669000.0, 883066900.0]}
+{"uid": "10k-1065280-total revenue-2016-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1341439-cash and cash equivalents-2014-05-31-clean", "samples": [17769000000.0, 17769000000.0, 17769000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2014-05-31-noisy", "samples": [17769000000.0, 17769000000.0, 17769000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2014-05-31-contradictory", "samples": [21775000000.0, 21775000000.0, 21775000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2014-05-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1341439-cash and cash equivalents-2015-05-31-clean", "samples": [21716000000.0, 21716000000.0, 21716000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2015-05-31-noisy", "samples": [21716000000.0, 21716000000.0, 21716000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2015-05-31-contradictory", "samples": [17703000000.0, 17703000000.0, 17703000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2015-05-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1341439-cash and cash equivalents-2021-05-31-clean", "samples": [30098000000.0, 30098000000.0, 30098000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2021-05-31-noisy", "samples": [46554000000.0, 46554000000.0, 46554000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2021-05-31-contradictory", "samples": [null, 46554000000.0, 46554000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2021-05-31-incomplete", "samples": [46554000000.0, 46554000000.0, 46554000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2022-05-31-clean", "samples": [21383000000.0, 21383000000.0, 21383000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2022-05-31-noisy", "samples": [21383000000.0, 21383000000.0, 21383000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2022-05-31-contradictory", "samples": [16859000000.0, 16859000000.0, 16859000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2022-05-31-incomplete", "samples": [21902000000.0, 21902000000.0, 21902000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2023-05-31-clean", "samples": [9765000000.0, 9765000000.0, 9765000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2023-05-31-noisy", "samples": [9765000000.0, 9765000000.0, 9765000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2023-05-31-contradictory", "samples": [9765000000.0, 9765000000.0, 9765000000.0]}
+{"uid": "10k-1341439-cash and cash equivalents-2023-05-31-incomplete", "samples": [10190000000.0, -11618000000.0, 10190000000.0]}
+{"uid": "10k-1341439-operating income-2022-05-31-clean", "samples": [null, null, null]}
+{"uid": "10k-1341439-operating income-2022-05-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1341439-operating income-2022-05-31-contradictory", "samples": [null, null, null]}
+{"uid": "10k-1341439-operating income-2022-05-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1341439-research and development expense-2020-05-31-clean", "samples": [6067000000.0, 6067000000.0, 6067000000.0]}
+{"uid": "10k-1341439-research and development expense-2020-05-31-noisy", "samples": [6067000000.0, 6067000000.0, 6067000000.0]}
+{"uid": "10k-1341439-research and development expense-2020-05-31-contradictory", "samples": [1035000000.0, 1035000000.0, 1035000000.0]}
+{"uid": "10k-1341439-research and development expense-2020-05-31-incomplete", "samples": [1035000000.0, 1035000000.0, 1035000000.0]}
+{"uid": "10k-1341439-total assets-2026-05-31-clean", "samples": [261759000000.0, 261759000000.0, 261759000000.0]}
+{"uid": "10k-1341439-total assets-2026-05-31-noisy", "samples": [261759000000.0, 261759000000.0, 261759000000.0]}
+{"uid": "10k-1341439-total assets-2026-05-31-contradictory", "samples": [261759000000.0, 261759000000.0, 261759000000.0]}
+{"uid": "10k-1341439-total assets-2026-05-31-incomplete", "samples": [215192000000.0, 215192000000.0, 215192000000.0]}
+{"uid": "10k-78003-net income-2023-12-31-clean", "samples": [31372000000.0, 31370000000.0, 31370000000.0]}
+{"uid": "10k-78003-net income-2023-12-31-noisy", "samples": [31372000000.0, 31372000000.0, 31372000000.0]}
+{"uid": "10k-78003-net income-2023-12-31-contradictory", "samples": [2119000000.0, 2119000000.0, 2119000000.0]}
+{"uid": "10k-78003-net income-2023-12-31-incomplete", "samples": [31372000000.0, 31372000000.0, 31372000000.0]}
+{"uid": "10k-78003-total assets-2025-12-31-clean", "samples": [208000000000.0, 208000000000.0, 208000000000.0]}
+{"uid": "10k-78003-total assets-2025-12-31-noisy", "samples": [208000000000.0, 208000000000.0, 208000000000.0]}
+{"uid": "10k-78003-total assets-2025-12-31-contradictory", "samples": [208000000000.0, 208000000000.0, 208000000000.0]}
+{"uid": "10k-78003-total assets-2025-12-31-incomplete", "samples": [208000000000.0, 208000000000.0, 208000000000.0]}
+{"uid": "10k-78003-total revenue-2021-12-31-clean", "samples": [81288000000.0, 81288000000.0, 81288000000.0]}
+{"uid": "10k-78003-total revenue-2021-12-31-noisy", "samples": [81290000000.0, 81290000000.0, 81290000000.0]}
+{"uid": "10k-78003-total revenue-2021-12-31-contradictory", "samples": [96250000000.0, 96250000000.0, 96250000000.0]}
+{"uid": "10k-78003-total revenue-2021-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1318605-cash and cash equivalents-2011-12-31-clean", "samples": [255300000.0, 255300000.0, 255300000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2011-12-31-noisy", "samples": [280300000.0, 280300000.0, 280300000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2011-12-31-contradictory", "samples": [255300000.0, 283300000.0, 283300000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2011-12-31-incomplete", "samples": [280300000.0, 280300000.0, 280300000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2024-12-31-clean", "samples": [16139000000.0, 16139000000.0, 16139000000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2024-12-31-noisy", "samples": [17037000000.0, 17037000000.0, 17037000000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2024-12-31-contradictory", "samples": [null, null, 17037000000.0]}
+{"uid": "10k-1318605-cash and cash equivalents-2024-12-31-incomplete", "samples": [17037000000.0, 17037000000.0, 17037000000.0]}
+{"uid": "10k-1318605-net income-2021-12-31-clean", "samples": [5644000000.0, 5644000000.0, 5644000000.0]}
+{"uid": "10k-1318605-net income-2021-12-31-noisy", "samples": [5644000000.0, 5644000000.0, 5640000000.0]}
+{"uid": "10k-1318605-net income-2021-12-31-contradictory", "samples": [5519000000.0, 5519000000.0, 5519000000.0]}
+{"uid": "10k-1318605-net income-2021-12-31-incomplete", "samples": [5644000000.0, 5644000000.0, 5644000000.0]}
+{"uid": "10k-1318605-net income-2023-12-31-clean", "samples": [null, 12556000000.0, null]}
+{"uid": "10k-1318605-net income-2023-12-31-noisy", "samples": [14999000000.0, 14999000000.0, 14999000000.0]}
+{"uid": "10k-1318605-net income-2023-12-31-contradictory", "samples": [96000000.0, -96000000.0, 96000000.0]}
+{"uid": "10k-1318605-net income-2023-12-31-incomplete", "samples": [14999000000.0, 14999000000.0, 14999000000.0]}
+{"uid": "10k-1318605-operating income-2023-12-31-clean", "samples": [8891000000.0, 8891000000.0, 8891000000.0]}
+{"uid": "10k-1318605-operating income-2023-12-31-noisy", "samples": [null, null, null]}
+{"uid": "10k-1318605-operating income-2023-12-31-contradictory", "samples": [8891000000.0, 8891000000.0, 8891000000.0]}
+{"uid": "10k-1318605-operating income-2023-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-1318605-research and development expense-2011-12-31-clean", "samples": [209000000.0, 209000000.0, 209000000.0]}
+{"uid": "10k-1318605-research and development expense-2011-12-31-noisy", "samples": [209000000.0, 209000000.0, 209000000.0]}
+{"uid": "10k-1318605-research and development expense-2011-12-31-contradictory", "samples": [209000000.0, 209000000.0, 209000000.0]}
+{"uid": "10k-1318605-research and development expense-2011-12-31-incomplete", "samples": [209000000.0, 209000000.0, 209000000.0]}
+{"uid": "10k-1318605-total revenue-2020-12-31-clean", "samples": [31540000000.0, 31536000000.0, 31536000000.0]}
+{"uid": "10k-1318605-total revenue-2020-12-31-noisy", "samples": [31536000000.0, 31536000000.0, 31536000000.0]}
+{"uid": "10k-1318605-total revenue-2020-12-31-contradictory", "samples": [31536000000.0, 31536000000.0, 31536000000.0]}
+{"uid": "10k-1318605-total revenue-2020-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-21344-cash and cash equivalents-2017-12-31-clean", "samples": [6006000000.0, 6010000000.0, 6006000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2017-12-31-noisy", "samples": [6006000000.0, 6006000000.0, 6006000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2017-12-31-contradictory", "samples": [6006000000.0, 6006000000.0, 6006000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2017-12-31-incomplete", "samples": [15358000000.0, 15358000000.0, 15358000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2020-12-31-clean", "samples": [6795000000.0, 6795000000.0, 6795000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2020-12-31-noisy", "samples": [6795000000.0, 6795000000.0, 6795000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2020-12-31-contradictory", "samples": [5592000000.0, 5592000000.0, 5592000000.0]}
+{"uid": "10k-21344-cash and cash equivalents-2020-12-31-incomplete", "samples": [8566000000.0, 8566000000.0, 8566000000.0]}
+{"uid": "10k-21344-net income-2021-12-31-clean", "samples": [9771000000.0, 9771000000.0, 9771000000.0]}
+{"uid": "10k-21344-net income-2021-12-31-noisy", "samples": [9771000000.0, 9771000000.0, 9771000000.0]}
+{"uid": "10k-21344-net income-2021-12-31-contradictory", "samples": [9771000000.0, 9771000000.0, 9771000000.0]}
+{"uid": "10k-21344-net income-2021-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-21344-operating income-2010-12-31-clean", "samples": [8449000000.0, 8449000000.0, 8449000000.0]}
+{"uid": "10k-21344-operating income-2010-12-31-noisy", "samples": [980000000.0, 980000000.0, 980000000.0]}
+{"uid": "10k-21344-operating income-2010-12-31-contradictory", "samples": [980000000.0, 9800000000.0, 980000000.0]}
+{"uid": "10k-21344-operating income-2010-12-31-incomplete", "samples": [1369000000.0, 1369000000.0, 1369000000.0]}
+{"uid": "10k-21344-operating income-2021-12-31-clean", "samples": [3735000000.0, 3735000000.0, 3735000000.0]}
+{"uid": "10k-21344-operating income-2021-12-31-noisy", "samples": [3735000000.0, 3735000000.0, 3735000000.0]}
+{"uid": "10k-21344-operating income-2021-12-31-contradictory", "samples": [3735000000.0, 3735000000.0, 3735000000.0]}
+{"uid": "10k-21344-operating income-2021-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-21344-total assets-2012-12-31-clean", "samples": [86174000000.0, 86174000000.0, 86174000000.0]}
+{"uid": "10k-21344-total assets-2012-12-31-noisy", "samples": [86174000000.0, 86174000000.0, 86174000000.0]}
+{"uid": "10k-21344-total assets-2012-12-31-contradictory", "samples": [86174000000.0, 86174000000.0, 86174000000.0]}
+{"uid": "10k-21344-total assets-2012-12-31-incomplete", "samples": [22000000000.0, 22000000000.0, 22000000000.0]}
+{"uid": "10k-21344-total revenue-2023-12-31-clean", "samples": [8078000000.0, 8078000000.0, 8078000000.0]}
+{"uid": "10k-21344-total revenue-2023-12-31-noisy", "samples": [8078000000.0, 8078000000.0, 8078000000.0]}
+{"uid": "10k-21344-total revenue-2023-12-31-contradictory", "samples": [8078000000.0, 8078000000.0, 8078000000.0]}
+{"uid": "10k-21344-total revenue-2023-12-31-incomplete", "samples": [null, null, null]}
+{"uid": "10k-80424-operating income-2012-06-30-clean", "samples": [null, null, null]}
+{"uid": "10k-80424-operating income-2012-06-30-noisy", "samples": [13300000000.0, 13300000000.0, 13300000000.0]}
+{"uid": "10k-80424-operating income-2012-06-30-contradictory", "samples": [11563000000.0, 11563000000.0, 11563000000.0]}
+{"uid": "10k-80424-operating income-2012-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-80424-operating income-2020-06-30-clean", "samples": [15706000000.0, 15706000000.0, 15706000000.0]}
+{"uid": "10k-80424-operating income-2020-06-30-noisy", "samples": [15706000000.0, 15706000000.0, 15706000000.0]}
+{"uid": "10k-80424-operating income-2020-06-30-contradictory", "samples": [19192000000.0, 19192000000.0, 19192000000.0]}
+{"uid": "10k-80424-operating income-2020-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-80424-total revenue-2017-06-30-clean", "samples": [65058000000.0, 65058000000.0, 65058000000.0]}
+{"uid": "10k-80424-total revenue-2017-06-30-noisy", "samples": [65058000000.0, 65058000000.0, 65058000000.0]}
+{"uid": "10k-80424-total revenue-2017-06-30-contradictory", "samples": [55638000000.0, 55638000000.0, 55638000000.0]}
+{"uid": "10k-80424-total revenue-2017-06-30-incomplete", "samples": [null, null, null]}
+{"uid": "10k-104169-cash and cash equivalents-2024-01-31-clean", "samples": [9935000000.0, 9935000000.0, 9935000000.0]}
+{"uid": "10k-104169-cash and cash equivalents-2024-01-31-noisy", "samples": [8625000000.0, 8625000000.0, 8625000000.0]}
+{"uid": "10k-104169-cash and cash equivalents-2024-01-31-contradictory", "samples": [9935000000.0, 9935000000.0, 9935000000.0]}
+{"uid": "10k-104169-cash and cash equivalents-2024-01-31-incomplete", "samples": [3500000000.0, 3500000000.0, 3500000000.0]}
+{"uid": "10k-104169-total assets-2022-01-31-clean", "samples": [244860000000.0, 244860000000.0, 244860000000.0]}
+{"uid": "10k-104169-total assets-2022-01-31-noisy", "samples": [244860000000.0, 244860000000.0, 244860000000.0]}
+{"uid": "10k-104169-total assets-2022-01-31-contradictory", "samples": [244860000000.0, 244860000000.0, 244860000000.0]}
+{"uid": "10k-104169-total assets-2022-01-31-incomplete", "samples": [null, null, null]}

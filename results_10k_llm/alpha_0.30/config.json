@@ -1,0 +1,19 @@
+{
+  "source": "edgar",
+  "agent": "llm",
+  "evidence": "10k",
+  "keep_unverified_labels": false,
+  "answers": "results_10k_llm/answers_qwen2.5_3b.jsonl",
+  "k": 3,
+  "alpha": 0.3,
+  "delta": 0.1,
+  "reps": 200,
+  "max_facts": 120,
+  "seed": 0,
+  "out": "results_10k_llm/alpha_0.30",
+  "n_train": 66,
+  "n_cal": 100,
+  "n_test": 100,
+  "n_facts": 120,
+  "n_items": 400
+}

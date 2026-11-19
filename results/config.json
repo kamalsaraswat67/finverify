@@ -1,6 +1,9 @@
 {
   "source": "edgar",
   "agent": "extractive",
+  "evidence": "template",
+  "keep_unverified_labels": false,
+  "answers": null,
   "k": 10,
   "alpha": 0.1,
   "delta": 0.1,

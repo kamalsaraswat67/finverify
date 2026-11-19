@@ -1,0 +1,2401 @@
+regime,rep,method,coverage,selective_risk,violation,answered_unanswerable
+exchangeable,0,always answer,0.8571428571428571,0.44047619047619047,1.0,0.5652173913043478
+exchangeable,0,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,0,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,0,verifier + naive,0.5816326530612245,0.22807017543859648,0.0,0.2608695652173913
+exchangeable,0,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,0,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,0,always answer,0.8,0.525,1.0,0.5142857142857142
+shift,0,self-consistency + naive,0.76,0.5131578947368421,1.0,0.4857142857142857
+shift,0,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,0,verifier + naive,0.78,0.5128205128205128,1.0,0.5142857142857142
+shift,0,verifier + LTT,0.58,0.3448275862068966,1.0,0.37142857142857144
+shift,0,verifier + group-wise LTT,0.44,0.22727272727272727,0.0,0.2
+exchangeable,1,always answer,0.8571428571428571,0.40476190476190477,1.0,0.8181818181818182
+exchangeable,1,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,1,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,1,verifier + naive,0.7653061224489796,0.36,1.0,0.7272727272727273
+exchangeable,1,verifier + LTT,0.5612244897959183,0.18181818181818182,0.0,0.2727272727272727
+exchangeable,1,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,1,always answer,0.82,0.524390243902439,1.0,0.5714285714285714
+shift,1,self-consistency + naive,0.82,0.524390243902439,1.0,0.5714285714285714
+shift,1,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,1,verifier + naive,0.72,0.4583333333333333,1.0,0.5714285714285714
+shift,1,verifier + LTT,0.63,0.3968253968253968,1.0,0.5142857142857142
+shift,1,verifier + group-wise LTT,0.47,0.23404255319148937,0.0,0.2571428571428571
+exchangeable,2,always answer,0.7551020408163265,0.4189189189189189,1.0,0.5
+exchangeable,2,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,2,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,2,verifier + naive,0.5102040816326531,0.24,0.0,0.2692307692307692
+exchangeable,2,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,2,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,2,always answer,0.77,0.5584415584415584,1.0,0.4857142857142857
+shift,2,self-consistency + naive,0.77,0.5584415584415584,1.0,0.4857142857142857
+shift,2,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,2,verifier + naive,0.66,0.48484848484848486,1.0,0.4857142857142857
+shift,2,verifier + LTT,0.61,0.4426229508196721,1.0,0.45714285714285713
+shift,2,verifier + group-wise LTT,0.42,0.2619047619047619,0.0,0.2
+exchangeable,3,always answer,0.8469387755102041,0.3373493975903614,1.0,0.5416666666666666
+exchangeable,3,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,3,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,3,verifier + naive,0.7244897959183674,0.23943661971830985,0.0,0.5
+exchangeable,3,verifier + LTT,0.5918367346938775,0.1724137931034483,0.0,0.2916666666666667
+exchangeable,3,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,3,always answer,0.8,0.525,1.0,0.5142857142857142
+shift,3,self-consistency + naive,0.75,0.5066666666666667,1.0,0.4857142857142857
+shift,3,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,3,verifier + naive,0.8,0.525,1.0,0.5142857142857142
+shift,3,verifier + LTT,0.65,0.4153846153846154,1.0,0.45714285714285713
+shift,3,verifier + group-wise LTT,0.48,0.2708333333333333,0.0,0.2
+exchangeable,4,always answer,0.7857142857142857,0.4155844155844156,1.0,0.4230769230769231
+exchangeable,4,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,4,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,4,verifier + naive,0.5102040816326531,0.22,0.0,0.2692307692307692
+exchangeable,4,verifier + LTT,0.5102040816326531,0.22,0.0,0.2692307692307692
+exchangeable,4,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,4,always answer,0.8,0.5125,1.0,0.5142857142857142
+shift,4,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,4,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,4,verifier + naive,0.73,0.4657534246575342,1.0,0.5142857142857142
+shift,4,verifier + LTT,0.0,0.0,0.0,0.0
+shift,4,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,5,always answer,0.7959183673469388,0.3717948717948718,1.0,0.38095238095238093
+exchangeable,5,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,5,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,5,verifier + naive,0.5102040816326531,0.12,0.0,0.09523809523809523
+exchangeable,5,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,5,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,5,always answer,0.79,0.5063291139240507,1.0,0.5428571428571428
+shift,5,self-consistency + naive,0.76,0.5,1.0,0.5142857142857142
+shift,5,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,5,verifier + naive,0.77,0.4935064935064935,1.0,0.5428571428571428
+shift,5,verifier + LTT,0.63,0.3968253968253968,1.0,0.45714285714285713
+shift,5,verifier + group-wise LTT,0.41,0.17073170731707318,0.0,0.11428571428571428
+exchangeable,6,always answer,0.8469387755102041,0.43373493975903615,1.0,0.6206896551724138
+exchangeable,6,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,6,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,6,verifier + naive,0.5102040816326531,0.1,0.0,0.27586206896551724
+exchangeable,6,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,6,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,6,always answer,0.79,0.569620253164557,1.0,0.5142857142857142
+shift,6,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,6,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,6,verifier + naive,0.54,0.3888888888888889,1.0,0.4
+shift,6,verifier + LTT,0.41,0.2682926829268293,0.0,0.22857142857142856
+shift,6,verifier + group-wise LTT,0.18,0.2222222222222222,0.0,0.08571428571428572
+exchangeable,7,always answer,0.8061224489795918,0.43037974683544306,1.0,0.56
+exchangeable,7,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,7,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,7,verifier + naive,0.7551020408163265,0.3918918918918919,1.0,0.52
+exchangeable,7,verifier + LTT,0.6020408163265306,0.3050847457627119,1.0,0.36
+exchangeable,7,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,7,always answer,0.77,0.5584415584415584,1.0,0.5142857142857142
+shift,7,self-consistency + naive,0.58,0.5172413793103449,1.0,0.37142857142857144
+shift,7,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,7,verifier + naive,0.7,0.5142857142857142,1.0,0.5142857142857142
+shift,7,verifier + LTT,0.43,0.3023255813953488,1.0,0.2
+shift,7,verifier + group-wise LTT,0.43,0.3023255813953488,1.0,0.2
+exchangeable,8,always answer,0.8469387755102041,0.42168674698795183,1.0,0.5833333333333334
+exchangeable,8,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,8,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,8,verifier + naive,0.6326530612244898,0.27419354838709675,0.0,0.3333333333333333
+exchangeable,8,verifier + LTT,0.6326530612244898,0.27419354838709675,0.0,0.3333333333333333
+exchangeable,8,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,8,always answer,0.78,0.5128205128205128,1.0,0.5142857142857142
+shift,8,self-consistency + naive,0.78,0.5128205128205128,1.0,0.5142857142857142
+shift,8,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,8,verifier + naive,0.67,0.43283582089552236,1.0,0.5142857142857142
+shift,8,verifier + LTT,0.56,0.35714285714285715,1.0,0.4
+shift,8,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,9,always answer,0.8571428571428571,0.4523809523809524,1.0,0.47619047619047616
+exchangeable,9,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,9,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,9,verifier + naive,0.7244897959183674,0.352112676056338,1.0,0.42857142857142855
+exchangeable,9,verifier + LTT,0.19387755102040816,0.05263157894736842,0.0,0.047619047619047616
+exchangeable,9,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,9,always answer,0.8,0.5125,1.0,0.5142857142857142
+shift,9,self-consistency + naive,0.8,0.5125,1.0,0.5142857142857142
+shift,9,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,9,verifier + naive,0.77,0.4935064935064935,1.0,0.5142857142857142
+shift,9,verifier + LTT,0.59,0.3389830508474576,1.0,0.37142857142857144
+shift,9,verifier + group-wise LTT,0.44,0.18181818181818182,0.0,0.17142857142857143
+exchangeable,10,always answer,0.8163265306122449,0.35,1.0,0.5
+exchangeable,10,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,10,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,10,verifier + naive,0.7142857142857143,0.3,0.0,0.42857142857142855
+exchangeable,10,verifier + LTT,0.673469387755102,0.2727272727272727,0.0,0.39285714285714285
+exchangeable,10,verifier + group-wise LTT,0.5510204081632653,0.14814814814814814,0.0,0.25
+shift,10,always answer,0.8,0.4875,1.0,0.5714285714285714
+shift,10,self-consistency + naive,0.8,0.4875,1.0,0.5714285714285714
+shift,10,self-consistency + LTT,0.77,0.4935064935064935,1.0,0.5714285714285714
+shift,10,verifier + naive,0.78,0.47435897435897434,1.0,0.5714285714285714
+shift,10,verifier + LTT,0.7,0.4142857142857143,1.0,0.5714285714285714
+shift,10,verifier + group-wise LTT,0.41,0.14634146341463414,0.0,0.22857142857142856
+exchangeable,11,always answer,0.7959183673469388,0.44871794871794873,1.0,0.5
+exchangeable,11,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,11,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,11,verifier + naive,0.7653061224489796,0.4266666666666667,1.0,0.5
+exchangeable,11,verifier + LTT,0.6530612244897959,0.359375,1.0,0.4230769230769231
+exchangeable,11,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,11,always answer,0.8,0.5375,1.0,0.6
+shift,11,self-consistency + naive,0.8,0.5375,1.0,0.6
+shift,11,self-consistency + LTT,0.8,0.5375,1.0,0.6
+shift,11,verifier + naive,0.72,0.4861111111111111,1.0,0.5428571428571428
+shift,11,verifier + LTT,0.8,0.5375,1.0,0.6
+shift,11,verifier + group-wise LTT,0.4,0.2,0.0,0.17142857142857143
+exchangeable,12,always answer,0.8367346938775511,0.3902439024390244,1.0,0.52
+exchangeable,12,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,12,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,12,verifier + naive,0.7551020408163265,0.32432432432432434,1.0,0.52
+exchangeable,12,verifier + LTT,0.6122448979591837,0.21666666666666667,0.0,0.32
+exchangeable,12,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,12,always answer,0.73,0.589041095890411,1.0,0.45714285714285713
+shift,12,self-consistency + naive,0.7,0.5857142857142857,1.0,0.45714285714285713
+shift,12,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,12,verifier + naive,0.7,0.5714285714285714,1.0,0.45714285714285713
+shift,12,verifier + LTT,0.58,0.4827586206896552,1.0,0.45714285714285713
+shift,12,verifier + group-wise LTT,0.38,0.2631578947368421,0.0,0.2
+exchangeable,13,always answer,0.8469387755102041,0.3614457831325301,1.0,0.375
+exchangeable,13,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,13,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,13,verifier + naive,0.6020408163265306,0.1694915254237288,0.0,0.125
+exchangeable,13,verifier + LTT,0.5816326530612245,0.17543859649122806,0.0,0.125
+exchangeable,13,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,13,always answer,0.79,0.45569620253164556,1.0,0.4857142857142857
+shift,13,self-consistency + naive,0.75,0.4533333333333333,1.0,0.4857142857142857
+shift,13,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,13,verifier + naive,0.77,0.44155844155844154,1.0,0.4857142857142857
+shift,13,verifier + LTT,0.67,0.3582089552238806,1.0,0.45714285714285713
+shift,13,verifier + group-wise LTT,0.45,0.17777777777777778,0.0,0.14285714285714285
+exchangeable,14,always answer,0.7959183673469388,0.44871794871794873,1.0,0.45454545454545453
+exchangeable,14,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,14,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,14,verifier + naive,0.5714285714285714,0.25,0.0,0.2727272727272727
+exchangeable,14,verifier + LTT,0.45918367346938777,0.13333333333333333,0.0,0.13636363636363635
+exchangeable,14,verifier + group-wise LTT,0.24489795918367346,0.16666666666666666,0.0,0.13636363636363635
+shift,14,always answer,0.83,0.5662650602409639,1.0,0.5142857142857142
+shift,14,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,14,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,14,verifier + naive,0.64,0.453125,1.0,0.45714285714285713
+shift,14,verifier + LTT,0.6,0.4166666666666667,1.0,0.45714285714285713
+shift,14,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,15,always answer,0.8163265306122449,0.4375,1.0,0.5416666666666666
+exchangeable,15,self-consistency + naive,0.7040816326530612,0.4057971014492754,1.0,0.4166666666666667
+exchangeable,15,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,15,verifier + naive,0.7959183673469388,0.4230769230769231,1.0,0.5416666666666666
+exchangeable,15,verifier + LTT,0.6938775510204082,0.3382352941176471,1.0,0.5
+exchangeable,15,verifier + group-wise LTT,0.5102040816326531,0.16,0.0,0.2916666666666667
+shift,15,always answer,0.86,0.5348837209302325,1.0,0.6857142857142857
+shift,15,self-consistency + naive,0.83,0.5301204819277109,1.0,0.6571428571428571
+shift,15,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,15,verifier + naive,0.85,0.5294117647058824,1.0,0.6857142857142857
+shift,15,verifier + LTT,0.65,0.4,1.0,0.5714285714285714
+shift,15,verifier + group-wise LTT,0.5,0.26,0.0,0.2857142857142857
+exchangeable,16,always answer,0.8367346938775511,0.35365853658536583,1.0,0.46153846153846156
+exchangeable,16,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,16,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,16,verifier + naive,0.5510204081632653,0.12962962962962962,0.0,0.19230769230769232
+exchangeable,16,verifier + LTT,0.5510204081632653,0.12962962962962962,0.0,0.19230769230769232
+exchangeable,16,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,16,always answer,0.76,0.5657894736842105,1.0,0.45714285714285713
+shift,16,self-consistency + naive,0.6,0.5166666666666667,1.0,0.37142857142857144
+shift,16,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,16,verifier + naive,0.58,0.43103448275862066,1.0,0.37142857142857144
+shift,16,verifier + LTT,0.52,0.40384615384615385,1.0,0.34285714285714286
+shift,16,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,17,always answer,0.8163265306122449,0.3875,1.0,0.43478260869565216
+exchangeable,17,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,17,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,17,verifier + naive,0.6326530612244898,0.24193548387096775,0.0,0.30434782608695654
+exchangeable,17,verifier + LTT,0.5510204081632653,0.14814814814814814,0.0,0.17391304347826086
+exchangeable,17,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,17,always answer,0.85,0.5411764705882353,1.0,0.5714285714285714
+shift,17,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,17,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,17,verifier + naive,0.62,0.3709677419354839,1.0,0.45714285714285713
+shift,17,verifier + LTT,0.48,0.25,0.0,0.22857142857142856
+shift,17,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,18,always answer,0.7959183673469388,0.3974358974358974,1.0,0.5
+exchangeable,18,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,18,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,18,verifier + naive,0.6122448979591837,0.26666666666666666,0.0,0.3333333333333333
+exchangeable,18,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,18,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,18,always answer,0.79,0.5189873417721519,1.0,0.5428571428571428
+shift,18,self-consistency + naive,0.76,0.5131578947368421,1.0,0.5142857142857142
+shift,18,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,18,verifier + naive,0.79,0.5189873417721519,1.0,0.5428571428571428
+shift,18,verifier + LTT,0.62,0.3870967741935484,1.0,0.45714285714285713
+shift,18,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,19,always answer,0.8673469387755102,0.3764705882352941,1.0,0.6956521739130435
+exchangeable,19,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,19,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,19,verifier + naive,0.5714285714285714,0.10714285714285714,0.0,0.21739130434782608
+exchangeable,19,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,19,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,19,always answer,0.79,0.46835443037974683,1.0,0.5142857142857142
+shift,19,self-consistency + naive,0.76,0.4605263157894737,1.0,0.5142857142857142
+shift,19,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,19,verifier + naive,0.71,0.4084507042253521,1.0,0.5142857142857142
+shift,19,verifier + LTT,0.65,0.35384615384615387,1.0,0.42857142857142855
+shift,19,verifier + group-wise LTT,0.48,0.20833333333333334,0.0,0.2
+exchangeable,20,always answer,0.7959183673469388,0.34615384615384615,1.0,0.3076923076923077
+exchangeable,20,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,20,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,20,verifier + naive,0.6632653061224489,0.24615384615384617,0.0,0.23076923076923078
+exchangeable,20,verifier + LTT,0.5612244897959183,0.18181818181818182,0.0,0.07692307692307693
+exchangeable,20,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,20,always answer,0.81,0.5555555555555556,1.0,0.5428571428571428
+shift,20,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,20,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,20,verifier + naive,0.65,0.4461538461538462,1.0,0.5142857142857142
+shift,20,verifier + LTT,0.45,0.28888888888888886,0.0,0.2571428571428571
+shift,20,verifier + group-wise LTT,0.15,0.26666666666666666,0.0,0.05714285714285714
+exchangeable,21,always answer,0.8571428571428571,0.4166666666666667,1.0,0.625
+exchangeable,21,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,21,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,21,verifier + naive,0.7755102040816326,0.35526315789473684,1.0,0.5416666666666666
+exchangeable,21,verifier + LTT,0.673469387755102,0.2727272727272727,0.0,0.4166666666666667
+exchangeable,21,verifier + group-wise LTT,0.5204081632653061,0.13725490196078433,0.0,0.125
+shift,21,always answer,0.81,0.5555555555555556,1.0,0.5428571428571428
+shift,21,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,21,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,21,verifier + naive,0.68,0.47058823529411764,1.0,0.5428571428571428
+shift,21,verifier + LTT,0.45,0.28888888888888886,0.0,0.2571428571428571
+shift,21,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,22,always answer,0.8163265306122449,0.4125,1.0,0.6363636363636364
+exchangeable,22,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,22,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,22,verifier + naive,0.6326530612244898,0.25806451612903225,0.0,0.3939393939393939
+exchangeable,22,verifier + LTT,0.5408163265306123,0.18867924528301888,0.0,0.24242424242424243
+exchangeable,22,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,22,always answer,0.84,0.4880952380952381,1.0,0.6
+shift,22,self-consistency + naive,0.84,0.4880952380952381,1.0,0.6
+shift,22,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,22,verifier + naive,0.82,0.47560975609756095,1.0,0.6
+shift,22,verifier + LTT,0.72,0.4027777777777778,1.0,0.5714285714285714
+shift,22,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,23,always answer,0.7959183673469388,0.46153846153846156,1.0,0.4
+exchangeable,23,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,23,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,23,verifier + naive,0.5,0.16326530612244897,0.0,0.24
+exchangeable,23,verifier + LTT,0.5,0.16326530612244897,0.0,0.24
+exchangeable,23,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,23,always answer,0.77,0.5064935064935064,1.0,0.45714285714285713
+shift,23,self-consistency + naive,0.73,0.5068493150684932,1.0,0.45714285714285713
+shift,23,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,23,verifier + naive,0.74,0.4864864864864865,1.0,0.45714285714285713
+shift,23,verifier + LTT,0.62,0.3870967741935484,1.0,0.42857142857142855
+shift,23,verifier + group-wise LTT,0.4,0.2,0.0,0.2
+exchangeable,24,always answer,0.8367346938775511,0.5,1.0,0.5882352941176471
+exchangeable,24,self-consistency + naive,0.7653061224489796,0.48,1.0,0.47058823529411764
+exchangeable,24,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,24,verifier + naive,0.6938775510204082,0.39705882352941174,1.0,0.5882352941176471
+exchangeable,24,verifier + LTT,0.5612244897959183,0.32727272727272727,1.0,0.38235294117647056
+exchangeable,24,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,24,always answer,0.8,0.5875,1.0,0.5428571428571428
+shift,24,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,24,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,24,verifier + naive,0.59,0.4576271186440678,1.0,0.45714285714285713
+shift,24,verifier + LTT,0.59,0.4576271186440678,1.0,0.45714285714285713
+shift,24,verifier + group-wise LTT,0.43,0.27906976744186046,0.0,0.22857142857142856
+exchangeable,25,always answer,0.8163265306122449,0.5,1.0,0.5714285714285714
+exchangeable,25,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,25,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,25,verifier + naive,0.6632653061224489,0.4153846153846154,1.0,0.5357142857142857
+exchangeable,25,verifier + LTT,0.4897959183673469,0.20833333333333334,0.0,0.25
+exchangeable,25,verifier + group-wise LTT,0.4897959183673469,0.20833333333333334,0.0,0.25
+shift,25,always answer,0.79,0.5063291139240507,1.0,0.4857142857142857
+shift,25,self-consistency + naive,0.79,0.5063291139240507,1.0,0.4857142857142857
+shift,25,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,25,verifier + naive,0.76,0.4868421052631579,1.0,0.4857142857142857
+shift,25,verifier + LTT,0.59,0.3559322033898305,1.0,0.42857142857142855
+shift,25,verifier + group-wise LTT,0.49,0.2653061224489796,0.0,0.2571428571428571
+exchangeable,26,always answer,0.8469387755102041,0.43373493975903615,1.0,0.47619047619047616
+exchangeable,26,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,26,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,26,verifier + naive,0.6632653061224489,0.27692307692307694,0.0,0.23809523809523808
+exchangeable,26,verifier + LTT,0.5102040816326531,0.12,0.0,0.09523809523809523
+exchangeable,26,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,26,always answer,0.82,0.5487804878048781,1.0,0.5714285714285714
+shift,26,self-consistency + naive,0.66,0.48484848484848486,1.0,0.4
+shift,26,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,26,verifier + naive,0.69,0.463768115942029,1.0,0.5714285714285714
+shift,26,verifier + LTT,0.64,0.421875,1.0,0.4857142857142857
+shift,26,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.2
+exchangeable,27,always answer,0.7755102040816326,0.34210526315789475,1.0,0.44
+exchangeable,27,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,27,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,27,verifier + naive,0.6224489795918368,0.19672131147540983,0.0,0.32
+exchangeable,27,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,27,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,27,always answer,0.8,0.5625,1.0,0.5428571428571428
+shift,27,self-consistency + naive,0.78,0.5641025641025641,1.0,0.5428571428571428
+shift,27,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,27,verifier + naive,0.69,0.4927536231884058,1.0,0.5428571428571428
+shift,27,verifier + LTT,0.59,0.4067796610169492,1.0,0.4
+shift,27,verifier + group-wise LTT,0.4,0.25,0.0,0.2
+exchangeable,28,always answer,0.8469387755102041,0.43373493975903615,1.0,0.6818181818181818
+exchangeable,28,self-consistency + naive,0.7244897959183674,0.39436619718309857,1.0,0.45454545454545453
+exchangeable,28,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,28,verifier + naive,0.7857142857142857,0.38961038961038963,1.0,0.6818181818181818
+exchangeable,28,verifier + LTT,0.5408163265306123,0.22641509433962265,0.0,0.45454545454545453
+exchangeable,28,verifier + group-wise LTT,0.5,0.20408163265306123,0.0,0.3181818181818182
+shift,28,always answer,0.82,0.4878048780487805,1.0,0.5428571428571428
+shift,28,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,28,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,28,verifier + naive,0.65,0.35384615384615387,1.0,0.45714285714285713
+shift,28,verifier + LTT,0.49,0.24489795918367346,0.0,0.22857142857142856
+shift,28,verifier + group-wise LTT,0.47,0.2127659574468085,0.0,0.2
+exchangeable,29,always answer,0.8163265306122449,0.425,1.0,0.5
+exchangeable,29,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,29,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,29,verifier + naive,0.6122448979591837,0.26666666666666666,0.0,0.2916666666666667
+exchangeable,29,verifier + LTT,0.5408163265306123,0.18867924528301888,0.0,0.16666666666666666
+exchangeable,29,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,29,always answer,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,29,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,29,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,29,verifier + naive,0.68,0.4411764705882353,1.0,0.5142857142857142
+shift,29,verifier + LTT,0.38,0.13157894736842105,0.0,0.08571428571428572
+shift,29,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,30,always answer,0.8163265306122449,0.4125,1.0,0.4166666666666667
+exchangeable,30,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,30,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,30,verifier + naive,0.673469387755102,0.2878787878787879,0.0,0.4166666666666667
+exchangeable,30,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,30,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,30,always answer,0.81,0.49382716049382713,1.0,0.5142857142857142
+shift,30,self-consistency + naive,0.76,0.5,1.0,0.4857142857142857
+shift,30,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,30,verifier + naive,0.78,0.47435897435897434,1.0,0.5142857142857142
+shift,30,verifier + LTT,0.61,0.32786885245901637,1.0,0.4
+shift,30,verifier + group-wise LTT,0.45,0.2,0.0,0.2
+exchangeable,31,always answer,0.7959183673469388,0.358974358974359,1.0,0.391304347826087
+exchangeable,31,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,31,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,31,verifier + naive,0.7448979591836735,0.3150684931506849,1.0,0.391304347826087
+exchangeable,31,verifier + LTT,0.5816326530612245,0.15789473684210525,0.0,0.21739130434782608
+exchangeable,31,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,31,always answer,0.78,0.5512820512820513,1.0,0.4857142857142857
+shift,31,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,31,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,31,verifier + naive,0.64,0.453125,1.0,0.4857142857142857
+shift,31,verifier + LTT,0.58,0.43103448275862066,1.0,0.4
+shift,31,verifier + group-wise LTT,0.38,0.23684210526315788,0.0,0.2
+exchangeable,32,always answer,0.8061224489795918,0.43037974683544306,1.0,0.56
+exchangeable,32,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,32,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,32,verifier + naive,0.6122448979591837,0.26666666666666666,0.0,0.28
+exchangeable,32,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,32,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,32,always answer,0.82,0.4878048780487805,1.0,0.5428571428571428
+shift,32,self-consistency + naive,0.82,0.4878048780487805,1.0,0.5428571428571428
+shift,32,self-consistency + LTT,0.66,0.42424242424242425,1.0,0.37142857142857144
+shift,32,verifier + naive,0.82,0.4878048780487805,1.0,0.5428571428571428
+shift,32,verifier + LTT,0.81,0.48148148148148145,1.0,0.5428571428571428
+shift,32,verifier + group-wise LTT,0.53,0.24528301886792453,0.0,0.2857142857142857
+exchangeable,33,always answer,0.8775510204081632,0.47674418604651164,1.0,0.72
+exchangeable,33,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,33,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,33,verifier + naive,0.5918367346938775,0.27586206896551724,0.0,0.36
+exchangeable,33,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,33,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,33,always answer,0.84,0.5,1.0,0.6285714285714286
+shift,33,self-consistency + naive,0.66,0.45454545454545453,1.0,0.4857142857142857
+shift,33,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,33,verifier + naive,0.75,0.44,1.0,0.6285714285714286
+shift,33,verifier + LTT,0.71,0.4084507042253521,1.0,0.5714285714285714
+shift,33,verifier + group-wise LTT,0.49,0.22448979591836735,0.0,0.22857142857142856
+exchangeable,34,always answer,0.7959183673469388,0.44871794871794873,1.0,0.52
+exchangeable,34,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,34,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,34,verifier + naive,0.5102040816326531,0.22,0.0,0.32
+exchangeable,34,verifier + LTT,0.4897959183673469,0.1875,0.0,0.28
+exchangeable,34,verifier + group-wise LTT,0.19387755102040816,0.3157894736842105,1.0,0.24
+shift,34,always answer,0.75,0.52,1.0,0.45714285714285713
+shift,34,self-consistency + naive,0.6,0.4666666666666667,1.0,0.3142857142857143
+shift,34,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,34,verifier + naive,0.64,0.4375,1.0,0.45714285714285713
+shift,34,verifier + LTT,0.61,0.4098360655737705,1.0,0.42857142857142855
+shift,34,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,35,always answer,0.8163265306122449,0.4125,1.0,0.48148148148148145
+exchangeable,35,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,35,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,35,verifier + naive,0.673469387755102,0.2878787878787879,0.0,0.4074074074074074
+exchangeable,35,verifier + LTT,0.5714285714285714,0.19642857142857142,0.0,0.25925925925925924
+exchangeable,35,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,35,always answer,0.79,0.5443037974683544,1.0,0.5142857142857142
+shift,35,self-consistency + naive,0.76,0.5394736842105263,1.0,0.4857142857142857
+shift,35,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,35,verifier + naive,0.77,0.5324675324675324,1.0,0.5142857142857142
+shift,35,verifier + LTT,0.67,0.4626865671641791,1.0,0.5142857142857142
+shift,35,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,36,always answer,0.8367346938775511,0.4268292682926829,1.0,0.5
+exchangeable,36,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,36,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,36,verifier + naive,0.7551020408163265,0.36486486486486486,1.0,0.5
+exchangeable,36,verifier + LTT,0.6632653061224489,0.27692307692307694,0.0,0.5
+exchangeable,36,verifier + group-wise LTT,0.5714285714285714,0.17857142857142858,0.0,0.2727272727272727
+shift,36,always answer,0.79,0.5316455696202531,1.0,0.5142857142857142
+shift,36,self-consistency + naive,0.62,0.45161290322580644,1.0,0.37142857142857144
+shift,36,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,36,verifier + naive,0.66,0.4393939393939394,1.0,0.5142857142857142
+shift,36,verifier + LTT,0.57,0.3508771929824561,1.0,0.4
+shift,36,verifier + group-wise LTT,0.41,0.1951219512195122,0.0,0.2
+exchangeable,37,always answer,0.8877551020408163,0.40229885057471265,1.0,0.6842105263157895
+exchangeable,37,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,37,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,37,verifier + naive,0.6530612244897959,0.21875,0.0,0.3684210526315789
+exchangeable,37,verifier + LTT,0.5612244897959183,0.10909090909090909,0.0,0.21052631578947367
+exchangeable,37,verifier + group-wise LTT,0.2755102040816326,0.14814814814814814,0.0,0.15789473684210525
+shift,37,always answer,0.79,0.4810126582278481,1.0,0.5428571428571428
+shift,37,self-consistency + naive,0.76,0.47368421052631576,1.0,0.5428571428571428
+shift,37,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,37,verifier + naive,0.7,0.4142857142857143,1.0,0.5428571428571428
+shift,37,verifier + LTT,0.65,0.38461538461538464,1.0,0.5142857142857142
+shift,37,verifier + group-wise LTT,0.47,0.2553191489361702,0.0,0.2571428571428571
+exchangeable,38,always answer,0.8877551020408163,0.42528735632183906,1.0,0.68
+exchangeable,38,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,38,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,38,verifier + naive,0.5714285714285714,0.16071428571428573,0.0,0.28
+exchangeable,38,verifier + LTT,0.5714285714285714,0.16071428571428573,0.0,0.28
+exchangeable,38,verifier + group-wise LTT,0.5612244897959183,0.16363636363636364,0.0,0.28
+shift,38,always answer,0.81,0.5679012345679012,1.0,0.5428571428571428
+shift,38,self-consistency + naive,0.79,0.5569620253164557,1.0,0.5428571428571428
+shift,38,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,38,verifier + naive,0.71,0.5070422535211268,1.0,0.5428571428571428
+shift,38,verifier + LTT,0.67,0.47761194029850745,1.0,0.5142857142857142
+shift,38,verifier + group-wise LTT,0.43,0.2558139534883721,0.0,0.2
+exchangeable,39,always answer,0.8571428571428571,0.4523809523809524,1.0,0.6666666666666666
+exchangeable,39,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,39,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,39,verifier + naive,0.6020408163265306,0.3050847457627119,1.0,0.38095238095238093
+exchangeable,39,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,39,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,39,always answer,0.81,0.5679012345679012,1.0,0.5714285714285714
+shift,39,self-consistency + naive,0.65,0.5384615384615384,1.0,0.45714285714285713
+shift,39,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,39,verifier + naive,0.68,0.4852941176470588,1.0,0.5714285714285714
+shift,39,verifier + LTT,0.59,0.4067796610169492,1.0,0.45714285714285713
+shift,39,verifier + group-wise LTT,0.41,0.1951219512195122,0.0,0.2
+exchangeable,40,always answer,0.7755102040816326,0.34210526315789475,1.0,0.5
+exchangeable,40,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,40,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,40,verifier + naive,0.5714285714285714,0.19642857142857142,0.0,0.25
+exchangeable,40,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,40,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,40,always answer,0.82,0.573170731707317,1.0,0.5714285714285714
+shift,40,self-consistency + naive,0.66,0.5303030303030303,1.0,0.42857142857142855
+shift,40,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,40,verifier + naive,0.71,0.5070422535211268,1.0,0.5714285714285714
+shift,40,verifier + LTT,0.6,0.43333333333333335,1.0,0.42857142857142855
+shift,40,verifier + group-wise LTT,0.46,0.30434782608695654,1.0,0.22857142857142856
+exchangeable,41,always answer,0.8775510204081632,0.3953488372093023,1.0,0.6111111111111112
+exchangeable,41,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,41,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,41,verifier + naive,0.6530612244897959,0.25,0.0,0.4444444444444444
+exchangeable,41,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,41,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,41,always answer,0.8,0.525,1.0,0.4857142857142857
+shift,41,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,41,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,41,verifier + naive,0.64,0.40625,1.0,0.4857142857142857
+shift,41,verifier + LTT,0.6,0.36666666666666664,1.0,0.4
+shift,41,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,42,always answer,0.8571428571428571,0.4523809523809524,1.0,0.5652173913043478
+exchangeable,42,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,42,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,42,verifier + naive,0.6428571428571429,0.31746031746031744,1.0,0.5217391304347826
+exchangeable,42,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,42,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,42,always answer,0.8,0.5625,1.0,0.4857142857142857
+shift,42,self-consistency + naive,0.77,0.5584415584415584,1.0,0.4857142857142857
+shift,42,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,42,verifier + naive,0.77,0.5454545454545454,1.0,0.4857142857142857
+shift,42,verifier + LTT,0.63,0.4444444444444444,1.0,0.4
+shift,42,verifier + group-wise LTT,0.5,0.34,1.0,0.2857142857142857
+exchangeable,43,always answer,0.826530612244898,0.38271604938271603,1.0,0.5454545454545454
+exchangeable,43,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,43,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,43,verifier + naive,0.673469387755102,0.25757575757575757,0.0,0.5
+exchangeable,43,verifier + LTT,0.6020408163265306,0.2033898305084746,0.0,0.2727272727272727
+exchangeable,43,verifier + group-wise LTT,0.5612244897959183,0.16363636363636364,0.0,0.18181818181818182
+shift,43,always answer,0.79,0.5443037974683544,1.0,0.4857142857142857
+shift,43,self-consistency + naive,0.79,0.5443037974683544,1.0,0.4857142857142857
+shift,43,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,43,verifier + naive,0.76,0.5263157894736842,1.0,0.4857142857142857
+shift,43,verifier + LTT,0.6,0.4,1.0,0.4
+shift,43,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,44,always answer,0.7959183673469388,0.5384615384615384,1.0,0.6774193548387096
+exchangeable,44,self-consistency + naive,0.6632653061224489,0.5230769230769231,1.0,0.4838709677419355
+exchangeable,44,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,44,verifier + naive,0.46938775510204084,0.34782608695652173,1.0,0.2903225806451613
+exchangeable,44,verifier + LTT,0.21428571428571427,0.38095238095238093,1.0,0.06451612903225806
+exchangeable,44,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,44,always answer,0.81,0.5555555555555556,1.0,0.6
+shift,44,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,44,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,44,verifier + naive,0.61,0.4098360655737705,1.0,0.4857142857142857
+shift,44,verifier + LTT,0.58,0.39655172413793105,1.0,0.45714285714285713
+shift,44,verifier + group-wise LTT,0.41,0.24390243902439024,0.0,0.22857142857142856
+exchangeable,45,always answer,0.8367346938775511,0.43902439024390244,1.0,0.52
+exchangeable,45,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,45,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,45,verifier + naive,0.6224489795918368,0.2459016393442623,0.0,0.36
+exchangeable,45,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,45,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,45,always answer,0.8,0.525,1.0,0.5428571428571428
+shift,45,self-consistency + naive,0.63,0.5079365079365079,1.0,0.37142857142857144
+shift,45,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,45,verifier + naive,0.67,0.43283582089552236,1.0,0.5428571428571428
+shift,45,verifier + LTT,0.58,0.3620689655172414,1.0,0.4
+shift,45,verifier + group-wise LTT,0.45,0.24444444444444444,0.0,0.2
+exchangeable,46,always answer,0.8979591836734694,0.36363636363636365,1.0,0.7727272727272727
+exchangeable,46,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,46,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,46,verifier + naive,0.7755102040816326,0.27631578947368424,0.0,0.5909090909090909
+exchangeable,46,verifier + LTT,0.6530612244897959,0.203125,0.0,0.3181818181818182
+exchangeable,46,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,46,always answer,0.8,0.4875,1.0,0.5428571428571428
+shift,46,self-consistency + naive,0.78,0.48717948717948717,1.0,0.5428571428571428
+shift,46,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,46,verifier + naive,0.79,0.4810126582278481,1.0,0.5428571428571428
+shift,46,verifier + LTT,0.61,0.3442622950819672,1.0,0.42857142857142855
+shift,46,verifier + group-wise LTT,0.42,0.16666666666666666,0.0,0.2
+exchangeable,47,always answer,0.8367346938775511,0.43902439024390244,1.0,0.55
+exchangeable,47,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,47,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,47,verifier + naive,0.6020408163265306,0.2711864406779661,0.0,0.25
+exchangeable,47,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,47,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,47,always answer,0.8,0.525,1.0,0.5714285714285714
+shift,47,self-consistency + naive,0.76,0.5131578947368421,1.0,0.5714285714285714
+shift,47,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,47,verifier + naive,0.8,0.525,1.0,0.5714285714285714
+shift,47,verifier + LTT,0.6,0.38333333333333336,1.0,0.42857142857142855
+shift,47,verifier + group-wise LTT,0.43,0.2558139534883721,0.0,0.17142857142857143
+exchangeable,48,always answer,0.8469387755102041,0.3614457831325301,1.0,0.625
+exchangeable,48,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,48,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,48,verifier + naive,0.7959183673469388,0.32051282051282054,1.0,0.5833333333333334
+exchangeable,48,verifier + LTT,0.6836734693877551,0.23880597014925373,0.0,0.5416666666666666
+exchangeable,48,verifier + group-wise LTT,0.5612244897959183,0.16363636363636364,0.0,0.2916666666666667
+shift,48,always answer,0.8,0.525,1.0,0.5142857142857142
+shift,48,self-consistency + naive,0.8,0.525,1.0,0.5142857142857142
+shift,48,self-consistency + LTT,0.64,0.484375,1.0,0.42857142857142855
+shift,48,verifier + naive,0.74,0.4864864864864865,1.0,0.5142857142857142
+shift,48,verifier + LTT,0.69,0.4492753623188406,1.0,0.4857142857142857
+shift,48,verifier + group-wise LTT,0.5,0.32,1.0,0.22857142857142856
+exchangeable,49,always answer,0.8367346938775511,0.4268292682926829,1.0,0.52
+exchangeable,49,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,49,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,49,verifier + naive,0.6530612244897959,0.296875,0.0,0.4
+exchangeable,49,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,49,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,49,always answer,0.78,0.48717948717948717,1.0,0.4857142857142857
+shift,49,self-consistency + naive,0.78,0.48717948717948717,1.0,0.4857142857142857
+shift,49,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,49,verifier + naive,0.76,0.47368421052631576,1.0,0.4857142857142857
+shift,49,verifier + LTT,0.65,0.38461538461538464,1.0,0.45714285714285713
+shift,49,verifier + group-wise LTT,0.44,0.18181818181818182,0.0,0.14285714285714285
+exchangeable,50,always answer,0.7755102040816326,0.5,1.0,0.5185185185185185
+exchangeable,50,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,50,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,50,verifier + naive,0.42857142857142855,0.23809523809523808,0.0,0.18518518518518517
+exchangeable,50,verifier + LTT,0.42857142857142855,0.23809523809523808,0.0,0.18518518518518517
+exchangeable,50,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,50,always answer,0.78,0.46153846153846156,1.0,0.5142857142857142
+shift,50,self-consistency + naive,0.63,0.4126984126984127,1.0,0.4
+shift,50,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,50,verifier + naive,0.69,0.391304347826087,1.0,0.5142857142857142
+shift,50,verifier + LTT,0.61,0.32786885245901637,1.0,0.45714285714285713
+shift,50,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,51,always answer,0.8367346938775511,0.3902439024390244,1.0,0.6538461538461539
+exchangeable,51,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,51,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,51,verifier + naive,0.6938775510204082,0.2647058823529412,0.0,0.5384615384615384
+exchangeable,51,verifier + LTT,0.5612244897959183,0.16363636363636364,0.0,0.19230769230769232
+exchangeable,51,verifier + group-wise LTT,0.5408163265306123,0.16981132075471697,0.0,0.19230769230769232
+shift,51,always answer,0.8,0.525,1.0,0.5428571428571428
+shift,51,self-consistency + naive,0.75,0.52,1.0,0.5142857142857142
+shift,51,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,51,verifier + naive,0.77,0.5064935064935064,1.0,0.5428571428571428
+shift,51,verifier + LTT,0.61,0.39344262295081966,1.0,0.42857142857142855
+shift,51,verifier + group-wise LTT,0.39,0.20512820512820512,0.0,0.14285714285714285
+exchangeable,52,always answer,0.8163265306122449,0.375,1.0,0.5416666666666666
+exchangeable,52,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,52,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,52,verifier + naive,0.5612244897959183,0.14545454545454545,0.0,0.3333333333333333
+exchangeable,52,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,52,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,52,always answer,0.83,0.5060240963855421,1.0,0.5428571428571428
+shift,52,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,52,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,52,verifier + naive,0.69,0.4057971014492754,1.0,0.5142857142857142
+shift,52,verifier + LTT,0.65,0.38461538461538464,1.0,0.45714285714285713
+shift,52,verifier + group-wise LTT,0.48,0.25,0.0,0.2571428571428571
+exchangeable,53,always answer,0.8367346938775511,0.34146341463414637,1.0,0.5666666666666667
+exchangeable,53,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,53,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,53,verifier + naive,0.7857142857142857,0.2987012987012987,0.0,0.5666666666666667
+exchangeable,53,verifier + LTT,0.7040816326530612,0.2318840579710145,0.0,0.5333333333333333
+exchangeable,53,verifier + group-wise LTT,0.5612244897959183,0.14545454545454545,0.0,0.3333333333333333
+shift,53,always answer,0.8,0.4625,1.0,0.45714285714285713
+shift,53,self-consistency + naive,0.76,0.4605263157894737,1.0,0.42857142857142855
+shift,53,self-consistency + LTT,0.76,0.4605263157894737,1.0,0.42857142857142855
+shift,53,verifier + naive,0.66,0.3484848484848485,1.0,0.42857142857142855
+shift,53,verifier + LTT,0.8,0.4625,1.0,0.45714285714285713
+shift,53,verifier + group-wise LTT,0.45,0.15555555555555556,0.0,0.2
+exchangeable,54,always answer,0.8163265306122449,0.4375,1.0,0.5185185185185185
+exchangeable,54,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,54,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,54,verifier + naive,0.7040816326530612,0.34782608695652173,1.0,0.4444444444444444
+exchangeable,54,verifier + LTT,0.5714285714285714,0.26785714285714285,0.0,0.25925925925925924
+exchangeable,54,verifier + group-wise LTT,0.5102040816326531,0.22,0.0,0.14814814814814814
+shift,54,always answer,0.81,0.5555555555555556,1.0,0.5714285714285714
+shift,54,self-consistency + naive,0.77,0.5454545454545454,1.0,0.5428571428571428
+shift,54,self-consistency + LTT,0.64,0.5,1.0,0.45714285714285713
+shift,54,verifier + naive,0.8,0.55,1.0,0.5714285714285714
+shift,54,verifier + LTT,0.68,0.47058823529411764,1.0,0.5714285714285714
+shift,54,verifier + group-wise LTT,0.4,0.2,0.0,0.17142857142857143
+exchangeable,55,always answer,0.8061224489795918,0.4050632911392405,1.0,0.5925925925925926
+exchangeable,55,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,55,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,55,verifier + naive,0.6428571428571429,0.2698412698412698,0.0,0.48148148148148145
+exchangeable,55,verifier + LTT,0.5102040816326531,0.14,0.0,0.2222222222222222
+exchangeable,55,verifier + group-wise LTT,0.19387755102040816,0.15789473684210525,0.0,0.1111111111111111
+shift,55,always answer,0.77,0.5454545454545454,1.0,0.4857142857142857
+shift,55,self-consistency + naive,0.73,0.5342465753424658,1.0,0.45714285714285713
+shift,55,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,55,verifier + naive,0.62,0.43548387096774194,1.0,0.45714285714285713
+shift,55,verifier + LTT,0.57,0.40350877192982454,1.0,0.4
+shift,55,verifier + group-wise LTT,0.37,0.16216216216216217,0.0,0.11428571428571428
+exchangeable,56,always answer,0.8469387755102041,0.46987951807228917,1.0,0.46153846153846156
+exchangeable,56,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,56,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,56,verifier + naive,0.7142857142857143,0.37142857142857144,1.0,0.46153846153846156
+exchangeable,56,verifier + LTT,0.5510204081632653,0.24074074074074073,0.0,0.3076923076923077
+exchangeable,56,verifier + group-wise LTT,0.5510204081632653,0.24074074074074073,0.0,0.3076923076923077
+shift,56,always answer,0.79,0.5949367088607594,1.0,0.4857142857142857
+shift,56,self-consistency + naive,0.76,0.5789473684210527,1.0,0.45714285714285713
+shift,56,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,56,verifier + naive,0.78,0.5897435897435898,1.0,0.4857142857142857
+shift,56,verifier + LTT,0.0,0.0,0.0,0.0
+shift,56,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,57,always answer,0.8469387755102041,0.42168674698795183,1.0,0.6296296296296297
+exchangeable,57,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,57,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,57,verifier + naive,0.6224489795918368,0.2786885245901639,0.0,0.4444444444444444
+exchangeable,57,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,57,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,57,always answer,0.79,0.4936708860759494,1.0,0.4857142857142857
+shift,57,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,57,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,57,verifier + naive,0.78,0.48717948717948717,1.0,0.4857142857142857
+shift,57,verifier + LTT,0.61,0.36065573770491804,1.0,0.4
+shift,57,verifier + group-wise LTT,0.45,0.2,0.0,0.22857142857142856
+exchangeable,58,always answer,0.7857142857142857,0.35064935064935066,1.0,0.34782608695652173
+exchangeable,58,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,58,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,58,verifier + naive,0.5306122448979592,0.1346153846153846,0.0,0.13043478260869565
+exchangeable,58,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,58,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,58,always answer,0.82,0.5121951219512195,1.0,0.5428571428571428
+shift,58,self-consistency + naive,0.82,0.5121951219512195,1.0,0.5428571428571428
+shift,58,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,58,verifier + naive,0.7,0.42857142857142855,1.0,0.5428571428571428
+shift,58,verifier + LTT,0.68,0.4117647058823529,1.0,0.4857142857142857
+shift,58,verifier + group-wise LTT,0.46,0.1956521739130435,0.0,0.2
+exchangeable,59,always answer,0.8367346938775511,0.3780487804878049,1.0,0.5
+exchangeable,59,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,59,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,59,verifier + naive,0.7244897959183674,0.28169014084507044,0.0,0.4583333333333333
+exchangeable,59,verifier + LTT,0.2653061224489796,0.15384615384615385,0.0,0.16666666666666666
+exchangeable,59,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,59,always answer,0.8,0.5,1.0,0.4857142857142857
+shift,59,self-consistency + naive,0.75,0.48,1.0,0.45714285714285713
+shift,59,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,59,verifier + naive,0.69,0.42028985507246375,1.0,0.4857142857142857
+shift,59,verifier + LTT,0.59,0.3220338983050847,1.0,0.4
+shift,59,verifier + group-wise LTT,0.43,0.16279069767441862,0.0,0.17142857142857143
+exchangeable,60,always answer,0.8469387755102041,0.3855421686746988,1.0,0.625
+exchangeable,60,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,60,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,60,verifier + naive,0.7857142857142857,0.33766233766233766,1.0,0.625
+exchangeable,60,verifier + LTT,0.5816326530612245,0.14035087719298245,0.0,0.20833333333333334
+exchangeable,60,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,60,always answer,0.82,0.524390243902439,1.0,0.5714285714285714
+shift,60,self-consistency + naive,0.82,0.524390243902439,1.0,0.5714285714285714
+shift,60,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,60,verifier + naive,0.8,0.5125,1.0,0.5714285714285714
+shift,60,verifier + LTT,0.0,0.0,0.0,0.0
+shift,60,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,61,always answer,0.8673469387755102,0.4,1.0,0.6521739130434783
+exchangeable,61,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,61,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,61,verifier + naive,0.5204081632653061,0.11764705882352941,0.0,0.13043478260869565
+exchangeable,61,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,61,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,61,always answer,0.8,0.55,1.0,0.5142857142857142
+shift,61,self-consistency + naive,0.77,0.5324675324675324,1.0,0.4857142857142857
+shift,61,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,61,verifier + naive,0.8,0.55,1.0,0.5142857142857142
+shift,61,verifier + LTT,0.64,0.4375,1.0,0.4857142857142857
+shift,61,verifier + group-wise LTT,0.47,0.2765957446808511,0.0,0.2571428571428571
+exchangeable,62,always answer,0.8469387755102041,0.37349397590361444,1.0,0.5714285714285714
+exchangeable,62,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,62,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,62,verifier + naive,0.5918367346938775,0.15517241379310345,0.0,0.2857142857142857
+exchangeable,62,verifier + LTT,0.5,0.04081632653061224,0.0,0.09523809523809523
+exchangeable,62,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,62,always answer,0.79,0.5189873417721519,1.0,0.5142857142857142
+shift,62,self-consistency + naive,0.79,0.5189873417721519,1.0,0.5142857142857142
+shift,62,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,62,verifier + naive,0.69,0.4492753623188406,1.0,0.5142857142857142
+shift,62,verifier + LTT,0.56,0.375,1.0,0.4
+shift,62,verifier + group-wise LTT,0.45,0.24444444444444444,0.0,0.2
+exchangeable,63,always answer,0.8163265306122449,0.4125,1.0,0.55
+exchangeable,63,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,63,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,63,verifier + naive,0.6326530612244898,0.27419354838709675,0.0,0.45
+exchangeable,63,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,63,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,63,always answer,0.82,0.5,1.0,0.6
+shift,63,self-consistency + naive,0.77,0.4935064935064935,1.0,0.5714285714285714
+shift,63,self-consistency + LTT,0.77,0.4935064935064935,1.0,0.5714285714285714
+shift,63,verifier + naive,0.82,0.5,1.0,0.6
+shift,63,verifier + LTT,0.82,0.5,1.0,0.6
+shift,63,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,64,always answer,0.8469387755102041,0.4578313253012048,1.0,0.6190476190476191
+exchangeable,64,self-consistency + naive,0.7346938775510204,0.4166666666666667,1.0,0.5714285714285714
+exchangeable,64,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,64,verifier + naive,0.7653061224489796,0.4,1.0,0.6190476190476191
+exchangeable,64,verifier + LTT,0.6530612244897959,0.296875,0.0,0.42857142857142855
+exchangeable,64,verifier + group-wise LTT,0.5204081632653061,0.1568627450980392,0.0,0.09523809523809523
+shift,64,always answer,0.81,0.6049382716049383,1.0,0.5428571428571428
+shift,64,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,64,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,64,verifier + naive,0.62,0.4838709677419355,1.0,0.5142857142857142
+shift,64,verifier + LTT,0.53,0.41509433962264153,1.0,0.4
+shift,64,verifier + group-wise LTT,0.39,0.2564102564102564,0.0,0.17142857142857143
+exchangeable,65,always answer,0.7959183673469388,0.3974358974358974,1.0,0.52
+exchangeable,65,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,65,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,65,verifier + naive,0.4897959183673469,0.125,0.0,0.16
+exchangeable,65,verifier + LTT,0.4897959183673469,0.125,0.0,0.16
+exchangeable,65,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,65,always answer,0.86,0.5116279069767442,1.0,0.6285714285714286
+shift,65,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,65,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,65,verifier + naive,0.62,0.3387096774193548,1.0,0.4857142857142857
+shift,65,verifier + LTT,0.51,0.23529411764705882,0.0,0.2857142857142857
+shift,65,verifier + group-wise LTT,0.51,0.23529411764705882,0.0,0.2857142857142857
+exchangeable,66,always answer,0.8775510204081632,0.38372093023255816,1.0,0.55
+exchangeable,66,self-consistency + naive,0.8061224489795918,0.3670886075949367,1.0,0.5
+exchangeable,66,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,66,verifier + naive,0.6530612244897959,0.234375,0.0,0.3
+exchangeable,66,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,66,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,66,always answer,0.77,0.5324675324675324,1.0,0.4857142857142857
+shift,66,self-consistency + naive,0.75,0.5333333333333333,1.0,0.4857142857142857
+shift,66,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,66,verifier + naive,0.76,0.5263157894736842,1.0,0.4857142857142857
+shift,66,verifier + LTT,0.71,0.49295774647887325,1.0,0.4857142857142857
+shift,66,verifier + group-wise LTT,0.42,0.21428571428571427,0.0,0.17142857142857143
+exchangeable,67,always answer,0.8367346938775511,0.45121951219512196,1.0,0.6190476190476191
+exchangeable,67,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,67,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,67,verifier + naive,0.5612244897959183,0.2727272727272727,0.0,0.38095238095238093
+exchangeable,67,verifier + LTT,0.21428571428571427,0.14285714285714285,0.0,0.14285714285714285
+exchangeable,67,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,67,always answer,0.83,0.5542168674698795,1.0,0.5428571428571428
+shift,67,self-consistency + naive,0.83,0.5542168674698795,1.0,0.5428571428571428
+shift,67,self-consistency + LTT,0.64,0.515625,1.0,0.42857142857142855
+shift,67,verifier + naive,0.7,0.4714285714285714,1.0,0.5428571428571428
+shift,67,verifier + LTT,0.67,0.44776119402985076,1.0,0.5142857142857142
+shift,67,verifier + group-wise LTT,0.43,0.2558139534883721,0.0,0.2571428571428571
+exchangeable,68,always answer,0.8061224489795918,0.35443037974683544,1.0,0.4444444444444444
+exchangeable,68,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,68,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,68,verifier + naive,0.6020408163265306,0.2033898305084746,0.0,0.25925925925925924
+exchangeable,68,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,68,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,68,always answer,0.81,0.5308641975308642,1.0,0.5428571428571428
+shift,68,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,68,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,68,verifier + naive,0.62,0.3870967741935484,1.0,0.4857142857142857
+shift,68,verifier + LTT,0.47,0.2553191489361702,0.0,0.2571428571428571
+shift,68,verifier + group-wise LTT,0.19,0.21052631578947367,0.0,0.08571428571428572
+exchangeable,69,always answer,0.8571428571428571,0.2261904761904762,0.0,0.65
+exchangeable,69,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,69,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,69,verifier + naive,0.6224489795918368,0.06557377049180328,0.0,0.25
+exchangeable,69,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,69,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,69,always answer,0.8,0.5375,1.0,0.5428571428571428
+shift,69,self-consistency + naive,0.65,0.49230769230769234,1.0,0.45714285714285713
+shift,69,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,69,verifier + naive,0.68,0.45588235294117646,1.0,0.5428571428571428
+shift,69,verifier + LTT,0.62,0.4032258064516129,1.0,0.4857142857142857
+shift,69,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.2
+exchangeable,70,always answer,0.8061224489795918,0.3924050632911392,1.0,0.5714285714285714
+exchangeable,70,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,70,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,70,verifier + naive,0.5918367346938775,0.2413793103448276,0.0,0.32142857142857145
+exchangeable,70,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,70,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,70,always answer,0.81,0.5308641975308642,1.0,0.5428571428571428
+shift,70,self-consistency + naive,0.77,0.5324675324675324,1.0,0.5428571428571428
+shift,70,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,70,verifier + naive,0.79,0.5189873417721519,1.0,0.5428571428571428
+shift,70,verifier + LTT,0.65,0.4153846153846154,1.0,0.4857142857142857
+shift,70,verifier + group-wise LTT,0.47,0.2765957446808511,0.0,0.22857142857142856
+exchangeable,71,always answer,0.8877551020408163,0.367816091954023,1.0,0.6
+exchangeable,71,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,71,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,71,verifier + naive,0.5918367346938775,0.13793103448275862,0.0,0.2
+exchangeable,71,verifier + LTT,0.5918367346938775,0.13793103448275862,0.0,0.2
+exchangeable,71,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,71,always answer,0.8,0.55,1.0,0.5142857142857142
+shift,71,self-consistency + naive,0.8,0.55,1.0,0.5142857142857142
+shift,71,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,71,verifier + naive,0.65,0.4461538461538462,1.0,0.4857142857142857
+shift,71,verifier + LTT,0.6,0.4166666666666667,1.0,0.42857142857142855
+shift,71,verifier + group-wise LTT,0.4,0.25,0.0,0.14285714285714285
+exchangeable,72,always answer,0.7959183673469388,0.3974358974358974,1.0,0.4230769230769231
+exchangeable,72,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,72,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,72,verifier + naive,0.5918367346938775,0.20689655172413793,0.0,0.11538461538461539
+exchangeable,72,verifier + LTT,0.5408163265306123,0.1320754716981132,0.0,0.07692307692307693
+exchangeable,72,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,72,always answer,0.8,0.6,1.0,0.5142857142857142
+shift,72,self-consistency + naive,0.8,0.6,1.0,0.5142857142857142
+shift,72,self-consistency + LTT,0.62,0.5483870967741935,1.0,0.37142857142857144
+shift,72,verifier + naive,0.79,0.5949367088607594,1.0,0.5142857142857142
+shift,72,verifier + LTT,0.63,0.49206349206349204,1.0,0.4857142857142857
+shift,72,verifier + group-wise LTT,0.4,0.275,0.0,0.2
+exchangeable,73,always answer,0.8877551020408163,0.45977011494252873,1.0,0.5769230769230769
+exchangeable,73,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,73,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,73,verifier + naive,0.8061224489795918,0.4050632911392405,1.0,0.5769230769230769
+exchangeable,73,verifier + LTT,0.673469387755102,0.30303030303030304,1.0,0.46153846153846156
+exchangeable,73,verifier + group-wise LTT,0.5204081632653061,0.17647058823529413,0.0,0.19230769230769232
+shift,73,always answer,0.82,0.5365853658536586,1.0,0.5428571428571428
+shift,73,self-consistency + naive,0.79,0.5316455696202531,1.0,0.5142857142857142
+shift,73,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,73,verifier + naive,0.82,0.5365853658536586,1.0,0.5428571428571428
+shift,73,verifier + LTT,0.65,0.4153846153846154,1.0,0.5142857142857142
+shift,73,verifier + group-wise LTT,0.43,0.23255813953488372,0.0,0.22857142857142856
+exchangeable,74,always answer,0.8061224489795918,0.3924050632911392,1.0,0.5357142857142857
+exchangeable,74,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,74,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,74,verifier + naive,0.6530612244897959,0.265625,0.0,0.39285714285714285
+exchangeable,74,verifier + LTT,0.5,0.12244897959183673,0.0,0.21428571428571427
+exchangeable,74,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,74,always answer,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,74,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,74,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,74,verifier + naive,0.7,0.44285714285714284,1.0,0.5714285714285714
+shift,74,verifier + LTT,0.6,0.35,1.0,0.45714285714285713
+shift,74,verifier + group-wise LTT,0.45,0.2,0.0,0.2
+exchangeable,75,always answer,0.8469387755102041,0.37349397590361444,1.0,0.5909090909090909
+exchangeable,75,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,75,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,75,verifier + naive,0.5612244897959183,0.16363636363636364,0.0,0.3181818181818182
+exchangeable,75,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,75,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,75,always answer,0.8,0.6125,1.0,0.5142857142857142
+shift,75,self-consistency + naive,0.8,0.6125,1.0,0.5142857142857142
+shift,75,self-consistency + LTT,0.8,0.6125,1.0,0.5142857142857142
+shift,75,verifier + naive,0.79,0.6075949367088608,1.0,0.5142857142857142
+shift,75,verifier + LTT,0.79,0.6075949367088608,1.0,0.5142857142857142
+shift,75,verifier + group-wise LTT,0.35,0.2571428571428571,0.0,0.22857142857142856
+exchangeable,76,always answer,0.8469387755102041,0.3253012048192771,1.0,0.5909090909090909
+exchangeable,76,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,76,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,76,verifier + naive,0.6020408163265306,0.13559322033898305,0.0,0.2727272727272727
+exchangeable,76,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,76,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,76,always answer,0.8,0.5625,1.0,0.5714285714285714
+shift,76,self-consistency + naive,0.78,0.5641025641025641,1.0,0.5714285714285714
+shift,76,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,76,verifier + naive,0.8,0.5625,1.0,0.5714285714285714
+shift,76,verifier + LTT,0.64,0.46875,1.0,0.5428571428571428
+shift,76,verifier + group-wise LTT,0.44,0.25,0.0,0.22857142857142856
+exchangeable,77,always answer,0.8571428571428571,0.4166666666666667,1.0,0.6666666666666666
+exchangeable,77,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,77,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,77,verifier + naive,0.6122448979591837,0.26666666666666666,0.0,0.4583333333333333
+exchangeable,77,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,77,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,77,always answer,0.81,0.5925925925925926,1.0,0.5714285714285714
+shift,77,self-consistency + naive,0.76,0.5921052631578947,1.0,0.5428571428571428
+shift,77,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,77,verifier + naive,0.81,0.5925925925925926,1.0,0.5714285714285714
+shift,77,verifier + LTT,0.6,0.45,1.0,0.42857142857142855
+shift,77,verifier + group-wise LTT,0.39,0.28205128205128205,0.0,0.2
+exchangeable,78,always answer,0.8673469387755102,0.43529411764705883,1.0,0.6923076923076923
+exchangeable,78,self-consistency + naive,0.7244897959183674,0.4225352112676056,1.0,0.5769230769230769
+exchangeable,78,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,78,verifier + naive,0.826530612244898,0.4074074074074074,1.0,0.6923076923076923
+exchangeable,78,verifier + LTT,0.7040816326530612,0.3188405797101449,1.0,0.5769230769230769
+exchangeable,78,verifier + group-wise LTT,0.5306122448979592,0.19230769230769232,0.0,0.2692307692307692
+shift,78,always answer,0.78,0.5128205128205128,1.0,0.4857142857142857
+shift,78,self-consistency + naive,0.77,0.5064935064935064,1.0,0.45714285714285713
+shift,78,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,78,verifier + naive,0.67,0.43283582089552236,1.0,0.4857142857142857
+shift,78,verifier + LTT,0.58,0.3448275862068966,1.0,0.37142857142857144
+shift,78,verifier + group-wise LTT,0.41,0.1951219512195122,0.0,0.2
+exchangeable,79,always answer,0.8163265306122449,0.3625,1.0,0.5517241379310345
+exchangeable,79,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,79,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,79,verifier + naive,0.7551020408163265,0.3108108108108108,1.0,0.5172413793103449
+exchangeable,79,verifier + LTT,0.5714285714285714,0.16071428571428573,0.0,0.3103448275862069
+exchangeable,79,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,79,always answer,0.82,0.524390243902439,1.0,0.5714285714285714
+shift,79,self-consistency + naive,0.78,0.5256410256410257,1.0,0.5428571428571428
+shift,79,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,79,verifier + naive,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,79,verifier + LTT,0.69,0.43478260869565216,1.0,0.5428571428571428
+shift,79,verifier + group-wise LTT,0.45,0.2222222222222222,0.0,0.2
+exchangeable,80,always answer,0.8469387755102041,0.3132530120481928,1.0,0.5652173913043478
+exchangeable,80,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,80,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,80,verifier + naive,0.8061224489795918,0.27848101265822783,0.0,0.5652173913043478
+exchangeable,80,verifier + LTT,0.6836734693877551,0.16417910447761194,0.0,0.34782608695652173
+exchangeable,80,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,80,always answer,0.79,0.5569620253164557,1.0,0.5714285714285714
+shift,80,self-consistency + naive,0.74,0.5540540540540541,1.0,0.5428571428571428
+shift,80,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,80,verifier + naive,0.76,0.5394736842105263,1.0,0.5714285714285714
+shift,80,verifier + LTT,0.65,0.46153846153846156,1.0,0.5428571428571428
+shift,80,verifier + group-wise LTT,0.43,0.23255813953488372,0.0,0.2
+exchangeable,81,always answer,0.8163265306122449,0.375,1.0,0.5238095238095238
+exchangeable,81,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,81,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,81,verifier + naive,0.7448979591836735,0.3150684931506849,1.0,0.5238095238095238
+exchangeable,81,verifier + LTT,0.5306122448979592,0.17307692307692307,0.0,0.19047619047619047
+exchangeable,81,verifier + group-wise LTT,0.5,0.14285714285714285,0.0,0.09523809523809523
+shift,81,always answer,0.76,0.5657894736842105,1.0,0.5142857142857142
+shift,81,self-consistency + naive,0.59,0.5084745762711864,1.0,0.37142857142857144
+shift,81,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,81,verifier + naive,0.69,0.5217391304347826,1.0,0.5142857142857142
+shift,81,verifier + LTT,0.6,0.45,1.0,0.45714285714285713
+shift,81,verifier + group-wise LTT,0.41,0.2926829268292683,0.0,0.22857142857142856
+exchangeable,82,always answer,0.8979591836734694,0.45454545454545453,1.0,0.7407407407407407
+exchangeable,82,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,82,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,82,verifier + naive,0.7142857142857143,0.3142857142857143,1.0,0.6666666666666666
+exchangeable,82,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,82,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,82,always answer,0.83,0.5662650602409639,1.0,0.6
+shift,82,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,82,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,82,verifier + naive,0.71,0.49295774647887325,1.0,0.6
+shift,82,verifier + LTT,0.43,0.2558139534883721,0.0,0.2857142857142857
+shift,82,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.2571428571428571
+exchangeable,83,always answer,0.8163265306122449,0.475,1.0,0.6
+exchangeable,83,self-consistency + naive,0.6836734693877551,0.4925373134328358,1.0,0.52
+exchangeable,83,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,83,verifier + naive,0.7040816326530612,0.391304347826087,1.0,0.56
+exchangeable,83,verifier + LTT,0.47959183673469385,0.19148936170212766,0.0,0.32
+exchangeable,83,verifier + group-wise LTT,0.47959183673469385,0.19148936170212766,0.0,0.32
+shift,83,always answer,0.79,0.5316455696202531,1.0,0.5428571428571428
+shift,83,self-consistency + naive,0.75,0.52,1.0,0.5428571428571428
+shift,83,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,83,verifier + naive,0.67,0.44776119402985076,1.0,0.5428571428571428
+shift,83,verifier + LTT,0.63,0.4126984126984127,1.0,0.4857142857142857
+shift,83,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.17142857142857143
+exchangeable,84,always answer,0.8469387755102041,0.40963855421686746,1.0,0.4166666666666667
+exchangeable,84,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,84,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,84,verifier + naive,0.6632653061224489,0.26153846153846155,0.0,0.3333333333333333
+exchangeable,84,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,84,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,84,always answer,0.79,0.5316455696202531,1.0,0.5428571428571428
+shift,84,self-consistency + naive,0.77,0.5324675324675324,1.0,0.5428571428571428
+shift,84,self-consistency + LTT,0.64,0.5,1.0,0.42857142857142855
+shift,84,verifier + naive,0.7,0.4714285714285714,1.0,0.5428571428571428
+shift,84,verifier + LTT,0.67,0.44776119402985076,1.0,0.5142857142857142
+shift,84,verifier + group-wise LTT,0.45,0.28888888888888886,0.0,0.2857142857142857
+exchangeable,85,always answer,0.8673469387755102,0.3411764705882353,1.0,0.5714285714285714
+exchangeable,85,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,85,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,85,verifier + naive,0.6224489795918368,0.13114754098360656,0.0,0.23809523809523808
+exchangeable,85,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,85,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,85,always answer,0.81,0.5679012345679012,1.0,0.5428571428571428
+shift,85,self-consistency + naive,0.81,0.5679012345679012,1.0,0.5428571428571428
+shift,85,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,85,verifier + naive,0.66,0.4696969696969697,1.0,0.5428571428571428
+shift,85,verifier + LTT,0.62,0.43548387096774194,1.0,0.5142857142857142
+shift,85,verifier + group-wise LTT,0.44,0.25,0.0,0.22857142857142856
+exchangeable,86,always answer,0.8469387755102041,0.3493975903614458,1.0,0.52
+exchangeable,86,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,86,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,86,verifier + naive,0.5918367346938775,0.13793103448275862,0.0,0.28
+exchangeable,86,verifier + LTT,0.5918367346938775,0.13793103448275862,0.0,0.28
+exchangeable,86,verifier + group-wise LTT,0.5306122448979592,0.1346153846153846,0.0,0.24
+shift,86,always answer,0.77,0.5324675324675324,1.0,0.4857142857142857
+shift,86,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,86,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,86,verifier + naive,0.63,0.42857142857142855,1.0,0.4857142857142857
+shift,86,verifier + LTT,0.56,0.375,1.0,0.4
+shift,86,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,87,always answer,0.8571428571428571,0.44047619047619047,1.0,0.6923076923076923
+exchangeable,87,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,87,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,87,verifier + naive,0.6836734693877551,0.3283582089552239,1.0,0.5
+exchangeable,87,verifier + LTT,0.5714285714285714,0.21428571428571427,0.0,0.3076923076923077
+exchangeable,87,verifier + group-wise LTT,0.3163265306122449,0.25806451612903225,0.0,0.2692307692307692
+shift,87,always answer,0.81,0.5432098765432098,1.0,0.5428571428571428
+shift,87,self-consistency + naive,0.79,0.5316455696202531,1.0,0.5428571428571428
+shift,87,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,87,verifier + naive,0.79,0.5316455696202531,1.0,0.5428571428571428
+shift,87,verifier + LTT,0.46,0.2826086956521739,0.0,0.2571428571428571
+shift,87,verifier + group-wise LTT,0.44,0.25,0.0,0.22857142857142856
+exchangeable,88,always answer,0.7448979591836735,0.3013698630136986,1.0,0.4482758620689655
+exchangeable,88,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,88,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,88,verifier + naive,0.5204081632653061,0.0784313725490196,0.0,0.20689655172413793
+exchangeable,88,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,88,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,88,always answer,0.8,0.5125,1.0,0.5714285714285714
+shift,88,self-consistency + naive,0.77,0.4935064935064935,1.0,0.5428571428571428
+shift,88,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,88,verifier + naive,0.79,0.5063291139240507,1.0,0.5714285714285714
+shift,88,verifier + LTT,0.64,0.390625,1.0,0.5142857142857142
+shift,88,verifier + group-wise LTT,0.47,0.2553191489361702,0.0,0.22857142857142856
+exchangeable,89,always answer,0.7959183673469388,0.44871794871794873,1.0,0.4838709677419355
+exchangeable,89,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,89,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,89,verifier + naive,0.7551020408163265,0.4189189189189189,1.0,0.4838709677419355
+exchangeable,89,verifier + LTT,0.5918367346938775,0.27586206896551724,0.0,0.2903225806451613
+exchangeable,89,verifier + group-wise LTT,0.4897959183673469,0.14583333333333334,0.0,0.1935483870967742
+shift,89,always answer,0.74,0.5135135135135135,1.0,0.42857142857142855
+shift,89,self-consistency + naive,0.69,0.4927536231884058,1.0,0.4
+shift,89,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,89,verifier + naive,0.72,0.5,1.0,0.42857142857142855
+shift,89,verifier + LTT,0.62,0.41935483870967744,1.0,0.42857142857142855
+shift,89,verifier + group-wise LTT,0.41,0.1951219512195122,0.0,0.17142857142857143
+exchangeable,90,always answer,0.8469387755102041,0.4578313253012048,1.0,0.5652173913043478
+exchangeable,90,self-consistency + naive,0.6836734693877551,0.40298507462686567,1.0,0.43478260869565216
+exchangeable,90,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,90,verifier + naive,0.8061224489795918,0.43037974683544306,1.0,0.5652173913043478
+exchangeable,90,verifier + LTT,0.5816326530612245,0.24561403508771928,0.0,0.2608695652173913
+exchangeable,90,verifier + group-wise LTT,0.2653061224489796,0.2692307692307692,0.0,0.17391304347826086
+shift,90,always answer,0.79,0.5822784810126582,1.0,0.5428571428571428
+shift,90,self-consistency + naive,0.79,0.5822784810126582,1.0,0.5428571428571428
+shift,90,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,90,verifier + naive,0.76,0.5657894736842105,1.0,0.5428571428571428
+shift,90,verifier + LTT,0.59,0.4406779661016949,1.0,0.42857142857142855
+shift,90,verifier + group-wise LTT,0.39,0.28205128205128205,0.0,0.2
+exchangeable,91,always answer,0.8061224489795918,0.46835443037974683,1.0,0.5185185185185185
+exchangeable,91,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,91,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,91,verifier + naive,0.7551020408163265,0.43243243243243246,1.0,0.48148148148148145
+exchangeable,91,verifier + LTT,0.6326530612244898,0.3387096774193548,1.0,0.37037037037037035
+exchangeable,91,verifier + group-wise LTT,0.46938775510204084,0.17391304347826086,0.0,0.1111111111111111
+shift,91,always answer,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,91,self-consistency + naive,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,91,self-consistency + LTT,0.66,0.4696969696969697,1.0,0.42857142857142855
+shift,91,verifier + naive,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,91,verifier + LTT,0.71,0.4507042253521127,1.0,0.5714285714285714
+shift,91,verifier + group-wise LTT,0.46,0.1956521739130435,0.0,0.2
+exchangeable,92,always answer,0.8673469387755102,0.3176470588235294,1.0,0.5
+exchangeable,92,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,92,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,92,verifier + naive,0.6938775510204082,0.19117647058823528,0.0,0.3181818181818182
+exchangeable,92,verifier + LTT,0.6326530612244898,0.12903225806451613,0.0,0.22727272727272727
+exchangeable,92,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,92,always answer,0.81,0.5432098765432098,1.0,0.5142857142857142
+shift,92,self-consistency + naive,0.66,0.48484848484848486,1.0,0.4
+shift,92,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,92,verifier + naive,0.66,0.4393939393939394,1.0,0.4857142857142857
+shift,92,verifier + LTT,0.61,0.4098360655737705,1.0,0.42857142857142855
+shift,92,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,93,always answer,0.8469387755102041,0.40963855421686746,1.0,0.38095238095238093
+exchangeable,93,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,93,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,93,verifier + naive,0.7244897959183674,0.30985915492957744,1.0,0.3333333333333333
+exchangeable,93,verifier + LTT,0.5612244897959183,0.14545454545454545,0.0,0.23809523809523808
+exchangeable,93,verifier + group-wise LTT,0.5510204081632653,0.12962962962962962,0.0,0.23809523809523808
+shift,93,always answer,0.8,0.5375,1.0,0.5428571428571428
+shift,93,self-consistency + naive,0.76,0.5263157894736842,1.0,0.5142857142857142
+shift,93,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,93,verifier + naive,0.8,0.5375,1.0,0.5428571428571428
+shift,93,verifier + LTT,0.58,0.3620689655172414,1.0,0.37142857142857144
+shift,93,verifier + group-wise LTT,0.43,0.23255813953488372,0.0,0.2
+exchangeable,94,always answer,0.8061224489795918,0.4177215189873418,1.0,0.4
+exchangeable,94,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,94,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,94,verifier + naive,0.6632653061224489,0.2923076923076923,0.0,0.4
+exchangeable,94,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,94,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,94,always answer,0.79,0.4936708860759494,1.0,0.5428571428571428
+shift,94,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,94,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,94,verifier + naive,0.67,0.40298507462686567,1.0,0.4857142857142857
+shift,94,verifier + LTT,0.63,0.36507936507936506,1.0,0.42857142857142855
+shift,94,verifier + group-wise LTT,0.46,0.21739130434782608,0.0,0.2
+exchangeable,95,always answer,0.8163265306122449,0.4125,1.0,0.44
+exchangeable,95,self-consistency + naive,0.7244897959183674,0.39436619718309857,1.0,0.44
+exchangeable,95,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,95,verifier + naive,0.6632653061224489,0.27692307692307694,0.0,0.4
+exchangeable,95,verifier + LTT,0.6122448979591837,0.21666666666666667,0.0,0.32
+exchangeable,95,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,95,always answer,0.81,0.5555555555555556,1.0,0.5142857142857142
+shift,95,self-consistency + naive,0.81,0.5555555555555556,1.0,0.5142857142857142
+shift,95,self-consistency + LTT,0.76,0.5394736842105263,1.0,0.4857142857142857
+shift,95,verifier + naive,0.66,0.45454545454545453,1.0,0.4857142857142857
+shift,95,verifier + LTT,0.81,0.5555555555555556,1.0,0.5142857142857142
+shift,95,verifier + group-wise LTT,0.43,0.27906976744186046,0.0,0.2
+exchangeable,96,always answer,0.7755102040816326,0.4605263157894737,1.0,0.47619047619047616
+exchangeable,96,self-consistency + naive,0.6632653061224489,0.4153846153846154,1.0,0.42857142857142855
+exchangeable,96,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,96,verifier + naive,0.7755102040816326,0.4605263157894737,1.0,0.47619047619047616
+exchangeable,96,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,96,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,96,always answer,0.79,0.5189873417721519,1.0,0.4857142857142857
+shift,96,self-consistency + naive,0.79,0.5189873417721519,1.0,0.4857142857142857
+shift,96,self-consistency + LTT,0.65,0.46153846153846156,1.0,0.4
+shift,96,verifier + naive,0.78,0.5128205128205128,1.0,0.4857142857142857
+shift,96,verifier + LTT,0.66,0.42424242424242425,1.0,0.45714285714285713
+shift,96,verifier + group-wise LTT,0.46,0.2391304347826087,0.0,0.17142857142857143
+exchangeable,97,always answer,0.8367346938775511,0.32926829268292684,1.0,0.6363636363636364
+exchangeable,97,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,97,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,97,verifier + naive,0.6836734693877551,0.19402985074626866,0.0,0.5
+exchangeable,97,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,97,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,97,always answer,0.8,0.5375,1.0,0.5142857142857142
+shift,97,self-consistency + naive,0.62,0.46774193548387094,1.0,0.34285714285714286
+shift,97,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,97,verifier + naive,0.66,0.4393939393939394,1.0,0.4857142857142857
+shift,97,verifier + LTT,0.62,0.4032258064516129,1.0,0.42857142857142855
+shift,97,verifier + group-wise LTT,0.49,0.2857142857142857,0.0,0.22857142857142856
+exchangeable,98,always answer,0.8469387755102041,0.3253012048192771,1.0,0.5714285714285714
+exchangeable,98,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,98,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,98,verifier + naive,0.6224489795918368,0.11475409836065574,0.0,0.3333333333333333
+exchangeable,98,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,98,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,98,always answer,0.81,0.5185185185185185,1.0,0.5714285714285714
+shift,98,self-consistency + naive,0.76,0.5131578947368421,1.0,0.5428571428571428
+shift,98,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,98,verifier + naive,0.7,0.44285714285714284,1.0,0.5714285714285714
+shift,98,verifier + LTT,0.66,0.4090909090909091,1.0,0.5714285714285714
+shift,98,verifier + group-wise LTT,0.48,0.2916666666666667,0.0,0.3142857142857143
+exchangeable,99,always answer,0.7857142857142857,0.5454545454545454,1.0,0.4642857142857143
+exchangeable,99,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,99,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,99,verifier + naive,0.5510204081632653,0.37037037037037035,1.0,0.35714285714285715
+exchangeable,99,verifier + LTT,0.45918367346938777,0.24444444444444444,0.0,0.17857142857142858
+exchangeable,99,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,99,always answer,0.8,0.5,1.0,0.5714285714285714
+shift,99,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,99,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,99,verifier + naive,0.74,0.4594594594594595,1.0,0.5714285714285714
+shift,99,verifier + LTT,0.62,0.3548387096774194,1.0,0.42857142857142855
+shift,99,verifier + group-wise LTT,0.49,0.22448979591836735,0.0,0.2571428571428571
+exchangeable,100,always answer,0.8061224489795918,0.4050632911392405,1.0,0.5925925925925926
+exchangeable,100,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,100,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,100,verifier + naive,0.673469387755102,0.2878787878787879,0.0,0.48148148148148145
+exchangeable,100,verifier + LTT,0.5102040816326531,0.18,0.0,0.25925925925925924
+exchangeable,100,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,100,always answer,0.78,0.46153846153846156,1.0,0.45714285714285713
+shift,100,self-consistency + naive,0.63,0.4444444444444444,1.0,0.34285714285714286
+shift,100,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,100,verifier + naive,0.69,0.391304347826087,1.0,0.45714285714285713
+shift,100,verifier + LTT,0.63,0.3333333333333333,1.0,0.4
+shift,100,verifier + group-wise LTT,0.44,0.20454545454545456,0.0,0.14285714285714285
+exchangeable,101,always answer,0.9183673469387755,0.4,1.0,0.7368421052631579
+exchangeable,101,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,101,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,101,verifier + naive,0.5816326530612245,0.17543859649122806,0.0,0.3157894736842105
+exchangeable,101,verifier + LTT,0.3163265306122449,0.16129032258064516,0.0,0.21052631578947367
+exchangeable,101,verifier + group-wise LTT,0.2857142857142857,0.17857142857142858,0.0,0.21052631578947367
+shift,101,always answer,0.78,0.5641025641025641,1.0,0.5142857142857142
+shift,101,self-consistency + naive,0.62,0.532258064516129,1.0,0.4
+shift,101,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,101,verifier + naive,0.63,0.47619047619047616,1.0,0.5142857142857142
+shift,101,verifier + LTT,0.62,0.46774193548387094,1.0,0.5142857142857142
+shift,101,verifier + group-wise LTT,0.42,0.3333333333333333,1.0,0.2571428571428571
+exchangeable,102,always answer,0.7755102040816326,0.32894736842105265,1.0,0.2916666666666667
+exchangeable,102,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,102,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,102,verifier + naive,0.5510204081632653,0.12962962962962962,0.0,0.16666666666666666
+exchangeable,102,verifier + LTT,0.24489795918367346,0.125,0.0,0.125
+exchangeable,102,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,102,always answer,0.78,0.5128205128205128,1.0,0.5142857142857142
+shift,102,self-consistency + naive,0.78,0.5128205128205128,1.0,0.5142857142857142
+shift,102,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,102,verifier + naive,0.76,0.5,1.0,0.5142857142857142
+shift,102,verifier + LTT,0.67,0.43283582089552236,1.0,0.4857142857142857
+shift,102,verifier + group-wise LTT,0.45,0.2222222222222222,0.0,0.22857142857142856
+exchangeable,103,always answer,0.826530612244898,0.4567901234567901,1.0,0.64
+exchangeable,103,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,103,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,103,verifier + naive,0.6428571428571429,0.30158730158730157,1.0,0.44
+exchangeable,103,verifier + LTT,0.5306122448979592,0.19230769230769232,0.0,0.28
+exchangeable,103,verifier + group-wise LTT,0.5,0.14285714285714285,0.0,0.24
+shift,103,always answer,0.79,0.5443037974683544,1.0,0.4857142857142857
+shift,103,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,103,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,103,verifier + naive,0.61,0.4098360655737705,1.0,0.45714285714285713
+shift,103,verifier + LTT,0.44,0.2727272727272727,0.0,0.2
+shift,103,verifier + group-wise LTT,0.2,0.3,0.0,0.11428571428571428
+exchangeable,104,always answer,0.8163265306122449,0.3625,1.0,0.5454545454545454
+exchangeable,104,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,104,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,104,verifier + naive,0.6938775510204082,0.27941176470588236,0.0,0.4090909090909091
+exchangeable,104,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,104,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,104,always answer,0.74,0.5675675675675675,1.0,0.42857142857142855
+shift,104,self-consistency + naive,0.74,0.5675675675675675,1.0,0.42857142857142855
+shift,104,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,104,verifier + naive,0.74,0.5675675675675675,1.0,0.42857142857142855
+shift,104,verifier + LTT,0.72,0.5555555555555556,1.0,0.42857142857142855
+shift,104,verifier + group-wise LTT,0.41,0.2926829268292683,0.0,0.14285714285714285
+exchangeable,105,always answer,0.8367346938775511,0.4878048780487805,1.0,0.47619047619047616
+exchangeable,105,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,105,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,105,verifier + naive,0.6224489795918368,0.3114754098360656,1.0,0.42857142857142855
+exchangeable,105,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,105,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,105,always answer,0.81,0.5679012345679012,1.0,0.5714285714285714
+shift,105,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,105,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,105,verifier + naive,0.79,0.5569620253164557,1.0,0.5428571428571428
+shift,105,verifier + LTT,0.59,0.4067796610169492,1.0,0.42857142857142855
+shift,105,verifier + group-wise LTT,0.41,0.24390243902439024,0.0,0.2
+exchangeable,106,always answer,0.7959183673469388,0.38461538461538464,1.0,0.38461538461538464
+exchangeable,106,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,106,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,106,verifier + naive,0.6326530612244898,0.25806451612903225,0.0,0.34615384615384615
+exchangeable,106,verifier + LTT,0.47959183673469385,0.10638297872340426,0.0,0.23076923076923078
+exchangeable,106,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,106,always answer,0.76,0.5526315789473685,1.0,0.45714285714285713
+shift,106,self-consistency + naive,0.76,0.5526315789473685,1.0,0.45714285714285713
+shift,106,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,106,verifier + naive,0.76,0.5526315789473685,1.0,0.45714285714285713
+shift,106,verifier + LTT,0.56,0.39285714285714285,1.0,0.34285714285714286
+shift,106,verifier + group-wise LTT,0.4,0.25,0.0,0.14285714285714285
+exchangeable,107,always answer,0.8775510204081632,0.45348837209302323,1.0,0.6785714285714286
+exchangeable,107,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,107,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,107,verifier + naive,0.6530612244897959,0.28125,0.0,0.5357142857142857
+exchangeable,107,verifier + LTT,0.6530612244897959,0.28125,0.0,0.5357142857142857
+exchangeable,107,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,107,always answer,0.79,0.5063291139240507,1.0,0.5142857142857142
+shift,107,self-consistency + naive,0.75,0.48,1.0,0.4857142857142857
+shift,107,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,107,verifier + naive,0.68,0.4264705882352941,1.0,0.5142857142857142
+shift,107,verifier + LTT,0.64,0.390625,1.0,0.42857142857142855
+shift,107,verifier + group-wise LTT,0.47,0.23404255319148937,0.0,0.2571428571428571
+exchangeable,108,always answer,0.8163265306122449,0.475,1.0,0.625
+exchangeable,108,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,108,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,108,verifier + naive,0.5714285714285714,0.30357142857142855,1.0,0.5416666666666666
+exchangeable,108,verifier + LTT,0.45918367346938777,0.24444444444444444,0.0,0.2916666666666667
+exchangeable,108,verifier + group-wise LTT,0.22448979591836735,0.09090909090909091,0.0,0.16666666666666666
+shift,108,always answer,0.8,0.525,1.0,0.5142857142857142
+shift,108,self-consistency + naive,0.76,0.5131578947368421,1.0,0.4857142857142857
+shift,108,self-consistency + LTT,0.8,0.525,1.0,0.5142857142857142
+shift,108,verifier + naive,0.79,0.5189873417721519,1.0,0.5142857142857142
+shift,108,verifier + LTT,0.79,0.5189873417721519,1.0,0.5142857142857142
+shift,108,verifier + group-wise LTT,0.44,0.22727272727272727,0.0,0.17142857142857143
+exchangeable,109,always answer,0.8571428571428571,0.4523809523809524,1.0,0.6521739130434783
+exchangeable,109,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,109,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,109,verifier + naive,0.673469387755102,0.3333333333333333,1.0,0.4782608695652174
+exchangeable,109,verifier + LTT,0.5918367346938775,0.25862068965517243,0.0,0.43478260869565216
+exchangeable,109,verifier + group-wise LTT,0.5204081632653061,0.21568627450980393,0.0,0.34782608695652173
+shift,109,always answer,0.8,0.5125,1.0,0.4857142857142857
+shift,109,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,109,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,109,verifier + naive,0.63,0.38095238095238093,1.0,0.45714285714285713
+shift,109,verifier + LTT,0.56,0.3392857142857143,1.0,0.4
+shift,109,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,110,always answer,0.8571428571428571,0.38095238095238093,1.0,0.5
+exchangeable,110,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,110,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,110,verifier + naive,0.6530612244897959,0.203125,0.0,0.4
+exchangeable,110,verifier + LTT,0.5,0.08163265306122448,0.0,0.1
+exchangeable,110,verifier + group-wise LTT,0.5,0.08163265306122448,0.0,0.1
+shift,110,always answer,0.8,0.5125,1.0,0.4857142857142857
+shift,110,self-consistency + naive,0.74,0.5,1.0,0.45714285714285713
+shift,110,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,110,verifier + naive,0.77,0.4935064935064935,1.0,0.4857142857142857
+shift,110,verifier + LTT,0.62,0.3709677419354839,1.0,0.4
+shift,110,verifier + group-wise LTT,0.47,0.23404255319148937,0.0,0.2
+exchangeable,111,always answer,0.8469387755102041,0.42168674698795183,1.0,0.5263157894736842
+exchangeable,111,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,111,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,111,verifier + naive,0.7244897959183674,0.323943661971831,1.0,0.5263157894736842
+exchangeable,111,verifier + LTT,0.5408163265306123,0.18867924528301888,0.0,0.21052631578947367
+exchangeable,111,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,111,always answer,0.84,0.5714285714285714,1.0,0.6285714285714286
+shift,111,self-consistency + naive,0.84,0.5714285714285714,1.0,0.6285714285714286
+shift,111,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,111,verifier + naive,0.71,0.49295774647887325,1.0,0.6285714285714286
+shift,111,verifier + LTT,0.63,0.42857142857142855,1.0,0.5428571428571428
+shift,111,verifier + group-wise LTT,0.44,0.25,0.0,0.22857142857142856
+exchangeable,112,always answer,0.8673469387755102,0.4235294117647059,1.0,0.5217391304347826
+exchangeable,112,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,112,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,112,verifier + naive,0.673469387755102,0.2727272727272727,0.0,0.391304347826087
+exchangeable,112,verifier + LTT,0.5,0.10204081632653061,0.0,0.13043478260869565
+exchangeable,112,verifier + group-wise LTT,0.5,0.10204081632653061,0.0,0.13043478260869565
+shift,112,always answer,0.8,0.55,1.0,0.5142857142857142
+shift,112,self-consistency + naive,0.64,0.5,1.0,0.4
+shift,112,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,112,verifier + naive,0.66,0.45454545454545453,1.0,0.5142857142857142
+shift,112,verifier + LTT,0.58,0.41379310344827586,1.0,0.42857142857142855
+shift,112,verifier + group-wise LTT,0.43,0.23255813953488372,0.0,0.17142857142857143
+exchangeable,113,always answer,0.8469387755102041,0.40963855421686746,1.0,0.5769230769230769
+exchangeable,113,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,113,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,113,verifier + naive,0.5918367346938775,0.1896551724137931,0.0,0.2692307692307692
+exchangeable,113,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,113,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,113,always answer,0.78,0.5128205128205128,1.0,0.4857142857142857
+shift,113,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,113,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,113,verifier + naive,0.66,0.42424242424242425,1.0,0.4857142857142857
+shift,113,verifier + LTT,0.6,0.38333333333333336,1.0,0.4
+shift,113,verifier + group-wise LTT,0.47,0.2127659574468085,0.0,0.2
+exchangeable,114,always answer,0.8163265306122449,0.3625,1.0,0.48
+exchangeable,114,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,114,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,114,verifier + naive,0.5816326530612245,0.15789473684210525,0.0,0.32
+exchangeable,114,verifier + LTT,0.5714285714285714,0.14285714285714285,0.0,0.28
+exchangeable,114,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,114,always answer,0.83,0.5180722891566265,1.0,0.5428571428571428
+shift,114,self-consistency + naive,0.79,0.5063291139240507,1.0,0.5142857142857142
+shift,114,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,114,verifier + naive,0.71,0.43661971830985913,1.0,0.5428571428571428
+shift,114,verifier + LTT,0.62,0.3709677419354839,1.0,0.45714285714285713
+shift,114,verifier + group-wise LTT,0.47,0.2127659574468085,0.0,0.2
+exchangeable,115,always answer,0.8775510204081632,0.4418604651162791,1.0,0.6666666666666666
+exchangeable,115,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,115,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,115,verifier + naive,0.7040816326530612,0.3188405797101449,1.0,0.5416666666666666
+exchangeable,115,verifier + LTT,0.5612244897959183,0.2,0.0,0.2916666666666667
+exchangeable,115,verifier + group-wise LTT,0.25510204081632654,0.2,0.0,0.16666666666666666
+shift,115,always answer,0.83,0.5180722891566265,1.0,0.6
+shift,115,self-consistency + naive,0.83,0.5180722891566265,1.0,0.6
+shift,115,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,115,verifier + naive,0.83,0.5180722891566265,1.0,0.6
+shift,115,verifier + LTT,0.64,0.375,1.0,0.4857142857142857
+shift,115,verifier + group-wise LTT,0.44,0.18181818181818182,0.0,0.2
+exchangeable,116,always answer,0.8469387755102041,0.39759036144578314,1.0,0.55
+exchangeable,116,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,116,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,116,verifier + naive,0.6632653061224489,0.24615384615384617,0.0,0.3
+exchangeable,116,verifier + LTT,0.5306122448979592,0.07692307692307693,0.0,0.1
+exchangeable,116,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,116,always answer,0.82,0.5365853658536586,1.0,0.5714285714285714
+shift,116,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,116,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,116,verifier + naive,0.72,0.4722222222222222,1.0,0.5714285714285714
+shift,116,verifier + LTT,0.65,0.4153846153846154,1.0,0.4857142857142857
+shift,116,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,117,always answer,0.8571428571428571,0.3333333333333333,1.0,0.4782608695652174
+exchangeable,117,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,117,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,117,verifier + naive,0.673469387755102,0.18181818181818182,0.0,0.2608695652173913
+exchangeable,117,verifier + LTT,0.5714285714285714,0.08928571428571429,0.0,0.13043478260869565
+exchangeable,117,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,117,always answer,0.79,0.5569620253164557,1.0,0.5428571428571428
+shift,117,self-consistency + naive,0.66,0.5151515151515151,1.0,0.42857142857142855
+shift,117,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,117,verifier + naive,0.69,0.4927536231884058,1.0,0.5428571428571428
+shift,117,verifier + LTT,0.59,0.4067796610169492,1.0,0.4
+shift,117,verifier + group-wise LTT,0.46,0.30434782608695654,1.0,0.2
+exchangeable,118,always answer,0.8163265306122449,0.475,1.0,0.6206896551724138
+exchangeable,118,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,118,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,118,verifier + naive,0.7244897959183674,0.4084507042253521,1.0,0.5862068965517241
+exchangeable,118,verifier + LTT,0.6530612244897959,0.375,1.0,0.4827586206896552
+exchangeable,118,verifier + group-wise LTT,0.5102040816326531,0.26,0.0,0.3103448275862069
+shift,118,always answer,0.81,0.5185185185185185,1.0,0.5142857142857142
+shift,118,self-consistency + naive,0.81,0.5185185185185185,1.0,0.5142857142857142
+shift,118,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,118,verifier + naive,0.7,0.44285714285714284,1.0,0.5142857142857142
+shift,118,verifier + LTT,0.62,0.3709677419354839,1.0,0.4
+shift,118,verifier + group-wise LTT,0.47,0.23404255319148937,0.0,0.22857142857142856
+exchangeable,119,always answer,0.8061224489795918,0.4430379746835443,1.0,0.5161290322580645
+exchangeable,119,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,119,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,119,verifier + naive,0.47959183673469385,0.14893617021276595,0.0,0.22580645161290322
+exchangeable,119,verifier + LTT,0.45918367346938777,0.15555555555555556,0.0,0.22580645161290322
+exchangeable,119,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,119,always answer,0.77,0.5584415584415584,1.0,0.5142857142857142
+shift,119,self-consistency + naive,0.72,0.5555555555555556,1.0,0.5142857142857142
+shift,119,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,119,verifier + naive,0.67,0.4925373134328358,1.0,0.4857142857142857
+shift,119,verifier + LTT,0.56,0.44642857142857145,1.0,0.42857142857142855
+shift,119,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,120,always answer,0.8061224489795918,0.379746835443038,1.0,0.3181818181818182
+exchangeable,120,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,120,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,120,verifier + naive,0.5204081632653061,0.13725490196078433,0.0,0.22727272727272727
+exchangeable,120,verifier + LTT,0.5102040816326531,0.12,0.0,0.22727272727272727
+exchangeable,120,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,120,always answer,0.81,0.5308641975308642,1.0,0.5428571428571428
+shift,120,self-consistency + naive,0.65,0.49230769230769234,1.0,0.4
+shift,120,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,120,verifier + naive,0.67,0.43283582089552236,1.0,0.4857142857142857
+shift,120,verifier + LTT,0.48,0.2916666666666667,0.0,0.22857142857142856
+shift,120,verifier + group-wise LTT,0.48,0.2916666666666667,0.0,0.22857142857142856
+exchangeable,121,always answer,0.8367346938775511,0.4024390243902439,1.0,0.5909090909090909
+exchangeable,121,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,121,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,121,verifier + naive,0.7142857142857143,0.3,0.0,0.5
+exchangeable,121,verifier + LTT,0.673469387755102,0.2727272727272727,0.0,0.5
+exchangeable,121,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,121,always answer,0.81,0.48148148148148145,1.0,0.5714285714285714
+shift,121,self-consistency + naive,0.76,0.47368421052631576,1.0,0.5428571428571428
+shift,121,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,121,verifier + naive,0.79,0.46835443037974683,1.0,0.5714285714285714
+shift,121,verifier + LTT,0.69,0.391304347826087,1.0,0.5142857142857142
+shift,121,verifier + group-wise LTT,0.48,0.22916666666666666,0.0,0.2
+exchangeable,122,always answer,0.826530612244898,0.4567901234567901,1.0,0.5
+exchangeable,122,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,122,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,122,verifier + naive,0.7142857142857143,0.37142857142857144,1.0,0.5
+exchangeable,122,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,122,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,122,always answer,0.84,0.5595238095238095,1.0,0.6
+shift,122,self-consistency + naive,0.84,0.5595238095238095,1.0,0.6
+shift,122,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,122,verifier + naive,0.83,0.5542168674698795,1.0,0.6
+shift,122,verifier + LTT,0.68,0.45588235294117646,1.0,0.6
+shift,122,verifier + group-wise LTT,0.45,0.28888888888888886,0.0,0.2571428571428571
+exchangeable,123,always answer,0.7959183673469388,0.48717948717948717,1.0,0.5862068965517241
+exchangeable,123,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,123,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,123,verifier + naive,0.7040816326530612,0.42028985507246375,1.0,0.5517241379310345
+exchangeable,123,verifier + LTT,0.4897959183673469,0.25,0.0,0.3103448275862069
+exchangeable,123,verifier + group-wise LTT,0.46938775510204084,0.2391304347826087,0.0,0.27586206896551724
+shift,123,always answer,0.79,0.4936708860759494,1.0,0.5428571428571428
+shift,123,self-consistency + naive,0.74,0.4864864864864865,1.0,0.5428571428571428
+shift,123,self-consistency + LTT,0.65,0.46153846153846156,1.0,0.45714285714285713
+shift,123,verifier + naive,0.7,0.42857142857142855,1.0,0.5142857142857142
+shift,123,verifier + LTT,0.69,0.42028985507246375,1.0,0.5142857142857142
+shift,123,verifier + group-wise LTT,0.45,0.2,0.0,0.2
+exchangeable,124,always answer,0.7857142857142857,0.36363636363636365,1.0,0.4
+exchangeable,124,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,124,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,124,verifier + naive,0.6122448979591837,0.2,0.0,0.2
+exchangeable,124,verifier + LTT,0.5408163265306123,0.09433962264150944,0.0,0.15
+exchangeable,124,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,124,always answer,0.8,0.55,1.0,0.5428571428571428
+shift,124,self-consistency + naive,0.77,0.5454545454545454,1.0,0.5142857142857142
+shift,124,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,124,verifier + naive,0.76,0.5263157894736842,1.0,0.5428571428571428
+shift,124,verifier + LTT,0.58,0.3793103448275862,1.0,0.42857142857142855
+shift,124,verifier + group-wise LTT,0.43,0.23255813953488372,0.0,0.14285714285714285
+exchangeable,125,always answer,0.8775510204081632,0.5,1.0,0.6818181818181818
+exchangeable,125,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,125,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,125,verifier + naive,0.6326530612244898,0.3225806451612903,1.0,0.5454545454545454
+exchangeable,125,verifier + LTT,0.47959183673469385,0.1702127659574468,0.0,0.22727272727272727
+exchangeable,125,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,125,always answer,0.81,0.5308641975308642,1.0,0.5714285714285714
+shift,125,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,125,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,125,verifier + naive,0.7,0.45714285714285713,1.0,0.5714285714285714
+shift,125,verifier + LTT,0.61,0.3770491803278688,1.0,0.45714285714285713
+shift,125,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,126,always answer,0.7755102040816326,0.39473684210526316,1.0,0.44
+exchangeable,126,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,126,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,126,verifier + naive,0.6530612244897959,0.28125,0.0,0.44
+exchangeable,126,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,126,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,126,always answer,0.79,0.5443037974683544,1.0,0.4857142857142857
+shift,126,self-consistency + naive,0.75,0.5333333333333333,1.0,0.4857142857142857
+shift,126,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,126,verifier + naive,0.77,0.5324675324675324,1.0,0.4857142857142857
+shift,126,verifier + LTT,0.6,0.4,1.0,0.37142857142857144
+shift,126,verifier + group-wise LTT,0.46,0.2608695652173913,0.0,0.2
+exchangeable,127,always answer,0.7857142857142857,0.35064935064935066,1.0,0.5
+exchangeable,127,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,127,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,127,verifier + naive,0.7040816326530612,0.2753623188405797,0.0,0.5
+exchangeable,127,verifier + LTT,0.5510204081632653,0.14814814814814814,0.0,0.2692307692307692
+exchangeable,127,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,127,always answer,0.79,0.5063291139240507,1.0,0.4857142857142857
+shift,127,self-consistency + naive,0.77,0.5064935064935064,1.0,0.4857142857142857
+shift,127,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,127,verifier + naive,0.79,0.5063291139240507,1.0,0.4857142857142857
+shift,127,verifier + LTT,0.48,0.25,0.0,0.22857142857142856
+shift,127,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,128,always answer,0.826530612244898,0.35802469135802467,1.0,0.5263157894736842
+exchangeable,128,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,128,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,128,verifier + naive,0.5918367346938775,0.15517241379310345,0.0,0.21052631578947367
+exchangeable,128,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,128,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,128,always answer,0.79,0.5316455696202531,1.0,0.45714285714285713
+shift,128,self-consistency + naive,0.64,0.484375,1.0,0.34285714285714286
+shift,128,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,128,verifier + naive,0.77,0.5194805194805194,1.0,0.45714285714285713
+shift,128,verifier + LTT,0.46,0.2391304347826087,0.0,0.2
+shift,128,verifier + group-wise LTT,0.46,0.2391304347826087,0.0,0.2
+exchangeable,129,always answer,0.8367346938775511,0.34146341463414637,1.0,0.6153846153846154
+exchangeable,129,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,129,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,129,verifier + naive,0.7142857142857143,0.24285714285714285,0.0,0.5384615384615384
+exchangeable,129,verifier + LTT,0.673469387755102,0.19696969696969696,0.0,0.5
+exchangeable,129,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,129,always answer,0.78,0.5256410256410257,1.0,0.5142857142857142
+shift,129,self-consistency + naive,0.74,0.5135135135135135,1.0,0.4857142857142857
+shift,129,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,129,verifier + naive,0.69,0.463768115942029,1.0,0.4857142857142857
+shift,129,verifier + LTT,0.58,0.3620689655172414,1.0,0.45714285714285713
+shift,129,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.22857142857142856
+exchangeable,130,always answer,0.8775510204081632,0.4069767441860465,1.0,0.6363636363636364
+exchangeable,130,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,130,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,130,verifier + naive,0.673469387755102,0.2878787878787879,0.0,0.45454545454545453
+exchangeable,130,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,130,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,130,always answer,0.83,0.5301204819277109,1.0,0.5714285714285714
+shift,130,self-consistency + naive,0.79,0.5189873417721519,1.0,0.5428571428571428
+shift,130,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,130,verifier + naive,0.83,0.5301204819277109,1.0,0.5714285714285714
+shift,130,verifier + LTT,0.66,0.4090909090909091,1.0,0.4857142857142857
+shift,130,verifier + group-wise LTT,0.5,0.32,1.0,0.2857142857142857
+exchangeable,131,always answer,0.8163265306122449,0.425,1.0,0.64
+exchangeable,131,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,131,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,131,verifier + naive,0.5714285714285714,0.19642857142857142,0.0,0.24
+exchangeable,131,verifier + LTT,0.5510204081632653,0.18518518518518517,0.0,0.2
+exchangeable,131,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,131,always answer,0.83,0.5060240963855421,1.0,0.5714285714285714
+shift,131,self-consistency + naive,0.79,0.4936708860759494,1.0,0.5428571428571428
+shift,131,self-consistency + LTT,0.7,0.4714285714285714,1.0,0.45714285714285713
+shift,131,verifier + naive,0.83,0.5060240963855421,1.0,0.5714285714285714
+shift,131,verifier + LTT,0.82,0.5,1.0,0.5714285714285714
+shift,131,verifier + group-wise LTT,0.48,0.25,0.0,0.2857142857142857
+exchangeable,132,always answer,0.826530612244898,0.38271604938271603,1.0,0.52
+exchangeable,132,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,132,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,132,verifier + naive,0.7551020408163265,0.32432432432432434,1.0,0.48
+exchangeable,132,verifier + LTT,0.5714285714285714,0.19642857142857142,0.0,0.28
+exchangeable,132,verifier + group-wise LTT,0.5714285714285714,0.19642857142857142,0.0,0.28
+shift,132,always answer,0.83,0.5662650602409639,1.0,0.5714285714285714
+shift,132,self-consistency + naive,0.79,0.5443037974683544,1.0,0.5428571428571428
+shift,132,self-consistency + LTT,0.63,0.5238095238095238,1.0,0.4
+shift,132,verifier + naive,0.71,0.49295774647887325,1.0,0.5714285714285714
+shift,132,verifier + LTT,0.62,0.41935483870967744,1.0,0.45714285714285713
+shift,132,verifier + group-wise LTT,0.45,0.3111111111111111,1.0,0.22857142857142856
+exchangeable,133,always answer,0.8775510204081632,0.3953488372093023,1.0,0.6956521739130435
+exchangeable,133,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,133,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,133,verifier + naive,0.5714285714285714,0.16071428571428573,0.0,0.21739130434782608
+exchangeable,133,verifier + LTT,0.5714285714285714,0.16071428571428573,0.0,0.21739130434782608
+exchangeable,133,verifier + group-wise LTT,0.2653061224489796,0.11538461538461539,0.0,0.13043478260869565
+shift,133,always answer,0.83,0.5421686746987951,1.0,0.6
+shift,133,self-consistency + naive,0.83,0.5421686746987951,1.0,0.6
+shift,133,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,133,verifier + naive,0.81,0.5308641975308642,1.0,0.6
+shift,133,verifier + LTT,0.69,0.4492753623188406,1.0,0.5714285714285714
+shift,133,verifier + group-wise LTT,0.43,0.18604651162790697,0.0,0.2
+exchangeable,134,always answer,0.826530612244898,0.43209876543209874,1.0,0.5217391304347826
+exchangeable,134,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,134,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,134,verifier + naive,0.7346938775510204,0.3611111111111111,1.0,0.5217391304347826
+exchangeable,134,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,134,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,134,always answer,0.8,0.525,1.0,0.4857142857142857
+shift,134,self-consistency + naive,0.8,0.525,1.0,0.4857142857142857
+shift,134,self-consistency + LTT,0.6,0.48333333333333334,1.0,0.37142857142857144
+shift,134,verifier + naive,0.8,0.525,1.0,0.4857142857142857
+shift,134,verifier + LTT,0.68,0.4411764705882353,1.0,0.4857142857142857
+shift,134,verifier + group-wise LTT,0.42,0.23809523809523808,0.0,0.11428571428571428
+exchangeable,135,always answer,0.7959183673469388,0.5,1.0,0.46153846153846156
+exchangeable,135,self-consistency + naive,0.673469387755102,0.4696969696969697,1.0,0.3076923076923077
+exchangeable,135,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,135,verifier + naive,0.5714285714285714,0.32142857142857145,1.0,0.34615384615384615
+exchangeable,135,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,135,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,135,always answer,0.78,0.47435897435897434,1.0,0.4857142857142857
+shift,135,self-consistency + naive,0.75,0.4666666666666667,1.0,0.45714285714285713
+shift,135,self-consistency + LTT,0.75,0.4666666666666667,1.0,0.45714285714285713
+shift,135,verifier + naive,0.65,0.36923076923076925,1.0,0.4857142857142857
+shift,135,verifier + LTT,0.75,0.4533333333333333,1.0,0.4857142857142857
+shift,135,verifier + group-wise LTT,0.48,0.20833333333333334,0.0,0.22857142857142856
+exchangeable,136,always answer,0.8673469387755102,0.38823529411764707,1.0,0.5833333333333334
+exchangeable,136,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,136,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,136,verifier + naive,0.673469387755102,0.22727272727272727,0.0,0.375
+exchangeable,136,verifier + LTT,0.5408163265306123,0.11320754716981132,0.0,0.125
+exchangeable,136,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,136,always answer,0.81,0.5061728395061729,1.0,0.5428571428571428
+shift,136,self-consistency + naive,0.81,0.5061728395061729,1.0,0.5428571428571428
+shift,136,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,136,verifier + naive,0.72,0.4444444444444444,1.0,0.5142857142857142
+shift,136,verifier + LTT,0.64,0.40625,1.0,0.45714285714285713
+shift,136,verifier + group-wise LTT,0.45,0.2,0.0,0.2
+exchangeable,137,always answer,0.8775510204081632,0.38372093023255816,1.0,0.5416666666666666
+exchangeable,137,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,137,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,137,verifier + naive,0.7040816326530612,0.2463768115942029,0.0,0.375
+exchangeable,137,verifier + LTT,0.6122448979591837,0.15,0.0,0.20833333333333334
+exchangeable,137,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,137,always answer,0.8,0.4875,1.0,0.5428571428571428
+shift,137,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,137,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,137,verifier + naive,0.68,0.39705882352941174,1.0,0.5142857142857142
+shift,137,verifier + LTT,0.63,0.36507936507936506,1.0,0.45714285714285713
+shift,137,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,138,always answer,0.826530612244898,0.48148148148148145,1.0,0.5833333333333334
+exchangeable,138,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,138,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,138,verifier + naive,0.6224489795918368,0.3114754098360656,1.0,0.4583333333333333
+exchangeable,138,verifier + LTT,0.45918367346938777,0.15555555555555556,0.0,0.16666666666666666
+exchangeable,138,verifier + group-wise LTT,0.45918367346938777,0.15555555555555556,0.0,0.16666666666666666
+shift,138,always answer,0.79,0.569620253164557,1.0,0.4857142857142857
+shift,138,self-consistency + naive,0.79,0.569620253164557,1.0,0.4857142857142857
+shift,138,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,138,verifier + naive,0.78,0.5641025641025641,1.0,0.4857142857142857
+shift,138,verifier + LTT,0.63,0.4603174603174603,1.0,0.4857142857142857
+shift,138,verifier + group-wise LTT,0.41,0.2682926829268293,0.0,0.22857142857142856
+exchangeable,139,always answer,0.826530612244898,0.3950617283950617,1.0,0.625
+exchangeable,139,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,139,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,139,verifier + naive,0.7755102040816326,0.35526315789473684,1.0,0.625
+exchangeable,139,verifier + LTT,0.6530612244897959,0.265625,0.0,0.5
+exchangeable,139,verifier + group-wise LTT,0.5204081632653061,0.13725490196078433,0.0,0.25
+shift,139,always answer,0.78,0.5256410256410257,1.0,0.4857142857142857
+shift,139,self-consistency + naive,0.78,0.5256410256410257,1.0,0.4857142857142857
+shift,139,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,139,verifier + naive,0.65,0.4307692307692308,1.0,0.45714285714285713
+shift,139,verifier + LTT,0.64,0.421875,1.0,0.45714285714285713
+shift,139,verifier + group-wise LTT,0.46,0.2608695652173913,0.0,0.2571428571428571
+exchangeable,140,always answer,0.8469387755102041,0.4578313253012048,1.0,0.5833333333333334
+exchangeable,140,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,140,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,140,verifier + naive,0.6530612244897959,0.3125,1.0,0.4583333333333333
+exchangeable,140,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,140,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,140,always answer,0.81,0.5185185185185185,1.0,0.5142857142857142
+shift,140,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,140,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,140,verifier + naive,0.69,0.43478260869565216,1.0,0.4857142857142857
+shift,140,verifier + LTT,0.61,0.39344262295081966,1.0,0.4
+shift,140,verifier + group-wise LTT,0.47,0.2978723404255319,0.0,0.2
+exchangeable,141,always answer,0.8469387755102041,0.4578313253012048,1.0,0.6666666666666666
+exchangeable,141,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,141,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,141,verifier + naive,0.5306122448979592,0.19230769230769232,0.0,0.23333333333333334
+exchangeable,141,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,141,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,141,always answer,0.8,0.5,1.0,0.5428571428571428
+shift,141,self-consistency + naive,0.8,0.5,1.0,0.5428571428571428
+shift,141,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,141,verifier + naive,0.77,0.4805194805194805,1.0,0.5428571428571428
+shift,141,verifier + LTT,0.67,0.40298507462686567,1.0,0.5428571428571428
+shift,141,verifier + group-wise LTT,0.41,0.14634146341463414,0.0,0.14285714285714285
+exchangeable,142,always answer,0.8571428571428571,0.35714285714285715,1.0,0.5238095238095238
+exchangeable,142,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,142,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,142,verifier + naive,0.6530612244897959,0.1875,0.0,0.23809523809523808
+exchangeable,142,verifier + LTT,0.5816326530612245,0.10526315789473684,0.0,0.14285714285714285
+exchangeable,142,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,142,always answer,0.77,0.5974025974025974,1.0,0.5428571428571428
+shift,142,self-consistency + naive,0.74,0.6216216216216216,1.0,0.5428571428571428
+shift,142,self-consistency + LTT,0.74,0.6216216216216216,1.0,0.5428571428571428
+shift,142,verifier + naive,0.77,0.5974025974025974,1.0,0.5428571428571428
+shift,142,verifier + LTT,0.67,0.5373134328358209,1.0,0.5428571428571428
+shift,142,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,143,always answer,0.8163265306122449,0.4625,1.0,0.6071428571428571
+exchangeable,143,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,143,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,143,verifier + naive,0.7244897959183674,0.39436619718309857,1.0,0.5714285714285714
+exchangeable,143,verifier + LTT,0.5102040816326531,0.2,0.0,0.35714285714285715
+exchangeable,143,verifier + group-wise LTT,0.4489795918367347,0.1590909090909091,0.0,0.25
+shift,143,always answer,0.82,0.5609756097560976,1.0,0.6
+shift,143,self-consistency + naive,0.8,0.55,1.0,0.5714285714285714
+shift,143,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,143,verifier + naive,0.72,0.5,1.0,0.6
+shift,143,verifier + LTT,0.68,0.47058823529411764,1.0,0.5714285714285714
+shift,143,verifier + group-wise LTT,0.42,0.2619047619047619,0.0,0.22857142857142856
+exchangeable,144,always answer,0.8367346938775511,0.4146341463414634,1.0,0.5416666666666666
+exchangeable,144,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,144,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,144,verifier + naive,0.6224489795918368,0.2459016393442623,0.0,0.16666666666666666
+exchangeable,144,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,144,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,144,always answer,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,144,self-consistency + naive,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,144,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,144,verifier + naive,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,144,verifier + LTT,0.62,0.3870967741935484,1.0,0.45714285714285713
+shift,144,verifier + group-wise LTT,0.47,0.2765957446808511,0.0,0.2857142857142857
+exchangeable,145,always answer,0.8163265306122449,0.425,1.0,0.44
+exchangeable,145,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,145,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,145,verifier + naive,0.6938775510204082,0.3382352941176471,1.0,0.4
+exchangeable,145,verifier + LTT,0.45918367346938777,0.15555555555555556,0.0,0.2
+exchangeable,145,verifier + group-wise LTT,0.45918367346938777,0.15555555555555556,0.0,0.2
+shift,145,always answer,0.81,0.5061728395061729,1.0,0.5428571428571428
+shift,145,self-consistency + naive,0.75,0.5066666666666667,1.0,0.5142857142857142
+shift,145,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,145,verifier + naive,0.74,0.4594594594594595,1.0,0.5428571428571428
+shift,145,verifier + LTT,0.64,0.375,1.0,0.4857142857142857
+shift,145,verifier + group-wise LTT,0.45,0.2,0.0,0.22857142857142856
+exchangeable,146,always answer,0.8061224489795918,0.34177215189873417,1.0,0.47619047619047616
+exchangeable,146,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,146,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,146,verifier + naive,0.6122448979591837,0.2,0.0,0.3333333333333333
+exchangeable,146,verifier + LTT,0.5612244897959183,0.14545454545454545,0.0,0.19047619047619047
+exchangeable,146,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,146,always answer,0.79,0.5822784810126582,1.0,0.5428571428571428
+shift,146,self-consistency + naive,0.78,0.5897435897435898,1.0,0.5428571428571428
+shift,146,self-consistency + LTT,0.66,0.5454545454545454,1.0,0.42857142857142855
+shift,146,verifier + naive,0.79,0.5822784810126582,1.0,0.5428571428571428
+shift,146,verifier + LTT,0.67,0.5074626865671642,1.0,0.5142857142857142
+shift,146,verifier + group-wise LTT,0.42,0.30952380952380953,1.0,0.22857142857142856
+exchangeable,147,always answer,0.826530612244898,0.4074074074074074,1.0,0.5517241379310345
+exchangeable,147,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,147,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,147,verifier + naive,0.7551020408163265,0.35135135135135137,1.0,0.5517241379310345
+exchangeable,147,verifier + LTT,0.6530612244897959,0.265625,0.0,0.4482758620689655
+exchangeable,147,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,147,always answer,0.84,0.5238095238095238,1.0,0.6
+shift,147,self-consistency + naive,0.68,0.5,1.0,0.4857142857142857
+shift,147,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,147,verifier + naive,0.71,0.43661971830985913,1.0,0.6
+shift,147,verifier + LTT,0.63,0.36507936507936506,1.0,0.5142857142857142
+shift,147,verifier + group-wise LTT,0.45,0.2222222222222222,0.0,0.22857142857142856
+exchangeable,148,always answer,0.7857142857142857,0.42857142857142855,1.0,0.4074074074074074
+exchangeable,148,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,148,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,148,verifier + naive,0.7653061224489796,0.41333333333333333,1.0,0.4074074074074074
+exchangeable,148,verifier + LTT,0.6122448979591837,0.31666666666666665,1.0,0.18518518518518517
+exchangeable,148,verifier + group-wise LTT,0.47959183673469385,0.2127659574468085,0.0,0.1111111111111111
+shift,148,always answer,0.8,0.55,1.0,0.45714285714285713
+shift,148,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,148,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,148,verifier + naive,0.61,0.4098360655737705,1.0,0.4
+shift,148,verifier + LTT,0.45,0.3111111111111111,1.0,0.2857142857142857
+shift,148,verifier + group-wise LTT,0.22,0.2727272727272727,0.0,0.11428571428571428
+exchangeable,149,always answer,0.8061224489795918,0.4936708860759494,1.0,0.6785714285714286
+exchangeable,149,self-consistency + naive,0.7755102040816326,0.5,1.0,0.6785714285714286
+exchangeable,149,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,149,verifier + naive,0.7755102040816326,0.47368421052631576,1.0,0.6785714285714286
+exchangeable,149,verifier + LTT,0.6122448979591837,0.35,1.0,0.5357142857142857
+exchangeable,149,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,149,always answer,0.8,0.5125,1.0,0.5714285714285714
+shift,149,self-consistency + naive,0.73,0.5068493150684932,1.0,0.5428571428571428
+shift,149,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,149,verifier + naive,0.7,0.44285714285714284,1.0,0.5714285714285714
+shift,149,verifier + LTT,0.6,0.38333333333333336,1.0,0.4857142857142857
+shift,149,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,150,always answer,0.7755102040816326,0.42105263157894735,1.0,0.36
+exchangeable,150,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,150,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,150,verifier + naive,0.5204081632653061,0.21568627450980393,0.0,0.16
+exchangeable,150,verifier + LTT,0.5204081632653061,0.21568627450980393,0.0,0.16
+exchangeable,150,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,150,always answer,0.83,0.6024096385542169,1.0,0.6
+shift,150,self-consistency + naive,0.68,0.5441176470588235,1.0,0.45714285714285713
+shift,150,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,150,verifier + naive,0.67,0.5074626865671642,1.0,0.5714285714285714
+shift,150,verifier + LTT,0.6,0.4666666666666667,1.0,0.5142857142857142
+shift,150,verifier + group-wise LTT,0.46,0.30434782608695654,1.0,0.22857142857142856
+exchangeable,151,always answer,0.9081632653061225,0.42696629213483145,1.0,0.7222222222222222
+exchangeable,151,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,151,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,151,verifier + naive,0.7142857142857143,0.3,0.0,0.6111111111111112
+exchangeable,151,verifier + LTT,0.5204081632653061,0.1568627450980392,0.0,0.2777777777777778
+exchangeable,151,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,151,always answer,0.76,0.5263157894736842,1.0,0.45714285714285713
+shift,151,self-consistency + naive,0.76,0.5263157894736842,1.0,0.45714285714285713
+shift,151,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,151,verifier + naive,0.76,0.5263157894736842,1.0,0.45714285714285713
+shift,151,verifier + LTT,0.54,0.3888888888888889,1.0,0.37142857142857144
+shift,151,verifier + group-wise LTT,0.38,0.18421052631578946,0.0,0.11428571428571428
+exchangeable,152,always answer,0.8469387755102041,0.37349397590361444,1.0,0.5416666666666666
+exchangeable,152,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,152,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,152,verifier + naive,0.5816326530612245,0.14035087719298245,0.0,0.375
+exchangeable,152,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,152,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,152,always answer,0.75,0.5066666666666667,1.0,0.45714285714285713
+shift,152,self-consistency + naive,0.75,0.5066666666666667,1.0,0.45714285714285713
+shift,152,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,152,verifier + naive,0.66,0.4393939393939394,1.0,0.45714285714285713
+shift,152,verifier + LTT,0.56,0.35714285714285715,1.0,0.34285714285714286
+shift,152,verifier + group-wise LTT,0.46,0.2608695652173913,0.0,0.22857142857142856
+exchangeable,153,always answer,0.8367346938775511,0.35365853658536583,1.0,0.55
+exchangeable,153,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,153,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,153,verifier + naive,0.6938775510204082,0.23529411764705882,0.0,0.45
+exchangeable,153,verifier + LTT,0.5918367346938775,0.1724137931034483,0.0,0.25
+exchangeable,153,verifier + group-wise LTT,0.5918367346938775,0.1724137931034483,0.0,0.25
+shift,153,always answer,0.8,0.5625,1.0,0.5428571428571428
+shift,153,self-consistency + naive,0.8,0.5625,1.0,0.5428571428571428
+shift,153,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,153,verifier + naive,0.76,0.5394736842105263,1.0,0.5428571428571428
+shift,153,verifier + LTT,0.62,0.43548387096774194,1.0,0.5142857142857142
+shift,153,verifier + group-wise LTT,0.45,0.26666666666666666,0.0,0.2857142857142857
+exchangeable,154,always answer,0.7959183673469388,0.46153846153846156,1.0,0.46153846153846156
+exchangeable,154,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,154,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,154,verifier + naive,0.7142857142857143,0.4,1.0,0.46153846153846156
+exchangeable,154,verifier + LTT,0.6122448979591837,0.31666666666666665,1.0,0.4230769230769231
+exchangeable,154,verifier + group-wise LTT,0.47959183673469385,0.19148936170212766,0.0,0.23076923076923078
+shift,154,always answer,0.82,0.5,1.0,0.5428571428571428
+shift,154,self-consistency + naive,0.79,0.4936708860759494,1.0,0.5142857142857142
+shift,154,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,154,verifier + naive,0.78,0.47435897435897434,1.0,0.5428571428571428
+shift,154,verifier + LTT,0.6,0.31666666666666665,1.0,0.42857142857142855
+shift,154,verifier + group-wise LTT,0.46,0.17391304347826086,0.0,0.2
+exchangeable,155,always answer,0.7551020408163265,0.40540540540540543,1.0,0.34615384615384615
+exchangeable,155,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,155,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,155,verifier + naive,0.4897959183673469,0.10416666666666667,0.0,0.07692307692307693
+exchangeable,155,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,155,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,155,always answer,0.81,0.5925925925925926,1.0,0.5714285714285714
+shift,155,self-consistency + naive,0.75,0.6,1.0,0.5428571428571428
+shift,155,self-consistency + LTT,0.64,0.546875,1.0,0.42857142857142855
+shift,155,verifier + naive,0.81,0.5925925925925926,1.0,0.5714285714285714
+shift,155,verifier + LTT,0.58,0.43103448275862066,1.0,0.45714285714285713
+shift,155,verifier + group-wise LTT,0.42,0.2857142857142857,0.0,0.2
+exchangeable,156,always answer,0.8571428571428571,0.4166666666666667,1.0,0.47619047619047616
+exchangeable,156,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,156,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,156,verifier + naive,0.5204081632653061,0.1568627450980392,0.0,0.2857142857142857
+exchangeable,156,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,156,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,156,always answer,0.82,0.4878048780487805,1.0,0.5142857142857142
+shift,156,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,156,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,156,verifier + naive,0.67,0.3880597014925373,1.0,0.4857142857142857
+shift,156,verifier + LTT,0.0,0.0,0.0,0.0
+shift,156,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,157,always answer,0.8877551020408163,0.4367816091954023,1.0,0.7222222222222222
+exchangeable,157,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,157,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,157,verifier + naive,0.7959183673469388,0.3717948717948718,1.0,0.6111111111111112
+exchangeable,157,verifier + LTT,0.6530612244897959,0.265625,0.0,0.5
+exchangeable,157,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,157,always answer,0.82,0.5487804878048781,1.0,0.5714285714285714
+shift,157,self-consistency + naive,0.65,0.49230769230769234,1.0,0.42857142857142855
+shift,157,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,157,verifier + naive,0.69,0.463768115942029,1.0,0.5428571428571428
+shift,157,verifier + LTT,0.59,0.423728813559322,1.0,0.42857142857142855
+shift,157,verifier + group-wise LTT,0.41,0.24390243902439024,0.0,0.14285714285714285
+exchangeable,158,always answer,0.8571428571428571,0.42857142857142855,1.0,0.625
+exchangeable,158,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,158,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,158,verifier + naive,0.6836734693877551,0.2835820895522388,0.0,0.4166666666666667
+exchangeable,158,verifier + LTT,0.5408163265306123,0.1509433962264151,0.0,0.16666666666666666
+exchangeable,158,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,158,always answer,0.85,0.49411764705882355,1.0,0.5714285714285714
+shift,158,self-consistency + naive,0.83,0.4939759036144578,1.0,0.5428571428571428
+shift,158,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,158,verifier + naive,0.74,0.4189189189189189,1.0,0.5428571428571428
+shift,158,verifier + LTT,0.69,0.391304347826087,1.0,0.4857142857142857
+shift,158,verifier + group-wise LTT,0.47,0.1702127659574468,0.0,0.14285714285714285
+exchangeable,159,always answer,0.8061224489795918,0.379746835443038,1.0,0.5416666666666666
+exchangeable,159,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,159,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,159,verifier + naive,0.7346938775510204,0.3194444444444444,1.0,0.5
+exchangeable,159,verifier + LTT,0.6938775510204082,0.27941176470588236,0.0,0.4583333333333333
+exchangeable,159,verifier + group-wise LTT,0.5612244897959183,0.16363636363636364,0.0,0.2916666666666667
+shift,159,always answer,0.82,0.5121951219512195,1.0,0.5714285714285714
+shift,159,self-consistency + naive,0.82,0.5121951219512195,1.0,0.5714285714285714
+shift,159,self-consistency + LTT,0.82,0.5121951219512195,1.0,0.5714285714285714
+shift,159,verifier + naive,0.82,0.5121951219512195,1.0,0.5714285714285714
+shift,159,verifier + LTT,0.82,0.5121951219512195,1.0,0.5714285714285714
+shift,159,verifier + group-wise LTT,0.47,0.2553191489361702,0.0,0.2571428571428571
+exchangeable,160,always answer,0.8571428571428571,0.36904761904761907,1.0,0.47058823529411764
+exchangeable,160,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,160,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,160,verifier + naive,0.6938775510204082,0.23529411764705882,0.0,0.47058823529411764
+exchangeable,160,verifier + LTT,0.6122448979591837,0.13333333333333333,0.0,0.23529411764705882
+exchangeable,160,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,160,always answer,0.81,0.5432098765432098,1.0,0.5428571428571428
+shift,160,self-consistency + naive,0.64,0.484375,1.0,0.4
+shift,160,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,160,verifier + naive,0.68,0.45588235294117646,1.0,0.5142857142857142
+shift,160,verifier + LTT,0.61,0.39344262295081966,1.0,0.42857142857142855
+shift,160,verifier + group-wise LTT,0.46,0.2391304347826087,0.0,0.22857142857142856
+exchangeable,161,always answer,0.7857142857142857,0.42857142857142855,1.0,0.4827586206896552
+exchangeable,161,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,161,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,161,verifier + naive,0.7244897959183674,0.38028169014084506,1.0,0.4827586206896552
+exchangeable,161,verifier + LTT,0.46938775510204084,0.10869565217391304,0.0,0.10344827586206896
+exchangeable,161,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,161,always answer,0.78,0.5641025641025641,1.0,0.5142857142857142
+shift,161,self-consistency + naive,0.78,0.5641025641025641,1.0,0.5142857142857142
+shift,161,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,161,verifier + naive,0.75,0.5466666666666666,1.0,0.5142857142857142
+shift,161,verifier + LTT,0.61,0.4426229508196721,1.0,0.45714285714285713
+shift,161,verifier + group-wise LTT,0.39,0.20512820512820512,0.0,0.14285714285714285
+exchangeable,162,always answer,0.8469387755102041,0.40963855421686746,1.0,0.5652173913043478
+exchangeable,162,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,162,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,162,verifier + naive,0.6632653061224489,0.26153846153846155,0.0,0.4782608695652174
+exchangeable,162,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,162,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,162,always answer,0.83,0.5060240963855421,1.0,0.5714285714285714
+shift,162,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,162,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,162,verifier + naive,0.7,0.4142857142857143,1.0,0.5428571428571428
+shift,162,verifier + LTT,0.64,0.390625,1.0,0.4857142857142857
+shift,162,verifier + group-wise LTT,0.48,0.25,0.0,0.2857142857142857
+exchangeable,163,always answer,0.8469387755102041,0.37349397590361444,1.0,0.5384615384615384
+exchangeable,163,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,163,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,163,verifier + naive,0.6020408163265306,0.2033898305084746,0.0,0.2692307692307692
+exchangeable,163,verifier + LTT,0.6020408163265306,0.2033898305084746,0.0,0.2692307692307692
+exchangeable,163,verifier + group-wise LTT,0.25510204081632654,0.16,0.0,0.19230769230769232
+shift,163,always answer,0.83,0.5421686746987951,1.0,0.5714285714285714
+shift,163,self-consistency + naive,0.83,0.5421686746987951,1.0,0.5714285714285714
+shift,163,self-consistency + LTT,0.83,0.5421686746987951,1.0,0.5714285714285714
+shift,163,verifier + naive,0.82,0.5365853658536586,1.0,0.5714285714285714
+shift,163,verifier + LTT,0.83,0.5421686746987951,1.0,0.5714285714285714
+shift,163,verifier + group-wise LTT,0.46,0.2391304347826087,0.0,0.2571428571428571
+exchangeable,164,always answer,0.8877551020408163,0.367816091954023,1.0,0.5909090909090909
+exchangeable,164,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,164,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,164,verifier + naive,0.5510204081632653,0.07407407407407407,0.0,0.2727272727272727
+exchangeable,164,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,164,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,164,always answer,0.8,0.475,1.0,0.5142857142857142
+shift,164,self-consistency + naive,0.78,0.46153846153846156,1.0,0.5142857142857142
+shift,164,self-consistency + LTT,0.78,0.46153846153846156,1.0,0.5142857142857142
+shift,164,verifier + naive,0.8,0.475,1.0,0.5142857142857142
+shift,164,verifier + LTT,0.8,0.475,1.0,0.5142857142857142
+shift,164,verifier + group-wise LTT,0.47,0.1702127659574468,0.0,0.22857142857142856
+exchangeable,165,always answer,0.8877551020408163,0.42528735632183906,1.0,0.68
+exchangeable,165,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,165,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,165,verifier + naive,0.8061224489795918,0.3670886075949367,1.0,0.64
+exchangeable,165,verifier + LTT,0.6122448979591837,0.2,0.0,0.32
+exchangeable,165,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,165,always answer,0.8,0.5,1.0,0.5428571428571428
+shift,165,self-consistency + naive,0.8,0.5,1.0,0.5428571428571428
+shift,165,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,165,verifier + naive,0.8,0.5,1.0,0.5428571428571428
+shift,165,verifier + LTT,0.68,0.4117647058823529,1.0,0.5428571428571428
+shift,165,verifier + group-wise LTT,0.48,0.2916666666666667,0.0,0.2857142857142857
+exchangeable,166,always answer,0.8469387755102041,0.3855421686746988,1.0,0.6
+exchangeable,166,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,166,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,166,verifier + naive,0.6632653061224489,0.24615384615384617,0.0,0.36
+exchangeable,166,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,166,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,166,always answer,0.83,0.5421686746987951,1.0,0.5714285714285714
+shift,166,self-consistency + naive,0.81,0.5308641975308642,1.0,0.5428571428571428
+shift,166,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,166,verifier + naive,0.7,0.45714285714285713,1.0,0.5714285714285714
+shift,166,verifier + LTT,0.6,0.4,1.0,0.45714285714285713
+shift,166,verifier + group-wise LTT,0.47,0.23404255319148937,0.0,0.2
+exchangeable,167,always answer,0.7653061224489796,0.38666666666666666,1.0,0.4666666666666667
+exchangeable,167,self-consistency + naive,0.7653061224489796,0.38666666666666666,1.0,0.4666666666666667
+exchangeable,167,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,167,verifier + naive,0.7653061224489796,0.38666666666666666,1.0,0.4666666666666667
+exchangeable,167,verifier + LTT,0.7244897959183674,0.352112676056338,1.0,0.4666666666666667
+exchangeable,167,verifier + group-wise LTT,0.46938775510204084,0.17391304347826086,0.0,0.26666666666666666
+shift,167,always answer,0.81,0.6049382716049383,1.0,0.5714285714285714
+shift,167,self-consistency + naive,0.77,0.6103896103896104,1.0,0.5428571428571428
+shift,167,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,167,verifier + naive,0.67,0.5223880597014925,1.0,0.5714285714285714
+shift,167,verifier + LTT,0.59,0.4576271186440678,1.0,0.4857142857142857
+shift,167,verifier + group-wise LTT,0.39,0.28205128205128205,0.0,0.2
+exchangeable,168,always answer,0.8469387755102041,0.3614457831325301,1.0,0.6521739130434783
+exchangeable,168,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,168,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,168,verifier + naive,0.7755102040816326,0.3026315789473684,1.0,0.6521739130434783
+exchangeable,168,verifier + LTT,0.7142857142857143,0.24285714285714285,0.0,0.5217391304347826
+exchangeable,168,verifier + group-wise LTT,0.6122448979591837,0.16666666666666666,0.0,0.391304347826087
+shift,168,always answer,0.78,0.5641025641025641,1.0,0.45714285714285713
+shift,168,self-consistency + naive,0.6,0.5166666666666667,1.0,0.34285714285714286
+shift,168,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,168,verifier + naive,0.61,0.4426229508196721,1.0,0.42857142857142855
+shift,168,verifier + LTT,0.59,0.423728813559322,1.0,0.4
+shift,168,verifier + group-wise LTT,0.44,0.3181818181818182,1.0,0.2571428571428571
+exchangeable,169,always answer,0.7959183673469388,0.41025641025641024,1.0,0.5833333333333334
+exchangeable,169,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,169,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,169,verifier + naive,0.6632653061224489,0.2923076923076923,0.0,0.5
+exchangeable,169,verifier + LTT,0.5306122448979592,0.19230769230769232,0.0,0.3333333333333333
+exchangeable,169,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,169,always answer,0.78,0.5256410256410257,1.0,0.4857142857142857
+shift,169,self-consistency + naive,0.61,0.45901639344262296,1.0,0.34285714285714286
+shift,169,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,169,verifier + naive,0.62,0.4032258064516129,1.0,0.42857142857142855
+shift,169,verifier + LTT,0.58,0.3793103448275862,1.0,0.37142857142857144
+shift,169,verifier + group-wise LTT,0.38,0.15789473684210525,0.0,0.11428571428571428
+exchangeable,170,always answer,0.8061224489795918,0.34177215189873417,1.0,0.4230769230769231
+exchangeable,170,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,170,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,170,verifier + naive,0.6836734693877551,0.23880597014925373,0.0,0.4230769230769231
+exchangeable,170,verifier + LTT,0.5612244897959183,0.10909090909090909,0.0,0.15384615384615385
+exchangeable,170,verifier + group-wise LTT,0.5510204081632653,0.09259259259259259,0.0,0.15384615384615385
+shift,170,always answer,0.79,0.5443037974683544,1.0,0.42857142857142855
+shift,170,self-consistency + naive,0.64,0.5,1.0,0.34285714285714286
+shift,170,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,170,verifier + naive,0.66,0.45454545454545453,1.0,0.42857142857142855
+shift,170,verifier + LTT,0.54,0.35185185185185186,1.0,0.2857142857142857
+shift,170,verifier + group-wise LTT,0.37,0.21621621621621623,0.0,0.14285714285714285
+exchangeable,171,always answer,0.8367346938775511,0.4268292682926829,1.0,0.5416666666666666
+exchangeable,171,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,171,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,171,verifier + naive,0.7040816326530612,0.3333333333333333,1.0,0.375
+exchangeable,171,verifier + LTT,0.5510204081632653,0.2037037037037037,0.0,0.16666666666666666
+exchangeable,171,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,171,always answer,0.81,0.5432098765432098,1.0,0.5714285714285714
+shift,171,self-consistency + naive,0.77,0.5454545454545454,1.0,0.5428571428571428
+shift,171,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,171,verifier + naive,0.81,0.5432098765432098,1.0,0.5714285714285714
+shift,171,verifier + LTT,0.64,0.421875,1.0,0.4857142857142857
+shift,171,verifier + group-wise LTT,0.46,0.2826086956521739,0.0,0.2
+exchangeable,172,always answer,0.8367346938775511,0.4024390243902439,1.0,0.56
+exchangeable,172,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,172,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,172,verifier + naive,0.673469387755102,0.25757575757575757,0.0,0.36
+exchangeable,172,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,172,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,172,always answer,0.78,0.5769230769230769,1.0,0.5142857142857142
+shift,172,self-consistency + naive,0.74,0.5675675675675675,1.0,0.4857142857142857
+shift,172,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,172,verifier + naive,0.75,0.56,1.0,0.5142857142857142
+shift,172,verifier + LTT,0.61,0.45901639344262296,1.0,0.42857142857142855
+shift,172,verifier + group-wise LTT,0.43,0.3023255813953488,1.0,0.22857142857142856
+exchangeable,173,always answer,0.8367346938775511,0.36585365853658536,1.0,0.56
+exchangeable,173,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,173,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,173,verifier + naive,0.7142857142857143,0.2571428571428571,0.0,0.4
+exchangeable,173,verifier + LTT,0.6224489795918368,0.18032786885245902,0.0,0.2
+exchangeable,173,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,173,always answer,0.83,0.5542168674698795,1.0,0.5428571428571428
+shift,173,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,173,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,173,verifier + naive,0.8,0.5375,1.0,0.5428571428571428
+shift,173,verifier + LTT,0.62,0.41935483870967744,1.0,0.4857142857142857
+shift,173,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,174,always answer,0.8469387755102041,0.43373493975903615,1.0,0.5789473684210527
+exchangeable,174,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,174,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,174,verifier + naive,0.7346938775510204,0.3472222222222222,1.0,0.5789473684210527
+exchangeable,174,verifier + LTT,0.5714285714285714,0.25,0.0,0.3157894736842105
+exchangeable,174,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,174,always answer,0.85,0.5529411764705883,1.0,0.6571428571428571
+shift,174,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,174,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,174,verifier + naive,0.7,0.45714285714285713,1.0,0.6285714285714286
+shift,174,verifier + LTT,0.43,0.20930232558139536,0.0,0.2571428571428571
+shift,174,verifier + group-wise LTT,0.21,0.23809523809523808,0.0,0.14285714285714285
+exchangeable,175,always answer,0.8673469387755102,0.35294117647058826,1.0,0.6086956521739131
+exchangeable,175,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,175,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,175,verifier + naive,0.7448979591836735,0.2602739726027397,0.0,0.5652173913043478
+exchangeable,175,verifier + LTT,0.5102040816326531,0.08,0.0,0.17391304347826086
+exchangeable,175,verifier + group-wise LTT,0.5102040816326531,0.08,0.0,0.17391304347826086
+shift,175,always answer,0.82,0.5609756097560976,1.0,0.5428571428571428
+shift,175,self-consistency + naive,0.68,0.5,1.0,0.42857142857142855
+shift,175,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,175,verifier + naive,0.71,0.49295774647887325,1.0,0.5142857142857142
+shift,175,verifier + LTT,0.63,0.42857142857142855,1.0,0.45714285714285713
+shift,175,verifier + group-wise LTT,0.46,0.2608695652173913,0.0,0.22857142857142856
+exchangeable,176,always answer,0.8469387755102041,0.42168674698795183,1.0,0.5483870967741935
+exchangeable,176,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,176,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,176,verifier + naive,0.5510204081632653,0.16666666666666666,0.0,0.1935483870967742
+exchangeable,176,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,176,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,176,always answer,0.82,0.5609756097560976,1.0,0.5428571428571428
+shift,176,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,176,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,176,verifier + naive,0.69,0.4782608695652174,1.0,0.5428571428571428
+shift,176,verifier + LTT,0.48,0.3333333333333333,1.0,0.2857142857142857
+shift,176,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,177,always answer,0.8163265306122449,0.45,1.0,0.5555555555555556
+exchangeable,177,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,177,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,177,verifier + naive,0.6632653061224489,0.3230769230769231,1.0,0.4444444444444444
+exchangeable,177,verifier + LTT,0.5408163265306123,0.20754716981132076,0.0,0.2962962962962963
+exchangeable,177,verifier + group-wise LTT,0.23469387755102042,0.17391304347826086,0.0,0.14814814814814814
+shift,177,always answer,0.82,0.5487804878048781,1.0,0.5714285714285714
+shift,177,self-consistency + naive,0.78,0.5384615384615384,1.0,0.5428571428571428
+shift,177,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,177,verifier + naive,0.81,0.5432098765432098,1.0,0.5714285714285714
+shift,177,verifier + LTT,0.61,0.4098360655737705,1.0,0.45714285714285713
+shift,177,verifier + group-wise LTT,0.45,0.26666666666666666,0.0,0.22857142857142856
+exchangeable,178,always answer,0.8367346938775511,0.5121951219512195,1.0,0.6296296296296297
+exchangeable,178,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,178,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,178,verifier + naive,0.6938775510204082,0.4117647058823529,1.0,0.48148148148148145
+exchangeable,178,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,178,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,178,always answer,0.77,0.5454545454545454,1.0,0.5142857142857142
+shift,178,self-consistency + naive,0.74,0.5405405405405406,1.0,0.4857142857142857
+shift,178,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,178,verifier + naive,0.75,0.5333333333333333,1.0,0.5142857142857142
+shift,178,verifier + LTT,0.66,0.4696969696969697,1.0,0.5142857142857142
+shift,178,verifier + group-wise LTT,0.4,0.2,0.0,0.2
+exchangeable,179,always answer,0.826530612244898,0.37037037037037035,1.0,0.4166666666666667
+exchangeable,179,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,179,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,179,verifier + naive,0.6020408163265306,0.2033898305084746,0.0,0.3333333333333333
+exchangeable,179,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,179,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,179,always answer,0.78,0.5384615384615384,1.0,0.4857142857142857
+shift,179,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,179,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,179,verifier + naive,0.69,0.4782608695652174,1.0,0.4857142857142857
+shift,179,verifier + LTT,0.63,0.42857142857142855,1.0,0.45714285714285713
+shift,179,verifier + group-wise LTT,0.47,0.2765957446808511,0.0,0.2
+exchangeable,180,always answer,0.8877551020408163,0.3563218390804598,1.0,0.6956521739130435
+exchangeable,180,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,180,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,180,verifier + naive,0.5816326530612245,0.08771929824561403,0.0,0.21739130434782608
+exchangeable,180,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,180,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,180,always answer,0.79,0.5316455696202531,1.0,0.45714285714285713
+shift,180,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,180,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,180,verifier + naive,0.64,0.421875,1.0,0.42857142857142855
+shift,180,verifier + LTT,0.47,0.2978723404255319,0.0,0.2571428571428571
+shift,180,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,181,always answer,0.826530612244898,0.41975308641975306,1.0,0.5666666666666667
+exchangeable,181,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,181,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,181,verifier + naive,0.6326530612244898,0.25806451612903225,0.0,0.5
+exchangeable,181,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,181,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,181,always answer,0.78,0.46153846153846156,1.0,0.4857142857142857
+shift,181,self-consistency + naive,0.75,0.4533333333333333,1.0,0.45714285714285713
+shift,181,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,181,verifier + naive,0.76,0.4473684210526316,1.0,0.4857142857142857
+shift,181,verifier + LTT,0.59,0.3050847457627119,1.0,0.4
+shift,181,verifier + group-wise LTT,0.44,0.1590909090909091,0.0,0.17142857142857143
+exchangeable,182,always answer,0.826530612244898,0.43209876543209874,1.0,0.56
+exchangeable,182,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,182,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,182,verifier + naive,0.7959183673469388,0.41025641025641024,1.0,0.56
+exchangeable,182,verifier + LTT,0.6938775510204082,0.3382352941176471,1.0,0.48
+exchangeable,182,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,182,always answer,0.77,0.5194805194805194,1.0,0.4857142857142857
+shift,182,self-consistency + naive,0.77,0.5194805194805194,1.0,0.4857142857142857
+shift,182,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,182,verifier + naive,0.74,0.5,1.0,0.4857142857142857
+shift,182,verifier + LTT,0.67,0.44776119402985076,1.0,0.4857142857142857
+shift,182,verifier + group-wise LTT,0.42,0.19047619047619047,0.0,0.14285714285714285
+exchangeable,183,always answer,0.8367346938775511,0.4024390243902439,1.0,0.48
+exchangeable,183,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,183,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,183,verifier + naive,0.6326530612244898,0.24193548387096775,0.0,0.2
+exchangeable,183,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,183,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,183,always answer,0.8,0.5375,1.0,0.5714285714285714
+shift,183,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,183,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,183,verifier + naive,0.63,0.4126984126984127,1.0,0.5142857142857142
+shift,183,verifier + LTT,0.47,0.2765957446808511,0.0,0.3142857142857143
+shift,183,verifier + group-wise LTT,0.45,0.24444444444444444,0.0,0.2571428571428571
+exchangeable,184,always answer,0.7959183673469388,0.41025641025641024,1.0,0.5
+exchangeable,184,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,184,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,184,verifier + naive,0.6122448979591837,0.23333333333333334,0.0,0.4166666666666667
+exchangeable,184,verifier + LTT,0.47959183673469385,0.10638297872340426,0.0,0.20833333333333334
+exchangeable,184,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,184,always answer,0.84,0.5476190476190477,1.0,0.5714285714285714
+shift,184,self-consistency + naive,0.84,0.5476190476190477,1.0,0.5714285714285714
+shift,184,self-consistency + LTT,0.68,0.5,1.0,0.4
+shift,184,verifier + naive,0.68,0.4411764705882353,1.0,0.5142857142857142
+shift,184,verifier + LTT,0.67,0.43283582089552236,1.0,0.4857142857142857
+shift,184,verifier + group-wise LTT,0.44,0.20454545454545456,0.0,0.17142857142857143
+exchangeable,185,always answer,0.7755102040816326,0.4473684210526316,1.0,0.4827586206896552
+exchangeable,185,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,185,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,185,verifier + naive,0.673469387755102,0.3787878787878788,1.0,0.4482758620689655
+exchangeable,185,verifier + LTT,0.45918367346938777,0.2,0.0,0.1724137931034483
+exchangeable,185,verifier + group-wise LTT,0.4489795918367347,0.18181818181818182,0.0,0.1724137931034483
+shift,185,always answer,0.83,0.5180722891566265,1.0,0.5428571428571428
+shift,185,self-consistency + naive,0.79,0.5189873417721519,1.0,0.5142857142857142
+shift,185,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,185,verifier + naive,0.8,0.5,1.0,0.5428571428571428
+shift,185,verifier + LTT,0.61,0.39344262295081966,1.0,0.4
+shift,185,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,186,always answer,0.8163265306122449,0.3875,1.0,0.46153846153846156
+exchangeable,186,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,186,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,186,verifier + naive,0.6836734693877551,0.2835820895522388,0.0,0.3076923076923077
+exchangeable,186,verifier + LTT,0.46938775510204084,0.08695652173913043,0.0,0.11538461538461539
+exchangeable,186,verifier + group-wise LTT,0.4489795918367347,0.09090909090909091,0.0,0.11538461538461539
+shift,186,always answer,0.81,0.5679012345679012,1.0,0.6
+shift,186,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,186,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,186,verifier + naive,0.67,0.47761194029850745,1.0,0.5714285714285714
+shift,186,verifier + LTT,0.59,0.4406779661016949,1.0,0.4857142857142857
+shift,186,verifier + group-wise LTT,0.43,0.27906976744186046,0.0,0.2571428571428571
+exchangeable,187,always answer,0.8367346938775511,0.4634146341463415,1.0,0.42105263157894735
+exchangeable,187,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,187,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,187,verifier + naive,0.5102040816326531,0.18,0.0,0.15789473684210525
+exchangeable,187,verifier + LTT,0.4897959183673469,0.16666666666666666,0.0,0.15789473684210525
+exchangeable,187,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,187,always answer,0.81,0.5185185185185185,1.0,0.5428571428571428
+shift,187,self-consistency + naive,0.81,0.5185185185185185,1.0,0.5428571428571428
+shift,187,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,187,verifier + naive,0.7,0.44285714285714284,1.0,0.5428571428571428
+shift,187,verifier + LTT,0.65,0.4,1.0,0.5142857142857142
+shift,187,verifier + group-wise LTT,0.46,0.2608695652173913,0.0,0.2571428571428571
+exchangeable,188,always answer,0.8163265306122449,0.4375,1.0,0.4782608695652174
+exchangeable,188,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,188,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,188,verifier + naive,0.6326530612244898,0.27419354838709675,0.0,0.43478260869565216
+exchangeable,188,verifier + LTT,0.4897959183673469,0.14583333333333334,0.0,0.21739130434782608
+exchangeable,188,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,188,always answer,0.79,0.5822784810126582,1.0,0.5428571428571428
+shift,188,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,188,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,188,verifier + naive,0.63,0.49206349206349204,1.0,0.45714285714285713
+shift,188,verifier + LTT,0.58,0.46551724137931033,1.0,0.42857142857142855
+shift,188,verifier + group-wise LTT,0.45,0.35555555555555557,1.0,0.2571428571428571
+exchangeable,189,always answer,0.8673469387755102,0.4823529411764706,1.0,0.7241379310344828
+exchangeable,189,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,189,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,189,verifier + naive,0.8163265306122449,0.45,1.0,0.6896551724137931
+exchangeable,189,verifier + LTT,0.7244897959183674,0.39436619718309857,1.0,0.6206896551724138
+exchangeable,189,verifier + group-wise LTT,0.5408163265306123,0.20754716981132076,0.0,0.27586206896551724
+shift,189,always answer,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,189,self-consistency + naive,0.78,0.5384615384615384,1.0,0.5142857142857142
+shift,189,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,189,verifier + naive,0.81,0.5308641975308642,1.0,0.5142857142857142
+shift,189,verifier + LTT,0.61,0.3770491803278688,1.0,0.42857142857142855
+shift,189,verifier + group-wise LTT,0.16,0.1875,0.0,0.05714285714285714
+exchangeable,190,always answer,0.8061224489795918,0.3924050632911392,1.0,0.5263157894736842
+exchangeable,190,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,190,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,190,verifier + naive,0.7551020408163265,0.35135135135135137,1.0,0.5263157894736842
+exchangeable,190,verifier + LTT,0.5510204081632653,0.16666666666666666,0.0,0.21052631578947367
+exchangeable,190,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,190,always answer,0.8,0.55,1.0,0.6
+shift,190,self-consistency + naive,0.8,0.55,1.0,0.6
+shift,190,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,190,verifier + naive,0.8,0.55,1.0,0.6
+shift,190,verifier + LTT,0.62,0.43548387096774194,1.0,0.5428571428571428
+shift,190,verifier + group-wise LTT,0.47,0.2978723404255319,0.0,0.2571428571428571
+exchangeable,191,always answer,0.8571428571428571,0.4523809523809524,1.0,0.5625
+exchangeable,191,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,191,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,191,verifier + naive,0.673469387755102,0.30303030303030304,1.0,0.5
+exchangeable,191,verifier + LTT,0.29591836734693877,0.1724137931034483,0.0,0.1875
+exchangeable,191,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,191,always answer,0.82,0.573170731707317,1.0,0.5714285714285714
+shift,191,self-consistency + naive,0.79,0.5569620253164557,1.0,0.5428571428571428
+shift,191,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,191,verifier + naive,0.81,0.5679012345679012,1.0,0.5714285714285714
+shift,191,verifier + LTT,0.69,0.4927536231884058,1.0,0.5428571428571428
+shift,191,verifier + group-wise LTT,0.44,0.2727272727272727,0.0,0.2857142857142857
+exchangeable,192,always answer,0.8571428571428571,0.42857142857142855,1.0,0.6129032258064516
+exchangeable,192,self-consistency + naive,0.7551020408163265,0.40540540540540543,1.0,0.5161290322580645
+exchangeable,192,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,192,verifier + naive,0.7755102040816326,0.3684210526315789,1.0,0.5806451612903226
+exchangeable,192,verifier + LTT,0.5510204081632653,0.2222222222222222,0.0,0.22580645161290322
+exchangeable,192,verifier + group-wise LTT,0.5510204081632653,0.2222222222222222,0.0,0.22580645161290322
+shift,192,always answer,0.8,0.5375,1.0,0.4857142857142857
+shift,192,self-consistency + naive,0.8,0.5375,1.0,0.4857142857142857
+shift,192,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,192,verifier + naive,0.76,0.5131578947368421,1.0,0.4857142857142857
+shift,192,verifier + LTT,0.63,0.4126984126984127,1.0,0.45714285714285713
+shift,192,verifier + group-wise LTT,0.42,0.19047619047619047,0.0,0.17142857142857143
+exchangeable,193,always answer,0.8367346938775511,0.4268292682926829,1.0,0.56
+exchangeable,193,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,193,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,193,verifier + naive,0.47959183673469385,0.0851063829787234,0.0,0.12
+exchangeable,193,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,193,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,193,always answer,0.76,0.5526315789473685,1.0,0.45714285714285713
+shift,193,self-consistency + naive,0.74,0.5540540540540541,1.0,0.45714285714285713
+shift,193,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,193,verifier + naive,0.76,0.5526315789473685,1.0,0.45714285714285713
+shift,193,verifier + LTT,0.58,0.43103448275862066,1.0,0.37142857142857144
+shift,193,verifier + group-wise LTT,0.44,0.29545454545454547,0.0,0.22857142857142856
+exchangeable,194,always answer,0.8571428571428571,0.47619047619047616,1.0,0.5
+exchangeable,194,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,194,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,194,verifier + naive,0.6530612244897959,0.34375,1.0,0.4
+exchangeable,194,verifier + LTT,0.5306122448979592,0.19230769230769232,0.0,0.15
+exchangeable,194,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,194,always answer,0.83,0.5542168674698795,1.0,0.5714285714285714
+shift,194,self-consistency + naive,0.81,0.5555555555555556,1.0,0.5714285714285714
+shift,194,self-consistency + LTT,0.81,0.5555555555555556,1.0,0.5714285714285714
+shift,194,verifier + naive,0.67,0.44776119402985076,1.0,0.4857142857142857
+shift,194,verifier + LTT,0.83,0.5542168674698795,1.0,0.5714285714285714
+shift,194,verifier + group-wise LTT,0.47,0.2978723404255319,0.0,0.22857142857142856
+exchangeable,195,always answer,0.8877551020408163,0.39080459770114945,1.0,0.64
+exchangeable,195,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,195,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,195,verifier + naive,0.6326530612244898,0.1935483870967742,0.0,0.36
+exchangeable,195,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,195,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,195,always answer,0.79,0.5569620253164557,1.0,0.5428571428571428
+shift,195,self-consistency + naive,0.61,0.5081967213114754,1.0,0.4
+shift,195,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,195,verifier + naive,0.7,0.5,1.0,0.5428571428571428
+shift,195,verifier + LTT,0.6,0.4166666666666667,1.0,0.4857142857142857
+shift,195,verifier + group-wise LTT,0.43,0.27906976744186046,0.0,0.2571428571428571
+exchangeable,196,always answer,0.8367346938775511,0.43902439024390244,1.0,0.5714285714285714
+exchangeable,196,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,196,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,196,verifier + naive,0.5918367346938775,0.2413793103448276,0.0,0.23809523809523808
+exchangeable,196,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,196,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,196,always answer,0.81,0.5185185185185185,1.0,0.5142857142857142
+shift,196,self-consistency + naive,0.79,0.5063291139240507,1.0,0.4857142857142857
+shift,196,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,196,verifier + naive,0.68,0.4264705882352941,1.0,0.5142857142857142
+shift,196,verifier + LTT,0.64,0.390625,1.0,0.45714285714285713
+shift,196,verifier + group-wise LTT,0.47,0.19148936170212766,0.0,0.22857142857142856
+exchangeable,197,always answer,0.7448979591836735,0.3287671232876712,1.0,0.5
+exchangeable,197,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,197,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,197,verifier + naive,0.6836734693877551,0.26865671641791045,0.0,0.42857142857142855
+exchangeable,197,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,197,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,197,always answer,0.79,0.5063291139240507,1.0,0.45714285714285713
+shift,197,self-consistency + naive,0.0,0.0,0.0,0.0
+shift,197,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,197,verifier + naive,0.66,0.4090909090909091,1.0,0.45714285714285713
+shift,197,verifier + LTT,0.44,0.18181818181818182,0.0,0.17142857142857143
+shift,197,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+exchangeable,198,always answer,0.8469387755102041,0.4819277108433735,1.0,0.5666666666666667
+exchangeable,198,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,198,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,198,verifier + naive,0.6122448979591837,0.2833333333333333,0.0,0.3
+exchangeable,198,verifier + LTT,0.0,0.0,0.0,0.0
+exchangeable,198,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,198,always answer,0.78,0.5641025641025641,1.0,0.5428571428571428
+shift,198,self-consistency + naive,0.78,0.5641025641025641,1.0,0.5428571428571428
+shift,198,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,198,verifier + naive,0.77,0.5584415584415584,1.0,0.5428571428571428
+shift,198,verifier + LTT,0.68,0.5,1.0,0.5428571428571428
+shift,198,verifier + group-wise LTT,0.45,0.3111111111111111,1.0,0.22857142857142856
+exchangeable,199,always answer,0.826530612244898,0.35802469135802467,1.0,0.5652173913043478
+exchangeable,199,self-consistency + naive,0.0,0.0,0.0,0.0
+exchangeable,199,self-consistency + LTT,0.0,0.0,0.0,0.0
+exchangeable,199,verifier + naive,0.5408163265306123,0.11320754716981132,0.0,0.13043478260869565
+exchangeable,199,verifier + LTT,0.5102040816326531,0.12,0.0,0.13043478260869565
+exchangeable,199,verifier + group-wise LTT,0.0,0.0,0.0,0.0
+shift,199,always answer,0.77,0.5714285714285714,1.0,0.4857142857142857
+shift,199,self-consistency + naive,0.74,0.581081081081081,1.0,0.4857142857142857
+shift,199,self-consistency + LTT,0.0,0.0,0.0,0.0
+shift,199,verifier + naive,0.65,0.49230769230769234,1.0,0.4857142857142857
+shift,199,verifier + LTT,0.59,0.4406779661016949,1.0,0.42857142857142855
+shift,199,verifier + group-wise LTT,0.42,0.2857142857142857,0.0,0.2

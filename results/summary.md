@@ -1,15 +1,15 @@
 # Results
 
-Config: `{"source": "edgar", "agent": "extractive", "k": 10, "alpha": 0.1, "delta": 0.1, "reps": 200, "max_facts": 0, "seed": 0, "out": "results", "n_train": 300, "n_cal": 500, "n_test": 800, "n_facts": 1694, "n_items": 6776}`
+Config: `{"source": "edgar", "agent": "extractive", "evidence": "template", "keep_unverified_labels": false, "answers": null, "k": 10, "alpha": 0.1, "delta": 0.1, "reps": 200, "max_facts": 0, "seed": 0, "out": "results", "n_train": 300, "n_cal": 500, "n_test": 800, "n_facts": 1694, "n_items": 6776}`
 
 ## Agent behaviour by evidence condition
 
-| condition | n | agent_accuracy | mean_self_consistency | conflict_detected |
-|---|---|---|---|---|
-| clean | 1694 | 0.911 | 0.658 | 0.000 |
-| noisy | 1694 | 0.760 | 0.457 | 0.000 |
-| contradictory | 1694 | 0.425 | 0.486 | 1.000 |
-| incomplete | 1694 | 0.016 | 0.488 | 0.000 |
+| condition | n | agent_accuracy | mean_self_consistency | unanimous_but_wrong | conflict_or_untrusted |
+|---|---|---|---|---|---|
+| clean | 1694 | 0.911 | 0.658 | 0.000 | 0.000 |
+| noisy | 1694 | 0.760 | 0.457 | 0.000 | 0.000 |
+| contradictory | 1694 | 0.425 | 0.486 | 0.000 | 1.000 |
+| incomplete | 1694 | 0.016 | 0.488 | 0.002 | 0.000 |
 
 ## Accept/abstain policies (alpha=0.1, delta=0.1, 200 random splits)
 

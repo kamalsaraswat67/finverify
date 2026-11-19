@@ -26,6 +26,9 @@ def main():
     ap.add_argument("--agent", choices=["extractive", "llm"], default="extractive")
     ap.add_argument("--evidence", choices=["template", "10k"], default="template",
                     help="templated passages, or real 10-K text retrieved with BM25")
+    ap.add_argument("--keep-unverified-labels", action="store_true",
+                    help="10k: keep facts whose XBRL value is not stated for that concept/year in the text")
+    ap.add_argument("--answers", default=None, help="reuse a cached LLM answers .jsonl (no new LLM calls needed)")
     ap.add_argument("--k", type=int, default=10, help="samples per question")
     ap.add_argument("--alpha", type=float, default=0.10, help="target selective risk")
     ap.add_argument("--delta", type=float, default=0.10, help="allowed failure probability")
@@ -47,6 +50,10 @@ def main():
     if a.evidence == "10k":
         print("      building questions from real 10-K text (downloads filings on first run)")
         items = build_real_items(facts, seed=a.seed)
+        if not a.keep_unverified_labels:
+            n0 = len(items)
+            items = [it for it in items if it.meta.get("truth_stated", True)]
+            print(f"      kept {len(items)}/{n0} questions whose XBRL value is stated in the 10-K for that year")
     else:
         items = build_items(facts, seed=a.seed)
     print(f"[2/4] {len(items)} questions; running {a.agent} agent with k={a.k}")
@@ -55,7 +62,7 @@ def main():
         agent, cache, every = ExtractiveAgent(), None, 500
     else:
         agent, every = LLMAgent(), 10
-        cache = out / f"answers_{agent.model.replace(':', '_').replace('/', '_')}.jsonl"
+        cache = Path(a.answers) if a.answers else out / f"answers_{agent.model.replace(':', '_').replace('/', '_')}.jsonl"
         print(f"      model={agent.model} endpoint={agent.base_url} cache={cache}")
     T = Table(items, run_agent(items, agent, a.k, a.seed, log_every=every, cache_path=cache))
 

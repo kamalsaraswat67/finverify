@@ -132,8 +132,13 @@ def build_real_items(facts: list[Fact], cache: str | Path = "data/raw/filings", 
                 psc = BM25(prev_ps).scores(query)
                 prior = [prev_ps[i] for i in np.argsort(-psc)[:4]]
 
+        # Label-quality check: does the 10-K state this value for this concept AND year somewhere?
+        # (XBRL tags sometimes map to a sub-line, e.g. a component of R&D, not the headline item.)
+        # Computed without using the RNG so evidence stays identical to cached runs.
+        from .uncertainty import _aligned
+        truth_stated = any(_aligned(ps[i], truth, f.year, KEYWORDS[f.concept]) for i in gold_idx)
         for cond in CONDITIONS:
-            meta = {"source": "10k", "gold": ps[gold_best]}
+            meta = {"source": "10k", "gold": ps[gold_best], "truth_stated": truth_stated}
             if cond == "clean":
                 ev = [ps[gold_best]] + [ps[i] for i in non_gold[:3]]
             elif cond == "noisy":
