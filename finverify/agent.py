@@ -65,18 +65,28 @@ class LLMAgent:
         self.api_key = api_key or os.environ.get("LLM_API_KEY", "")
         self.temperature = temperature
 
-    def _ask(self, prompt: str) -> str:
+    def _ask(self, prompt: str, retries: int = 4) -> str:
+        import time
+
         import requests
 
-        r = requests.post(
-            f"{self.base_url}/chat/completions",
-            headers={"Authorization": f"Bearer {self.api_key}"} if self.api_key else {},
-            json={"model": self.model, "temperature": self.temperature, "max_tokens": 30,
-                  "messages": [{"role": "user", "content": prompt}]},
-            timeout=60,
-        )
-        r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"]
+        for attempt in range(retries):
+            try:
+                r = requests.post(
+                    f"{self.base_url}/chat/completions",
+                    headers={"Authorization": f"Bearer {self.api_key}"} if self.api_key else {},
+                    json={"model": self.model, "temperature": self.temperature, "max_tokens": 30,
+                          "messages": [{"role": "user", "content": prompt}]},
+                    timeout=300,  # CPU inference on long 10-K prompts can be slow
+                )
+                r.raise_for_status()
+                return r.json()["choices"][0]["message"]["content"]
+            except (requests.ConnectionError, requests.Timeout, requests.HTTPError) as e:
+                if attempt == retries - 1:
+                    raise
+                wait = 10 * 2 ** attempt
+                print(f"  [retry {attempt + 1}] {type(e).__name__}; waiting {wait}s", flush=True)
+                time.sleep(wait)
 
     def sample(self, item: Item, k: int, rng: np.random.Generator) -> list[float | None]:
         evidence = "\n".join(f"[{i + 1}] {p}" for i, p in enumerate(item.passages))
